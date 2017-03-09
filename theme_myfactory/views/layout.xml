@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <template id="nav_toggle" inherit_id="website.layout" name="Navbar Toggle">
+			<xpath expr="//button[@class='navbar-toggle']" position="replace">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-top-collapse">
+                     <span class="sr-only">Toggle navigation</span>
+                     <span class="fa fa-bars"></span>
+                     <span>Menu</span>
+                </button>
+			</xpath>
+		</template>
+
+        <template id="nav_toggle" inherit_id="website.layout_logo_show" name="Website Main Logo">
+			<xpath expr="//a[@class='navbar-brand logo']/img" position="attributes">
+				<attribute name="src">http://placehold.it/120x50</attribute>
+			</xpath>
+		</template>
+
+
+
+    </data>
+</openerp>

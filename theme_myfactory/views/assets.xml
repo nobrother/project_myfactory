@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <template id="demo_frontend_style" name="Theme Shop style"
+			inherit_id="website.assets_frontend" active="True" priority="1">
+			<xpath expr="." position="inside">
+
+				<!-- Customize Modal -->
+				<link
+					href="/theme_rise/static/src/less/options/colors/customize_modal.less"
+					type="text/less" rel="stylesheet" />
+            </xpath>
+        </template>
+
+    </data>
+</openerp>
