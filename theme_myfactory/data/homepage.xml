@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+	<data>
+        <function name="write" model="ir.model.data">
+            <function name="search" model="ir.model.data">
+                <value eval="[('module', '=', 'website'), ('name', 'in', ['homepage'])]" />
+            </function>
+            <value eval="{'noupdate': False}" />
+        </function>
+
+		<template name="Homepage" priority="29" t-name="website.homepage">
+			<t t-call="website.layout">
+				<div class="oe_structure oe_empty">
+                    <h1>Hello sunshine! <i class="material-icons">face</i></h1>
+                </div>
+            </t>
+        </template>
+    </data>
+</openerp>
