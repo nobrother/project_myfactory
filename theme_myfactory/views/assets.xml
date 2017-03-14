@@ -8,15 +8,31 @@
 
                 <!-- FONTS -->
                 <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-                      type="text/css"
-                      rel="stylesheet" />
+                      type="text/css" rel="stylesheet" />
+                <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700"
+                      type="text/css" rel="stylesheet" />
 
-                <!-- STYLE -->
+                <!-- VARIABLES -->
 				<link
 					href="/theme_myfactory/static/src/less/variables.less"
-					type="text/less"
-					rel="stylesheet" />
+					type="text/less" rel="stylesheet" />
 
+				<!-- MIXINS -->
+				<link
+					href="/theme_myfactory/static/src/less/mixin/common.less"
+					type="text/less" rel="stylesheet" />
+                <link
+					href="/theme_myfactory/static/src/less/mixin/responsive.less"
+					type="text/less" rel="stylesheet" />
+                <link
+					href="/theme_myfactory/static/src/less/mixin/flex.less"
+					type="text/less" rel="stylesheet" />
+
+
+                <!-- STYLES -->
+                <link
+					href="/theme_myfactory/static/src/less/grid.less"
+					type="text/less" rel="stylesheet" />
                 <link
 					href="/theme_myfactory/static/src/less/common.less"
 					type="text/less"

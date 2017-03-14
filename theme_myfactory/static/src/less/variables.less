@@ -1,0 +1,77 @@
+/*
+ * COLOR
+ */
+@color-blue-brand: #1565c0;
+@color-blue-dark: #0d47a1;
+@color-blue-bright: #1e88e5;
+@color-blue-light: #90caf9;
+
+
+/*
+ * TYPOGRAPHY
+ */
+/* Font family */
+@fn: 'Open Sans', sans-serif;
+
+
+/* Font size */
+@fs-page-title: 52px;
+@fs-page-subtitle: 32px;
+@fs-subblock-em-title: 44px;
+@fs-subblock-em-subtitle: 28px;
+@fs-subblock-title: 36px;
+@fs-subblock-subtitle: 26px;
+@fs-body-lg: 15px;
+@fs-body: 14px;
+@fs-link-cap: 15px;
+
+
+/* Font color */
+@fc-00: #000;
+@fc-33: #333;
+@fc-4d: #4d4d4d;
+@fc-ff: #fff;
+
+@fc-title: @fc-00;
+@fc-title-light: @fc-33;
+
+
+/* Body */
+@typo-body:{
+    font-family: @fn;
+    font-size: @fs-body;
+    font-weight: 300;
+    letter-spacing: normal;
+};
+
+
+/*
+ * BACKGROUND
+ */
+/* Background color */
+@bg-color-block: #f0f0f0;
+@bg-color-separator: #cfcfcf;
+
+
+/*
+ * CONTAINER
+ */
+@container-side-padding: 15px;
+@container-width-lg: 1200px;
+@container-width-md: 1100px;
+@container-width-sm: 1000px;
+
+/*
+ * Responsive
+ */
+@mobileWidth-max: 767px;
+@tabletWidth-min: @mobileWidth-max + 1;     /* 768px */
+@tabletWidth-max: 991px;
+@desktopWidth-min: @tabletWidth-max + 1;    /* 992px */
+
+@mobile:      ~"only screen and (max-width: @{mobileWidth-max})";
+@tablet:      ~"only screen and (min-width: @{tabletWidth-min}) and (max-width: @{tabletWidth-max})";
+@tablet-max:  ~"only screen and (max-width: @{tabletWidth-max})";
+@desktop:     ~"only screen and (min-width: @{desktopWidth-min})";
+
+@color: black;
