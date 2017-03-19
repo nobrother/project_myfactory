@@ -1,3 +1,5 @@
+@grid-columns: 12;
+
 /*
  * COLOR
  */
@@ -23,7 +25,7 @@
 @fs-subblock-subtitle: 26px;
 @fs-body-lg: 15px;
 @fs-body: 14px;
-@fs-link-cap: 15px;
+@fs-link: 15px;
 
 
 /* Font color */
@@ -39,7 +41,7 @@
 /* Body */
 @typo-body:{
     font-family: @fn;
-    font-size: @fs-body;
+    font-size: @fs-body-lg;
     font-weight: 300;
     letter-spacing: normal;
 };
@@ -55,19 +57,53 @@
 
 /*
  * CONTAINER
+ * The size oso determine how large the container
+ * can handle the column gutter from grid
+ * without overflow the viewport
+ *
+ * Basic gutter can be handled is 30px
+ * (because of the @container-side-padding = 15px)
  */
 @container-side-padding: 15px;
-@container-width-lg: 1200px;
-@container-width-md: 1100px;
-@container-width-sm: 1000px;
+@container-width-lg-large: @viewport-lg-min;            /* Max gutter: 30px */
+@container-width-lg-medium: @viewport-lg-min - 100px;   /* Max gutter: 100px */
+@container-width-lg-small: @viewport-lg-min - 200px;    /* Max gutter: 200px */
+
+@container-width-md-large: @viewport-md-min;            /* Max gutter: 30px */
+@container-width-md-medium: @viewport-md-min - 100px;   /* Max gutter: 30px */
+@container-width-md-small: @viewport-md-min - 200px;    /* Max gutter: 30px */
+
+@container-width-sm-large: @viewport-sm-min;   /* Max gutter: 30px */
+@container-width-sm-medium: @viewport-sm-min - 70px;   /* Max gutter: 30px */
+@container-width-sm-small: @viewport-sm-min - 150px;   /* Max gutter: 30px */
+
+@container-width-xs-large: 320px;   /* Max gutter: 30px */
+@container-width-xs-medium: 320px - 20px;   /* Max gutter: 30px */
+@container-width-xs-small: 320px - 40px;   /* Max gutter: 30px */
 
 /*
  * Responsive
  */
-@mobileWidth-max: 767px;
-@tabletWidth-min: @mobileWidth-max + 1;     /* 768px */
-@tabletWidth-max: 991px;
-@desktopWidth-min: @tabletWidth-max + 1;    /* 992px */
+@viewport-xs-min: 0px;
+@viewport-sm-min: 768px;
+@viewport-md-min: 992px;
+@viewport-lg-min: 1200px;
+@viewport-xs-max: 767px;    // @viewport-sm-min - 1px;
+@viewport-sm-max: 991px;    // @viewport-md-min - 1px;
+@viewport-md-max: 1199px;   // @viewport-lg-min - 1px;
+
+@query-sm: ~"(min-width: @{viewport-sm-min})";
+@query-md: ~"(min-width: @{viewport-md-min})";
+@query-lg: ~"(min-width: @{viewport-lg-min})";
+
+@query-sm-less: ~"(max-width: @{viewport-xs-max})";
+@query-md-less: ~"(max-width: @{viewport-sm-max})";
+@query-lg-less: ~"(max-width: @{viewport-md-max})";
+
+@mobileWidth-max: @viewport-xs-max;
+@tabletWidth-min: @viewport-sm-min;
+@tabletWidth-max: @viewport-lg-min - 1;
+@desktopWidth-min: @viewport-lg-min;
 
 @mobile:      ~"only screen and (max-width: @{mobileWidth-max})";
 @tablet:      ~"only screen and (min-width: @{tabletWidth-min}) and (max-width: @{tabletWidth-max})";

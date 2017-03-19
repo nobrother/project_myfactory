@@ -1,0 +1,131 @@
+.subblock-benefits{
+    .subblock-footer{
+        margin-top: 150px;
+    }
+
+    .subblock-ending{
+        padding-top: 100px;
+    }
+
+}
+
+#subblock-benefits-business-manager{
+    .subblock-footer{
+        background-color: @bg-color-block;
+    }
+}
+
+#postcard-business-manager{
+    > .flex-row{
+        .set-row-gutter(30px);
+    }
+
+    .postcard-image{
+        background-image: url(http://placehold.it/600x430);
+    }
+    .postcard-content{
+        background-color: #546E7A;
+        color: #ededed;
+    }
+}
+
+#listcards-benefits-business-manager-details{
+
+    margin-top: 56px;
+
+    > .flex-row{
+        .set-row-gutter(56px);
+    }
+
+    @media @query-sm{
+        > .flex-row{
+            .set-col-gutter(50px);
+        }
+    }
+
+    @media @query-md{
+        > .flex-row{
+            .set-col-gutter(80px);
+        }
+    }
+
+    @media @query-lg{
+        > .flex-row{
+            .set-col-gutter(120px);
+        }
+    }
+
+    .list-item{
+        margin-bottom: 10px;
+        &:last-child{
+            margin-bottom: 0;
+        }
+
+        padding-left: 50px;
+
+        i{
+            font-size: 4px;
+            color: #808080;
+            top: 0;
+            left: 0;
+        }
+    }
+
+    .list-item-title{
+        margin-bottom: 15px;
+        font-size: 21px;
+        font-weight: 400;
+
+        i{
+            font-size: 33px;
+            color: @color-blue-brand;
+            top: 0;
+            left: 0;
+        }
+    }
+}
+
+#statistics-benefits-business-manager{
+    > .flex-row{
+        .set-row-gutter(50px)
+    }
+
+    @media @query-sm{
+        > .flex-row{
+            .set-col-gutter(40px)
+        }
+    }
+
+    @media @query-md{
+        > .flex-row{
+            .set-col-gutter(80px)
+        }
+    }
+
+    @media @query-lg{
+        > .flex-row{
+            .set-col-gutter(160px)
+        }
+    }
+}
+
+#postcard-benifits-get-plan{
+    > .flex-row{
+        .set-row-gutter(30px);
+    }
+
+    .postcard-image{
+        background-image: url(http://placehold.it/600x430);
+    }
+    .postcard-content{
+        background-color: #1E52A0;
+        color: #ededed;
+    }
+    .postcard-footer{
+        margin-top: 40px;
+        .btn-normal-inverse{
+            width: 240px;
+            height: 55px;
+        }
+    }
+}

@@ -16,6 +16,8 @@
     ],
     'data': [
         'data/homepage.xml',
+        'data/page-benefits.xml',
+        'data/page-packages.xml',
 
         'views/assets.xml',
         'views/layout.xml',

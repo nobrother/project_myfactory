@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+	<data>
+        <function name="write" model="ir.model.data">
+            <function name="search" model="ir.model.data">
+                <value eval="[('module', '=', 'theme_myfactory'), ('name', 'in', ['benefits'])]" />
+            </function>
+            <value eval="{'noupdate': False}" />
+        </function>
+
+		<template name="Homepage" priority="29" t-name="website.benefits" id="benefits">
+            <t t-call="website.layout">
+				<div class="oe_structure oe_empty page page-benefits" id="page-benefits">
+                    <!-- Page Header -->
+                    <div class="page-header page-title">
+                        <div class="container-lg-medium">
+                            <h1>Make Everyone’s Work Easier &amp; Better </h1>
+                            <h2>From Plant Floor to Top Floor, And Front Door</h2>
+                        </div>
+                    </div><!-- // Page Header -->
+
+
+                    <!-- Block: Business manager -->
+                    <div class="block" id="block-benefits-business-manager">
+
+                        <!-- SubBlock: Business manager -->
+                        <div class="subblock subblock-benefits" id="subblock-benefits-business-manager">
+                            <!-- Subblock body -->
+                            <div class="subblock-body" id="subblock-body-benefits-business-manager-postcard">
+                                <div class="container-lg-medium">
+
+                                    <!-- Postcard: Business Manager -->
+                                    <div class="layout-postcard" id="postcard-business-manager">
+                                        <div class="flex-row">
+                                            <div class="flex-col-md-7 col-postcard-image">
+                                                <div class="postcard-image" />
+                                            </div>
+                                            <div class="flex-col-md-5 col-postcard-content">
+                                                <div class="postcard-content">
+                                                    <div class="postcard-header postcard-title">
+                                                        No longer manage half-blind.
+                                                    </div>
+                                                    <p class="postcard-body postcard-description">
+                                                        Now you know what’s going on, by yourself,
+                                                        without wasting much time. With accurate info,
+                                                        solve all the problems fast, and make better decisions.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div><!-- // Postcard: Business Manager -->
+                                </div><!-- // Container -->
+                            </div><!-- // Subblock body -->
+
+                            <!-- Subblock body -->
+                            <div class="subblock-body" id="subblock-body-benefits-business-manager-details">
+                                <!-- Container -->
+                                <div class="container-lg-small">
+
+                                    <!-- Listcards -->
+                                    <div class="listcards" id="listcards-benefits-business-manager-details">
+                                        <div class="flex-row">
+                                            <!-- Column 1 -->
+                                            <div class="flex-col-sm-6">
+                                                <ul class="listcard">
+                                                    <h3 class="list-item list-item-title">
+                                                        <i class="material-icons">info_outline</i>
+                                                        Check The Latest Progress of Any Work
+                                                    </h3>
+                                                    <li class="list-item">
+                                                        <i class="material-icons">brightness_1</i>
+                                                        <p>Check how much is done for any part of manufacturing and operation (sales, purchase etc)</p>
+                                                    </li>
+                                                    <li class="list-item">
+                                                        <i class="material-icons">brightness_1</i>
+                                                        <p>Check the progress of urgent or important cases</p>
+                                                    </li>
+                                                    <li class="list-item">
+                                                        <i class="material-icons">brightness_1</i>
+                                                        <p>You get the truth that is not biased/adjusted (exactly what your staffs did)</p>
+                                                    </li>
+                                                    <li class="list-item">
+                                                        <i class="material-icons">brightness_1</i>
+                                                        <p>Make you own friendly dashboard or summaries to monitor easily</p>
+                                                    </li>
+                                                </ul>
+                                            </div><!-- // Column 1 -->
+
+                                            <!-- Column 2 -->
+                                            <div class="flex-col-sm-6">
+                                                <ul class="listcard">
+                                                    <h3 class="list-item list-item-title">
+                                                        <i class="material-icons">info_outline</i>
+                                                        Dig Down A Problem To All Its Roots
+                                                    </h3>
+                                                    <li class="list-item">
+                                                        <i class="material-icons">brightness_1</i>
+                                                        <p>Get the full picture by studying the entire story of the problem from every department with all the details and history of the process</p>
+                                                    </li>
+                                                    <li class="list-item">
+                                                        <i class="material-icons">brightness_1</i>
+                                                        <p>Nail down the person involved in the complete automatic audit trail of every case</p>
+                                                    </li>
+                                                    <li class="list-item">
+                                                        <i class="material-icons">brightness_1</i>
+                                                        <p>Get summary of the overall cases on the problem quickly</p>
+                                                    </li>
+                                                </ul>
+                                            </div><!-- // Column 2 -->
+
+                                            <!-- Column 3 -->
+                                            <div class="flex-col-sm-6">
+                                                <ul class="listcard">
+                                                    <h3 class="list-item list-item-title">
+                                                        <i class="material-icons">info_outline</i>
+                                                        See How Much Your Staff Is Doing
+                                                    </h3>
+                                                    <li class="list-item">
+                                                        <i class="material-icons">brightness_1</i>
+                                                        <p>Find out your staff’s performance, whether it’s one or the whole team, over any period of time</p>
+                                                    </li>
+                                                    <li class="list-item">
+                                                        <i class="material-icons">brightness_1</i>
+                                                        <p>Compare it with other staff or staff in the past</p>
+                                                    </li>
+                                                    <li class="list-item">
+                                                        <i class="material-icons">brightness_1</i>
+                                                        <p>Help investigate the cause of poor performance, from all the details available (whether it’s due to the situation)</p>
+                                                    </li>
+                                                </ul>
+                                            </div><!-- // Column 3 -->
+
+                                            <!-- Column 4 -->
+                                            <div class="flex-col-sm-6">
+                                                <ul class="listcard">
+                                                    <h3 class="list-item list-item-title">
+                                                        <i class="material-icons">info_outline</i>
+                                                        The Latest Dollars &amp; Cent In Hand
+                                                    </h3>
+                                                    <li class="list-item">
+                                                        <i class="material-icons">brightness_1</i>
+                                                        <p> Get accurate costing on every part of your product and overhead</p>
+                                                    </li>
+                                                    <li class="list-item">
+                                                        <i class="material-icons">brightness_1</i>
+                                                        <p>Spend &amp; invest with the knowledge of your most up-to-date financial health (cash flow etc) </p>
+                                                    </li>
+                                                    <li class="list-item">
+                                                        <i class="material-icons">brightness_1</i>
+                                                        <p>Learn your latest revenue and coming ones (quoted, ordered, invoiced, paid)</p>
+                                                    </li>
+                                                </ul>
+                                            </div><!-- // Column 4 -->
+                                        </div>
+                                    </div><!-- // Listcards -->
+                                </div><!-- // Container -->
+                            </div><!-- // Subblock body -->
+
+                            <!-- Subblock footer -->
+                            <div class="subblock-footer">
+                                <!-- Container -->
+                                <div class="container-sm-medium container-md-medium container-lg-small">
+                                    <!-- Statistics -->
+                                    <div class="layout-statistics" id="statistics-benefits-business-manager">
+                                        <div class="flex-row">
+
+                                            <!-- Column 1 -->
+                                            <div class="flex-col-sm-6 flex-col-md-4">
+                                                <div class="statistic">
+                                                    <div class="statistic-values">
+                                                        <i class="material-icons">arrow_downward</i>
+                                                        <span class="statistic-value">90%</span>
+                                                    </div>
+                                                    <div class="statistic-title">Time To Get Info</div>
+                                                    <div class="statistic-description">
+                                                        <p>Stop wasting you and your staff’s time everytime you want to discuss or decide</p>
+                                                    </div>
+                                                </div>
+                                            </div><!-- // Column 1 -->
+
+                                            <!-- Column 2 -->
+                                            <div class="flex-col-sm-6 flex-col-md-4">
+                                                <div class="statistic">
+                                                    <div class="statistic-values">
+                                                        <i class="material-icons">arrow_downward</i>
+                                                        <span class="statistic-value">100%</span>
+                                                    </div>
+                                                    <div class="statistic-title">Loss Opportunities</div>
+                                                    <div class="statistic-description">
+                                                        <p>Buy the bulk cheap or offer at competive price when you have all the info in hand to play</p>
+                                                    </div>
+                                                </div>
+                                            </div><!-- // Column 2 -->
+
+                                            <!-- Column 3 -->
+                                            <div class="flex-col-sm-6 flex-col-md-4">
+                                                <div class="statistic">
+                                                    <div class="statistic-values">
+                                                        <i class="material-icons">arrow_downward</i>
+                                                        <span class="statistic-value">15%</span>
+                                                    </div>
+                                                    <div class="statistic-title">Operation Cost</div>
+                                                    <div class="statistic-description">
+                                                        <p>See the costs clearly and trim it down one by one for optimal cost efficiency</p>
+                                                    </div>
+                                                </div>
+                                            </div><!-- // Column 3 -->
+                                        </div>
+                                    </div><!-- // Statistics -->
+                                </div><!-- // Container -->
+                            </div><!-- // Subblock footer -->
+                        </div><!-- // SubBlock: Business manager  -->
+                    </div><!-- // Block: Business manager -->
+
+                    <!-- Block: Ending -->
+                    <div class="block" id="block-benefits-ending">
+
+                        <!-- SubBlock: Ending -->
+                        <div class="subblock subblock-benefits subblock-ending" id="subblock-benefits-ending">
+                            <!-- Subblock body -->
+                            <div class="subblock-body">
+
+                                <!-- Container -->
+                                <div class="container-lg-small">
+                                    <!-- Postcard: Get the right plan -->
+                                    <div class="layout-postcard" id="postcard-benifits-get-plan">
+                                        <div class="flex-row">
+                                            <div class="flex-col-md-5 col-postcard-image">
+                                                <div class="postcard-image" />
+                                            </div>
+                                            <div class="flex-col-md-7 col-postcard-content">
+                                                <div class="postcard-content">
+                                                    <h1 class="postcard-header postcard-title">
+                                                        Leave all the messy and the tedious behind.
+                                                    </h1>
+                                                    <p class="postcard-body postcard-description">
+                                                        Bring Your Team To The Next Level<br/>
+                                                        Work Better On A Better Platform
+                                                    </p>
+                                                    <div class="postcard-footer">
+                                                        <a href="#" class="btn btn-normal-inverse">
+                                                            GET THE RIGHT PLAN
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div><!-- // Postcard: Get the right plan -->
+                                </div><!-- // Container -->
+                            </div><!-- // Subblock body -->
+                        </div><!-- // SubBlock: Ending -->
+                    </div><!-- // Block: Ending -->
+                </div>
+            </t>
+        </template>
+    </data>
+</openerp>

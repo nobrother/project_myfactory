@@ -1,0 +1,191 @@
+.flex-row,
+.flex-col {
+  .flex-display(flex);
+  .flex(0 1 auto);
+  .flex-wrap(wrap);
+
+  > .box {
+    .flex(0 0 auto);
+    max-width: 100%;
+  }
+}
+.flex-row{
+    .flex-direction(row);
+}
+.flex-col{
+    .flex-direction(column);
+}
+
+/*
+ * Grids with "more than" style
+ * xs - viewport 0 or more
+ * sm - viewport 768 or more
+ * md - viewport 992 or more
+ * lg - viewport 1200 or more
+ */
+
+/* Basic */
+.create-flex-grid-basic(xs);
+.create-flex-grid-basic(sm);
+.create-flex-grid-basic(md);
+.create-flex-grid-basic(lg);
+
+/* Viewport xs */
+.create-flex-grid(xs);
+
+/* Viewport sm */
+@media @query-sm{
+    .create-flex-grid(sm);
+}
+
+/* Viewport md */
+@media @query-md{
+    .create-flex-grid(md);
+}
+
+/* Viewport lg */
+@media @query-lg{
+    .create-flex-grid(lg);
+}
+
+/* Helper */
+.create-flex-grid-basic(@viewport){
+    .flex-col-@{viewport}-1,
+    .flex-col-@{viewport}-2,
+    .flex-col-@{viewport}-3,
+    .flex-col-@{viewport}-4,
+    .flex-col-@{viewport}-5,
+    .flex-col-@{viewport}-6,
+    .flex-col-@{viewport}-7,
+    .flex-col-@{viewport}-8,
+    .flex-col-@{viewport}-9,
+    .flex-col-@{viewport}-10,
+    .flex-col-@{viewport}-11,
+    .flex-col-@{viewport}-12{
+        .flex(0 0 auto);
+        max-width: 100%;
+    }
+}
+.create-flex-grid(@viewport){
+
+    .flex-col-@{viewport}{
+        max-width: 100%;
+        .flex-basis(0);
+        .flex-grow(1);
+    }
+    
+    .flex-col-@{viewport}-1 {
+        .flex-basis(percentage(1/@grid-columns));
+        max-width: percentage(1/@grid-columns);
+    }
+    .flex-col-@{viewport}-2 {
+        .flex-basis(percentage(2/@grid-columns));
+        max-width: percentage(2/@grid-columns);
+    }
+    .flex-col-@{viewport}-3 {
+        .flex-basis(percentage(3/@grid-columns));
+        max-width: percentage(3/@grid-columns);
+    }
+    .flex-col-@{viewport}-4 {
+        .flex-basis(percentage(4/@grid-columns));
+        max-width: percentage(4/@grid-columns);
+    }
+    .flex-col-@{viewport}-5 {
+        .flex-basis(percentage(5/@grid-columns));
+        max-width: percentage(5/@grid-columns);
+    }
+    .flex-col-@{viewport}-6 {
+        .flex-basis(percentage(6/@grid-columns));
+        max-width: percentage(6/@grid-columns);
+    }
+    .flex-col-@{viewport}-7 {
+        .flex-basis(percentage(7/@grid-columns));
+        max-width: percentage(7/@grid-columns);
+    }
+    .flex-col-@{viewport}-8 {
+        .flex-basis(percentage(8/@grid-columns));
+        max-width: percentage(8/@grid-columns);
+    }
+    .flex-col-@{viewport}-9 {
+        .flex-basis(percentage(9/@grid-columns));
+        max-width: percentage(9/@grid-columns);
+    }
+    .flex-col-@{viewport}-10 {
+        .flex-basis(percentage(10/@grid-columns));
+        max-width: percentage(10/@grid-columns);
+    }
+    .flex-col-@{viewport}-11 {
+        .flex-basis(percentage(11/@grid-columns));
+        max-width: percentage(11/@grid-columns);
+    }
+    .flex-col-@{viewport}-12 {
+        .flex-basis(percentage(12/@grid-columns));
+        max-width: percentage(12/@grid-columns);
+    }
+    
+    .create-flex-functions(@viewport);
+}
+
+.create-flex-functions(@viewport){
+    .start-@{viewport} {
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        text-align: start;
+    }
+
+    .center-@{viewport} {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .end-@{viewport} {
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
+        text-align: end;
+    }
+
+    .top-@{viewport} {
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+    }
+
+    .middle-@{viewport} {
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    .bottom-@{viewport} {
+        -webkit-box-align: end;
+        -ms-flex-align: end;
+        align-items: flex-end;
+    }
+
+    .around-@{viewport} {
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+    }
+
+    .between-@{viewport} {
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+
+    .first-@{viewport} {
+        -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+        order: -1;
+    }
+
+    .last-@{viewport} {
+        -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+        order: 1;
+    }
+}

@@ -1,0 +1,157 @@
+#tabular-packages{
+    > .flex-row{
+        .set-row-gutter(40px);
+    }
+
+    @media @query-md{
+        > .flex-row{
+            .set-col-gutter(36px);
+        }
+    }
+
+    .tabular-item-header{
+        h2{
+            text-align: center;
+            font-size: 24px;
+            font-weight: 600;
+            color: @fc-ff;
+        }
+    }
+
+    .tabular-item-body{
+        padding: 25px 35;
+    }
+
+    .tabular-item-footer{
+        padding: 40px 0;
+        background-color: @bg-color-block;
+    }
+
+    .package-summary{
+        text-align: center;
+        color: @fc-00;
+
+        .divider{
+            margin: 30px auto;
+        }
+    }
+    .package-summary-title{
+        font-size: 18px;
+    }
+    .package-summary-price{
+        margin-bottom: 15px;
+
+        .rm{
+            font-size: 20px;
+        }
+        .amount{
+            padding: 0 15px;
+            font-size: 38px;
+        }
+        .frequency{
+            font-size: 16px;
+        }
+    }
+    .package-summary-footer{
+        font-size: 16px;
+    }
+
+    .package-details{
+        .list-item{
+            .margin-bottom(30px);
+
+            padding-left: 30px;
+
+            i{
+                font-size: 4px;
+                color: @color-blue-brand;
+            }
+        }
+        .list-item-title{
+            margin-bottom: 5px;
+            font-size: 15px;
+            color: @fc-00;
+        }
+        p{
+            font-size: 13px;
+            color: @fc-33;
+        }
+
+        .special{
+            margin-bottom: 30px;
+            .list-item{
+                margin-bottom: 10px;
+            }
+        }
+        .special-item{
+            padding: 10px 15px;
+            background-color: #fff;
+            a{
+                font-size: 14px;
+                color: @color-blue-brand;
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .package-actions{
+        text-align: center;
+        color: @fc-00;
+    }
+    .package-motive{
+        margin-bottom: 30px;
+        padding: 0 15px;
+        font-size: 20px;
+    }
+    .package-action-btn{
+        margin-bottom: 30px;
+
+        .btn{
+            padding: 10px 15px;
+        }
+    }
+    .package-startup{
+        padding: 0 15px;
+        font-size: 16px;
+    }
+}
+
+#cards-all-plans-features{
+
+    > .flex-row{
+        .set-row-gutter(30px);
+        .set-col-gutter(@container-side-padding);
+    }
+
+    @media @query-md{
+        > .flex-row{
+            .set-col-gutter(70px);
+        }
+    }
+
+    .card-image{
+        margin-bottom: 15px;
+        .layout-icon-circle{
+            .set-icon-circle(70px; 57px; transparent; @color-blue-light);
+        }
+    }
+
+    .card-title{
+        margin-bottom: 20px;
+        font-size: 21px;
+        color: @fc-00;
+    }
+
+    .card-title, .card-description{
+        text-align: center;
+    }
+    .card-description{
+        font-size: @fs-body;
+    }
+}
+
+#subblock-packages-software-update{
+    .subblock-header.small{
+        .container(700px; 0);
+    }
+}

@@ -6,12 +6,6 @@
 			inherit_id="website.assets_frontend" active="True" priority="1">
 			<xpath expr="." position="inside">
 
-                <!-- FONTS -->
-                <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-                      type="text/css" rel="stylesheet" />
-                <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700"
-                      type="text/css" rel="stylesheet" />
-
                 <!-- VARIABLES -->
 				<link
 					href="/theme_myfactory/static/src/less/variables.less"
@@ -27,18 +21,70 @@
                 <link
 					href="/theme_myfactory/static/src/less/mixin/flex.less"
 					type="text/less" rel="stylesheet" />
+                <link
+					href="/theme_myfactory/static/src/less/mixin/grid.less"
+					type="text/less" rel="stylesheet" />
 
 
                 <!-- STYLES -->
                 <link
+					href="/theme_myfactory/static/src/less/container.less"
+					type="text/less" rel="stylesheet" />
+                <link
 					href="/theme_myfactory/static/src/less/grid.less"
+					type="text/less" rel="stylesheet" />
+                <link
+					href="/theme_myfactory/static/src/less/flex-grid.less"
 					type="text/less" rel="stylesheet" />
                 <link
 					href="/theme_myfactory/static/src/less/common.less"
 					type="text/less"
 					rel="stylesheet" />
+				<link
+					href="/theme_myfactory/static/src/less/page-home.less"
+					type="text/less"
+					rel="stylesheet" />
+                <link
+					href="/theme_myfactory/static/src/less/page-benefits.less"
+					type="text/less"
+					rel="stylesheet" />
+				<link
+					href="/theme_myfactory/static/src/less/page-packages.less"
+					type="text/less"
+					rel="stylesheet" />
+
+                <!-- JAVASCRIPTS -->
+				<script type="text/javascript"
+						src="/theme_myfactory/static/src/js/common.js" />
+
             </xpath>
         </template>
+
+        <!-- Import external css and javascript -->
+        <template id="external_asset" inherit_id="website.layout" name="External assets">
+
+            <!-- External CSS -->
+            <xpath expr='//t[@t-call-assets="website.assets_frontend"][@t-js]' position="before">
+
+                <!-- FONTS -->
+                <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+                      type="text/css" rel="stylesheet" />
+                <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700"
+                      type="text/css" rel="stylesheet" />
+
+
+            </xpath>
+
+            <!-- External Javascript -->
+            <xpath expr='//t[@t-call-assets="website.assets_frontend"][@t-css]' position="before">
+
+                <!-- JAVASCRIPTS -->
+                <script type="text/javascript"
+                        src="https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.2/jquery.matchHeight-min.js" />
+
+            </xpath>
+        </template>
+
 
     </data>
 </openerp>

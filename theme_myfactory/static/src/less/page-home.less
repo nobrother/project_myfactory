@@ -1,0 +1,274 @@
+/* Specific */
+#subblock-home-intro{
+    background: url(http://placehold.it/1350x700) center no-repeat;
+    background-size: cover;
+
+    .floating-card{
+        padding: 30px 0;
+
+        .content{
+            padding: 64px 50px 64px 56px;
+            background-color: #9E8952;
+        }
+
+        color: @fc-ff;
+
+        .header{
+            font-size: @fs-page-title;
+        }
+
+        .body{
+            font-size: @fs-page-subtitle;
+        }
+
+        .divider{
+            margin: 35px auto;
+        }
+    }
+
+    @media @query-md{
+        height: 700px;
+
+        .floating-card{
+            .dimension-max(575px; 412px);
+            .floating-object();
+            left: auto;
+        }
+    }
+}
+
+#tabular-software-structure{
+    position: relative;
+    .container(300px; 0);
+
+    > .flex-row{
+        .set-row-gutter(30px);
+    }
+
+    @media @query-sm{
+        .container(reset);
+        > .flex-row{
+            position: relative;
+            .set-col-gutter(70px);
+            z-index: 1;
+        }
+    }
+
+    @media @query-md{
+
+        &:before{
+            content: '';
+            position: absolute;
+            height: 2px;
+            width: 100%;
+            background-color: @color-blue-bright;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            z-index: 0;
+        }
+    }
+
+
+    .tabular-item-header{
+        span{
+            padding-left: 10px;
+            font-size: 18px;
+            font-weight: 400;
+        }
+    }
+
+    .icon-items{
+
+        .set-row-gutter(30px; ~".icon-item");
+        .set-col-gutter(40px; ~".icon-item");
+
+        .icon-item{
+            .flex-basis(100px);
+            text-align: center;
+
+            i{
+                display: block;
+                font-size: 32px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
+
+#tabular-item-factory{
+    .tabular-item-header{
+        background-color: @color-blue-dark;
+    }
+}
+
+#subblock-home-benefit{
+    .subblock-body > .divider{
+        margin-top: 50px;
+    }
+}
+
+/* Features */
+#features-benefit{
+
+    .feature{
+        margin-bottom: 108px;
+        &:last-child{
+            margin-bottom: 0;
+        }
+
+        > .flex-row{
+            .set-row-gutter(30px);
+        }
+
+        @media @query-sm {
+            > .flex-row{
+                .set-col-gutter(70px);
+            }
+        }
+
+        @media @query-md{
+            > .flex-row{
+                .set-col-gutter(100px);
+            }
+        }
+    }
+
+    .feature-pre-header{
+        margin-bottom: 10px;
+
+        i{
+            font-size: 24px;
+            color: #cfcfcf;
+            vertical-align: middle;
+            padding-right: 10px;
+        }
+        span{
+            font-size: 16px;
+            color: @color-blue-brand;
+            vertical-align: middle;
+        }
+
+        & + .divider{
+            margin-bottom: 10px;
+        }
+    }
+    .feature-header{
+        margin-bottom: 15px;
+        h1{
+            font-size: 33px;
+            color: @fc-title-light;
+        }
+    }
+    .feature-body{
+        .p-div{
+            margin-bottom: 10px;
+            &:last-child{
+                margin-bottom: 0;
+            }
+
+            h6{
+                margin-bottom: 5px;
+                font-size: @fs-body-lg + 1;
+                font-weight: 400;
+                color: @fc-title;
+            }
+            p{
+                font-size: @fs-body-lg;
+            }
+        }
+    }
+    .feature-footer{
+        margin-top: 15px;
+    }
+}
+
+#subblock-home-startup-process{
+    background-color: @bg-color-block;
+}
+
+#processes-startup{
+    .container(300px, 0);
+     > .flex-row{
+        .set-row-gutter(30px);
+    }
+
+    @media @query-md{
+        .container(reset);
+
+        position: relative;
+        > .flex-row{
+            .set-col-gutter(87px);
+        }
+
+        &:before{
+            content: '';
+            position: absolute;
+            z-index: 0;
+            height: 2px;
+            width: 100%;
+            background-color: @bg-color-separator;
+            margin: auto;
+            top: 40%;
+        }
+    }
+
+    .process{
+        position: relative;
+        z-index: 1;
+        background-color: @bg-color-block;
+    }
+
+    .process-head-number{
+        margin-bottom: 15px;
+        font-size: 48px;
+    }
+
+    .process-image{
+        margin-bottom: 15px;
+
+        .layout-icon-circle{
+            .set-icon-circle(100px; 57px; #fff; @color-blue-brand);
+        }
+    }
+
+    .process-title{
+        margin-bottom: 10px;
+        font-size: 24px;
+    }
+
+    .process-title, .process-description{
+        text-align: center;
+    }
+}
+
+#cards-what-you-get{
+
+    > .flex-row{
+        .set-row-gutter(30px);
+        .set-col-gutter(@container-side-padding);
+    }
+
+    @media @query-md{
+        > .flex-row{
+            .set-col-gutter(74px);
+        }
+    }
+
+    .card-image{
+        margin-bottom: 15px;
+        .layout-icon-circle{
+            .set-icon-circle(70px; 57px; transparent; #b5b5b5);
+        }
+    }
+
+    .card-title{
+        margin-bottom: 15px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .card-title, .card-description{
+        text-align: center;
+    }
+}

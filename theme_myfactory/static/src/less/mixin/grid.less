@@ -1,0 +1,20 @@
+/* Set gutter between columns */
+.set-col-gutter(@gutter; @selector: ~"> div"){
+    @value: floor(@gutter / 2);
+    margin-left: -@value;
+    margin-right: -@value;
+
+    @{selector}{
+        padding-left: @value;
+        padding-right: @value;
+    }
+}
+
+/* Set gutter between row */
+.set-row-gutter(@gutter, @selector: ~"> div"){
+    margin-bottom: -@gutter;
+
+    @{selector}{
+        padding-bottom: @gutter;
+    }
+}

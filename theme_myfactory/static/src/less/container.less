@@ -1,0 +1,55 @@
+/* Container */
+
+/* Basic */
+.create-container-basic(xs);
+.create-container-basic(sm);
+.create-container-basic(md);
+.create-container-basic(lg);
+
+/* Viewport: xs */
+.create-container(xs);
+
+/* Viewport: sm */
+@media @query-sm{
+    .create-container(sm);
+}
+
+/* Viewport: md */
+@media @query-md{
+    .create-container(md);
+}
+
+/* Viewport: lg */
+@media @query-lg{
+    .create-container(lg);
+}
+
+/* Helper */
+.create-container-basic(@viewport){
+    .container-@{viewport}-large,
+    .container-@{viewport}-medium,
+    .container-@{viewport}-small{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        padding-left: @container-side-padding;
+        padding-right: @container-side-padding;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+    }
+}
+.create-container(@viewport){
+    .container-@{viewport}-large{
+        @width: ~"container-width-@{viewport}-large";
+        max-width: @@width + 2*@container-side-padding;
+    }
+    .container-@{viewport}-medium{
+        @width: ~"container-width-@{viewport}-medium";
+        max-width: @@width + 2*@container-side-padding;
+    }
+    .container-@{viewport}-small{
+        @width: ~"container-width-@{viewport}-small";
+        max-width: @@width + 2*@container-side-padding;
+    }
+}

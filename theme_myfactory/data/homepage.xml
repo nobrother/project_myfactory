@@ -11,23 +11,546 @@
 		<template name="Homepage" priority="29" t-name="website.homepage">
 			<t t-call="website.layout">
 				<div class="oe_structure oe_empty page-homepage" id="page-home">
+
                     <!-- Block: Intro -->
                     <div class="block" id="block-home-intro">
+
+                        <!-- SubBlock: Intro -->
                         <div class="subblock subblock-image" id="subblock-home-intro">
-                            <div class="container container-md">
-                                <div class="floating-object">
-                                    <h1 class="header">
-                                        Cloud Software <br />
-                                        for Manufacturers
-                                    </h1>
-                                    <div class="divider" />
-                                    <div class="body">
-                                        The Simplest &amp; Cheapest Way to Improve Productivity &amp; Profits
+                            <div class="container-lg-medium">
+                                <div class="floating-card">
+                                    <div class="content">
+                                        <h1 class="header">
+                                            Cloud Software <br />
+                                            for Manufacturers
+                                        </h1>
+                                        <div class="divider" />
+                                        <div class="body">
+                                            The Simplest &amp; Cheapest Way to Improve Productivity &amp; Profits
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div><!-- // SubBlock: Intro -->
+
+                        <!-- SubBlock: Intro Description -->
+                        <div class="subblock" id="subblock-home-intro-description">
+
+                            <!-- Container -->
+                            <div class="container-sm-small container-md-medium container-lg-small">
+
+                                <!-- Subblock Header -->
+                                <header class="subblock-header subblock-title">
+                                    <h1>A Friendly Manufacturing Software Suite</h1>
+                                    <h2>One App For Every Team, Every Team Work As One</h2>
+                                </header><!-- // SubBlock Header -->
+
+
+                                <!-- Subblock body -->
+                                <div class="subblock-body">
+
+                                    <!-- Tabular -->
+                                    <div class="tabular" id="tabular-software-structure">
+                                        <!-- Row -->
+                                         <div class="flex-row">
+                                             <!-- Column 1 -->
+                                             <div class="flex-col-md-4 flex-col-sm-6">
+                                                 <div class="tabular-item flex-col" id="tabular-item-supply-chain">
+                                                     <!-- Tabular item header -->
+                                                     <div class="tabular-item-header box">
+                                                         <div class="flex-row center-xs middle-xs">
+                                                             <img class="box" src="http://placehold.it/43x31" />
+                                                             <span class="box">Supply Chain (ERP)</span>
+                                                         </div>
+                                                     </div><!-- // Tabular item header -->
+
+                                                     <!-- Tabular item body -->
+                                                     <div class="tabular-item-body box">
+                                                         <div class="flex-row around-xs icon-items">
+                                                             <div class="box icon-item">
+                                                                 <i class="fa fa-users" />
+                                                                 <span class="caption">
+                                                                     Sales &amp; Invoicing
+                                                                 </span>
+                                                             </div>
+                                                             <div class="box icon-item">
+                                                                 <i class="fa fa-users" />
+                                                                 <span class="caption">
+                                                                     Inventory / Warehouse
+                                                                 </span>
+                                                             </div>
+                                                             <div class="box icon-item">
+                                                                 <i class="fa fa-users" />
+                                                                 <span class="caption">
+                                                                     Purchase
+                                                                 </span>
+                                                             </div>
+                                                         </div>
+                                                     </div><!-- // Tabular item body -->
+                                                 </div>
+                                             </div><!-- // Column 1 -->
+
+                                             <!-- Column 2 -->
+                                             <div class="flex-col-md-4 flex-col-sm-6">
+                                                 <div class="tabular-item flex-col" id="tabular-item-factory">
+                                                     <!-- Tabular item header -->
+                                                     <div class="tabular-item-header box">
+                                                         <div class="flex-row center-xs middle-xs">
+                                                             <img class="box" src="http://placehold.it/43x31" />
+                                                             <span class="box">Factory (MRP)</span>
+                                                         </div>
+                                                     </div><!-- // Tabular item header -->
+
+                                                     <!-- Tabular item body -->
+                                                     <div class="tabular-item-body box">
+                                                         <div class="flex-row around-xs icon-items">
+                                                             <div class="box icon-item">
+                                                                 <i class="fa fa-users" />
+                                                                 <span class="caption">
+                                                                     Products
+                                                                 </span>
+                                                             </div>
+                                                             <div class="box icon-item">
+                                                                 <i class="fa fa-users" />
+                                                                 <span class="caption">
+                                                                     Planning
+                                                                 </span>
+                                                             </div>
+                                                             <div class="box icon-item">
+                                                                 <i class="fa fa-users" />
+                                                                 <span class="caption">
+                                                                     Production
+                                                                 </span>
+                                                             </div>
+                                                             <div class="box icon-item">
+                                                                 <i class="fa fa-users" />
+                                                                 <span class="caption">
+                                                                     Quality
+                                                                 </span>
+                                                             </div>
+                                                             <div class="box icon-item">
+                                                                 <i class="fa fa-users" />
+                                                                 <span class="caption">
+                                                                     Costing
+                                                                 </span>
+                                                             </div>
+                                                         </div>
+                                                     </div><!-- // Tabular item body -->
+                                                 </div>
+                                             </div><!-- // Column 2 -->
+
+                                             <!-- Column 3 -->
+                                             <div class="flex-col-md-4 flex-col-sm-6">
+                                                 <div class="tabular-item flex-col" id="tabular-item-management">
+                                                     <!-- Tabular item header -->
+                                                     <div class="tabular-item-header box">
+                                                         <div class="flex-row center-xs middle-xs">
+                                                             <img class="box" src="http://placehold.it/43x31" />
+                                                             <span class="box">Management (ERP)</span>
+                                                         </div>
+                                                     </div><!-- // Tabular item header -->
+
+                                                     <!-- Tabular item body -->
+                                                     <div class="tabular-item-body box">
+                                                         <div class="flex-row around-xs icon-items">
+                                                             <div class="box icon-item">
+                                                                 <i class="fa fa-users" />
+                                                                 <span class="caption">
+                                                                     Accounting Integration
+                                                                 </span>
+                                                             </div>
+                                                             <div class="box icon-item">
+                                                                 <i class="fa fa-users" />
+                                                                 <span class="caption">
+                                                                     Business Intelligence
+                                                                 </span>
+                                                             </div>
+                                                             <div class="box icon-item">
+                                                                 <i class="fa fa-users" />
+                                                                 <span class="caption">
+                                                                     Administration
+                                                                 </span>
+                                                             </div>
+                                                         </div>
+                                                     </div><!-- // Tabular item body -->
+                                                 </div>
+                                             </div><!-- // Column 3 -->
+                                         </div><!-- // Row -->
+                                    </div><!-- // Tabular -->
+                                </div><!-- // Subblock body -->
+
+                                <!-- Subblock footer -->
+                                <div class="subblock-footer subblock-footer-link-only">
+                                    <a href="#" class="link link-arrow-right">
+                                        <span>MORE ON THE FEATURES</span>
+                                        <i class="material-icons">keyboard_arrow_right</i>
+                                    </a>
+                                </div><!-- // Subblock footer -->
+                            </div><!-- //Container -->
+                        </div><!-- // SubBlock: Intro Description -->
                     </div><!-- // Block: Intro -->
+
+                    <!-- Block: Benefit -->
+                    <div class="block" id="block-home-intro">
+                        <!-- Container-->
+                        <div class="container-sm-small container-md-medium container-lg-medium">
+                            <!-- SubBlock: Benefit -->
+                            <div class="subblock" id="subblock-home-benefit">
+                                <!-- Subblock body -->
+                                <div class="subblock-body">
+                                    <!-- Features: Benefit -->
+                                    <div class="layout-features" id="features-benefit">
+
+                                        <!-- Feature 1 -->
+                                        <div class="feature">
+                                            <div class="flex-row top-xs">
+                                                <div class="flex-col-md-6 last-md col-feature-image">
+                                                    <div class="feature-image">
+                                                        <img src="http://placehold.it/500x380" />
+                                                    </div>
+                                                </div>
+                                                <div class="flex-col-md-6 col-feature-content">
+                                                    <div class="feature-content">
+                                                        <div class="feature-pre-header">
+                                                            <i class="fa fa-user" />
+                                                            <span>MD/GM/Managers</span>
+                                                        </div>
+                                                        <div class="divider" />
+                                                        <div class="feature-header">
+                                                            <h1>
+                                                                Find Out What’s Happening<br/>
+                                                                The Truth At Your Fingertips
+                                                            </h1>
+                                                        </div>
+                                                        <div class="feature-body">
+                                                            <div class="p-div">
+                                                                <h6>Monitor Progress &amp; Staff Productivity In Real Time</h6>
+                                                                <p>Easily check how much is done for any part of ops &amp; production</p>
+                                                            </div>
+                                                            <div class="p-div">
+                                                                <h6>Investigate Problem &amp; Causes</h6>
+                                                                <p>Zoom down to any problem/case with full details &amp; history</p>
+                                                            </div>
+                                                            <div class="p-div">
+                                                                <h6>Clear Costing &amp; Finance Info</h6>
+                                                                <p>Get latest costing info right away to make the right decision</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="feature-footer">
+                                                            <a href="#" class="link">
+                                                                <span>MANAGE WITH GOOD INFO</span>
+                                                                <i class="material-icons">keyboard_arrow_right</i>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div><!-- // Feature 1 -->
+
+                                        <!-- Feature 2 -->
+                                        <div class="feature">
+                                            <div class="flex-row top-xs">
+                                                <div class="flex-col-md-6 col-feature-image">
+                                                    <div class="feature-image">
+                                                        <img src="http://placehold.it/500x380" />
+                                                    </div>
+                                                </div>
+                                                <div class="flex-col-md-6 col-feature-content">
+                                                    <div class="feature-content">
+                                                        <div class="feature-pre-header">
+                                                            <i class="fa fa-user" />
+                                                            <span>Production Manager/Supervisor/Worker</span>
+                                                        </div>
+                                                        <div class="divider" />
+                                                        <div class="feature-header">
+                                                            <h1>
+                                                                Plan &amp; Manage Orders Easier<br/>
+                                                                Reliable &amp; On Time Production
+                                                            </h1>
+                                                        </div>
+                                                        <div class="feature-body">
+                                                            <div class="p-div">
+                                                                <h6>Schedule Orders Handily with Exact Info</h6>
+                                                                <p>Plan out many complicated orders fast with accurate lead time</p>
+                                                            </div>
+                                                            <div class="p-div">
+                                                                <h6>Followup &amp; Replan for On Time Delivery </h6>
+                                                                <p>Clear info on progress &amp; issues, reschedule quickly for changes </p>
+                                                            </div>
+                                                            <div class="p-div">
+                                                                <h6>Coordinate Work Centers Easily</h6>
+                                                                <p>Arrange works among stations smoothly, minimize waiting time.</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="feature-footer">
+                                                            <a href="#" class="link">
+                                                                <span>RUN YOUR PRODUCTION BETTER &amp; EASIER</span>
+                                                                <i class="material-icons">keyboard_arrow_right</i>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div><!-- // Feature 2 -->
+
+                                        <!-- Feature 3 -->
+                                        <div class="feature">
+                                            <div class="flex-row top-xs">
+                                                <div class="flex-col-md-6 last-md col-feature-image">
+                                                    <div class="feature-image">
+                                                        <img src="http://placehold.it/500x380" />
+                                                    </div>
+                                                </div>
+                                                <div class="flex-col-md-6 col-feature-content">
+                                                    <div class="feature-content">
+                                                        <div class="feature-pre-header">
+                                                            <i class="fa fa-user" />
+                                                            <span>Warehouse Manager/Storekeeper/Purchaser</span>
+                                                        </div>
+                                                        <div class="divider" />
+                                                        <div class="feature-header">
+                                                            <h1>
+                                                                100% Stock &amp; Storage Info<br/>
+                                                                Easy Warehouse Operation
+                                                            </h1>
+                                                        </div>
+                                                        <div class="feature-body">
+                                                            <div class="p-div">
+                                                                <h6>Full Information on All Types of Storages</h6>
+                                                                <p>Complete real time details (location, costing, history, status) on all storages (raw materials, WIP, finished goods)</p>
+                                                            </div>
+                                                            <div class="p-div">
+                                                                <h6>Smaller Inventory Buffer, Big Saving</h6>
+                                                                <p>Maintain low inventory buffer smartly with good tracking &amp; plan</p>
+                                                            </div>
+                                                            <div class="p-div">
+                                                                <h6>Flexible &amp; Friendly Warehouse Operation</h6>
+                                                                <p>All type of transfers &amp; arrangements can be done well in system</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="feature-footer">
+                                                            <a href="#" class="link">
+                                                                <span>KEEP BOTH THE STOCKS &amp; DATA WELL</span>
+                                                                <i class="material-icons">keyboard_arrow_right</i>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div><!-- // Feature 3 -->
+                                    </div><!-- // Features: Benefit -->
+                                    <div class="divider" />
+                                </div> <!-- // Subblock body -->
+
+                                <!-- Subblock Header -->
+                                <div class="subblock-header subblock-title">
+                                    <h1>Easier For All Departments To Work Together</h1>
+                                    <h2>The Digital Conveyor Belt For People - Smooth Team Workflow</h2>
+                                </div><!-- // Subblock Header -->
+
+                                <!-- Subblock footer -->
+                                <div class="subblock-footer subblock-footer-link-only">
+                                    <a href="#" class="link">
+                                        <span>WORK TOGETHER BETTER</span>
+                                        <i class="material-icons">keyboard_arrow_right</i>
+                                    </a>
+                                </div><!-- // Subblock footer -->
+                            </div><!-- // SubBlock: Benefit -->
+                        </div><!-- // Container -->
+                    </div><!-- // Block: Benefit -->
+
+                    <!-- Block: Features -->
+                    <div class="block" id="block-home-features">
+
+                        <!-- SubBlock: Startup Process -->
+                        <div class="subblock" id="subblock-home-startup-process">
+                            <!-- Container -->
+                            <div class="container-md-medium container-lg-small">
+                                <!-- Subblock header -->
+                                <header class="subblock-header subblock-title">
+                                    <h1>Easiest Way To Go Digital With Your Factory</h1>
+                                    <h2>No More Complicated Project &amp; Heavy Investment</h2>
+                                </header><!-- // Subblock header -->
+
+                                <!-- Subblock body -->
+                                <div class="subblock-body">
+                                    <!-- Processes: Start up -->
+                                    <div class="processes" id="processes-startup">
+                                        <div class="flex-row">
+                                            <!-- Column 1 -->
+                                            <div class="flex-col-md-4">
+                                                <div class="process flex-col middle-xs">
+                                                    <div class="process-head-number box">1</div>
+                                                    <div class="process-image box">
+                                                        <div class="layout-icon-circle">
+                                                            <i class="material-icons">dns</i>
+                                                        </div>
+                                                    </div>
+                                                    <h3 class="process-title box">Subscribe SaaS Plan</h3>
+                                                    <p class="process-description box">
+                                                        No more huge amount to pay upfront,
+                                                        just rent the whole service affordably.
+                                                    </p>
+                                                </div>
+                                            </div><!-- // Column 1 -->
+
+                                            <!-- Column 2 -->
+                                            <div class="flex-col-md-4">
+                                                <div class="process flex-col middle-xs">
+                                                    <div class="process-head-number box">2</div>
+                                                    <div class="process-image box">
+                                                        <div class="layout-icon-circle">
+                                                            <i class="material-icons">cloud_queue</i>
+                                                        </div>
+                                                    </div>
+                                                    <h3 class="process-title box">Onboard In Weeks</h3>
+                                                    <p class="process-description box">
+                                                        Move in your data and configure the right setup
+                                                        for you in just 2 weeks.
+                                                    </p>
+                                                </div>
+                                            </div><!-- // Column 2 -->
+
+                                            <!-- Column 3 -->
+                                            <div class="flex-col-md-4">
+                                                <div class="process flex-col middle-xs">
+                                                    <div class="process-head-number box">3</div>
+                                                    <div class="process-image box">
+                                                        <div class="layout-icon-circle">
+                                                            <i class="material-icons">build</i>
+                                                        </div>
+                                                    </div>
+                                                    <h3 class="process-title box">Upgrade FOC Monthly</h3>
+                                                    <p class="process-description box">
+                                                        Request new features and get the
+                                                        latest upgrade FOC automatically monthly.
+                                                    </p>
+                                                </div>
+                                            </div><!-- // Column 3 -->
+                                        </div>
+                                    </div><!-- // Processes: Start up -->
+                                </div><!-- // Subblock-body -->
+                            </div><!-- // Container -->
+                        </div><!-- // SubBlock: Startup Process -->
+
+                        <!-- SubBlock: What you get -->
+                        <div class="subblock" id="subblock-home-what-you-get">
+                            <!-- Container -->
+                            <div class="container-md-medium container-lg-medium">
+                                <!-- Subblock header -->
+                                <header class="subblock-header subblock-title">
+                                    <h1>One Subscription for All Your Needs</h1>
+                                    <h2>Starting from RM 1,500 A Month | Unlimited Users</h2>
+                                </header><!-- // Subblock header -->
+
+                                <!-- Subblock body -->
+                                <div class="subblock-body">
+                                    <!-- Notes: What you get -->
+                                    <div class="cards" id="cards-what-you-get">
+                                        <div class="flex-row">
+                                            <!-- Column 1 -->
+                                            <div class="flex-col-lg-2 flex-col-md-4 flex-col-sm-6 flex-col-xs-6">
+                                                <div class="card flex-col middle-xs">
+                                                    <div class="card-image box">
+                                                        <div class="layout-icon-circle">
+                                                            <i class="material-icons">dns</i>
+                                                        </div>
+                                                    </div>
+                                                    <h6 class="card-title box">Cloud Hosting</h6>
+                                                    <p class="card-description box">
+                                                        No steep server purchase
+                                                    </p>
+                                                </div>
+                                            </div><!-- // Column 1 -->
+
+                                            <!-- Column 2 -->
+                                            <div class="flex-col-lg-2 flex-col-md-4 flex-col-sm-6 flex-col-xs-6">
+                                                <div class="card flex-col middle-xs">
+                                                    <div class="card-image box">
+                                                        <div class="layout-icon-circle">
+                                                            <i class="material-icons">cloud_queue</i>
+                                                        </div>
+                                                    </div>
+                                                    <h6 class="card-title box">Software</h6>
+                                                    <p class="card-description box">
+                                                        No expensive software buy
+                                                    </p>
+                                                </div>
+                                            </div><!-- // Column 2 -->
+
+                                            <!-- Column 3 -->
+                                            <div class="flex-col-lg-2 flex-col-md-4 flex-col-sm-6 flex-col-xs-6">
+                                                <div class="card flex-col middle-xs">
+                                                    <div class="card-image box">
+                                                        <div class="layout-icon-circle">
+                                                            <i class="material-icons">build</i>
+                                                        </div>
+                                                    </div>
+                                                    <h6 class="card-title box">Setup</h6>
+                                                    <p class="card-description box">
+                                                        No long project, start in few weeks!
+                                                    </p>
+                                                </div>
+                                            </div><!-- // Column 3 -->
+
+                                            <!-- Column 4 -->
+                                            <div class="flex-col-lg-2 flex-col-md-4 flex-col-sm-6 flex-col-xs-6">
+                                                <div class="card flex-col middle-xs">
+                                                    <div class="card-image box">
+                                                        <div class="layout-icon-circle">
+                                                            <i class="material-icons">settings_ethernet</i>
+                                                        </div>
+                                                    </div>
+                                                    <h6 class="card-title box">"Customization"</h6>
+                                                    <p class="card-description box">
+                                                        No extra cost on new features
+                                                    </p>
+                                                </div>
+                                            </div><!-- // Column 4 -->
+
+                                            <!-- Column 5 -->
+                                            <div class="flex-col-lg-2 flex-col-md-4 flex-col-sm-6 flex-col-xs-6">
+                                                <div class="card flex-col middle-xs">
+                                                    <div class="card-image box">
+                                                        <div class="layout-icon-circle">
+                                                            <i class="material-icons">face</i>
+                                                        </div>
+                                                    </div>
+                                                    <h6 class="card-title box">Support</h6>
+                                                    <p class="card-description box">
+                                                        No more slow troubleshooting
+                                                    </p>
+                                                </div>
+                                            </div><!-- // Column 5 -->
+
+                                            <!-- Column 6 -->
+                                            <div class="flex-col-lg-2 flex-col-md-4 flex-col-sm-6 flex-col-xs-6">
+                                                <div class="card flex-col middle-xs">
+                                                    <div class="card-image box">
+                                                        <div class="layout-icon-circle">
+                                                            <i class="fa fa-cogs" />
+                                                        </div>
+                                                    </div>
+                                                    <h6 class="card-title box">Maintenance</h6>
+                                                    <p class="card-description box">
+                                                        No exorbitant maintenance fee
+                                                    </p>
+                                                </div>
+                                            </div><!-- // Column 6 -->
+
+                                        </div>
+                                    </div><!-- // Notes: What you get -->
+                                </div><!-- // Subblock body -->
+
+                                <div class="subblock-footer subblock-footer-link-only">
+                                    <a href="#" class="link">
+                                        <span>CHECK OUT OUR PACKAGES</span>
+                                        <i class="fa fa-angle-double-right" />
+                                    </a>
+                                </div>
+                            </div><!-- // Container -->
+                        </div><!-- // SubBlock: What you get -->
+                    </div><!-- // Block: Features -->
                 </div>
             </t>
         </template>

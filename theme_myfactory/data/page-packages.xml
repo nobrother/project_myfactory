@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+	<data>
+        <function name="write" model="ir.model.data">
+            <function name="search" model="ir.model.data">
+                <value eval="[('module', '=', 'theme_myfactory'), ('name', 'in', ['packages'])]" />
+            </function>
+            <value eval="{'noupdate': False}" />
+        </function>
+
+		<template name="Homepage" priority="29" t-name="website.benefits" id="packages">
+            <t t-call="website.layout">
+				<div class="oe_structure oe_empty page page-packages" id="page-packages">
+                    <!-- Page Header -->
+                    <div class="page-header page-title">
+                        <div class="container-lg-medium">
+                            <h1>Introducing Software As A Service (SaaS)</h1>
+                            <h2>Rent All You Need Online, With Just One Subscription</h2>
+                        </div>
+                    </div><!-- // Page Header -->
+
+                    <!-- Block: Packages -->
+                    <div class="block" id="block-packages-packages">
+                        <!-- Subblock: Packages -->
+                        <div class="subblock" id="subblock-packages-packages">
+                            <!-- Subblcok body -->
+                            <div class="subblock-body">
+                                <!-- Container -->
+                                <div class="container-xs-small container-sm-medium container-md-medium container-lg-medium">
+                                    <!-- Tabular: Package -->
+                                    <div class="tabular" id="tabular-packages">
+                                        <!-- Row -->
+                                         <div class="flex-row">
+                                             <!-- Column 1 -->
+                                             <div class="flex-col-md-4">
+
+                                                 <!-- Tabular item -->
+                                                 <div class="tabular-item"
+                                                      id="tabular-item-package-basic">
+
+                                                     <!-- Tabular item header -->
+                                                     <div class="tabular-item-header box">
+                                                         <h2>Basic (DIY)</h2>
+                                                     </div><!-- // Tabular item header -->
+
+                                                     <!-- Tabular item body: Package summary -->
+                                                     <div class="tabular-item-body box">
+                                                         <div class="package-summary">
+                                                             <h5 class="package-summary-title"
+                                                                 data-mh-md="tp-1">
+                                                                 Minimal Budget <br/> Base Software + DIY
+                                                             </h5>
+                                                             <div class="divider" />
+                                                             <div class="package-summary-price">
+                                                                 <span class="rm">RM</span>
+                                                                 <span class="amount">250</span>
+                                                                 <span class="frequency">a month</span>
+                                                             </div>
+                                                             <div class="package-summary-footer">
+                                                                 Unlimited User Access
+                                                             </div>
+                                                         </div>
+                                                     </div><!-- // Tabular item body: Package summary -->
+
+                                                     <!-- Tabular item body: Package details -->
+                                                     <div class="tabular-item-body box">
+                                                         <div class="package-details">
+                                                             <div class="list-item" data-mh-md="tp-4">
+                                                                 <i class="material-icons">brightness_1</i>
+                                                                 <h6 class="list-item-title">Core MRP/ERP (Base)</h6>
+                                                                 <p>All core apps (vanilla base version)
+Version update when announced</p>
+                                                             </div>
+                                                             <div class="list-item" data-mh-md="tp-5">
+                                                                 <i class="material-icons">brightness_1</i>
+                                                                 <h6 class="list-item-title">Enterprise Hosting (Small)</h6>
+                                                                 <p>may hold up to 20 concurrent users</p>
+                                                             </div>
+                                                             <div class="list-item" data-mh-md="tp-6">
+                                                                 <i class="material-icons">brightness_1</i>
+                                                                 <h6 class="list-item-title">Online Support Only</h6>
+                                                                 <p>knowledge base + support forum</p>
+                                                             </div>
+                                                             <div class="list-item" data-mh-md="tp-7" />
+                                                         </div>
+                                                     </div><!-- // Tabular item body: Package details -->
+
+                                                     <!-- Tabular item footer: Actions -->
+                                                     <div class="tabular-item-footer box">
+                                                         <div class="package-actions">
+                                                             <div class="package-motive" data-mh-md="tp-8">
+                                                                 Just pay for the hosting, <br/>
+                                                                 get the ERP for FREE!
+                                                             </div>
+                                                             <div class="package-action-btn">
+                                                                 <a href="#" class="btn btn-normal">
+                                                                     3 Months Trial
+                                                                 </a>
+                                                             </div>
+                                                             <div class="package-startup">
+                                                                 Start in 72 hours!
+                                                             </div>
+                                                         </div>
+                                                     </div>
+                                                 </div><!-- // Tabular item -->
+                                             </div><!-- // Column 1 -->
+
+                                             <!-- Column 2 -->
+                                             <div class="flex-col-md-4">
+
+                                                 <!-- Tabular item -->
+                                                 <div class="tabular-item"
+                                                      id="tabular-item-package-standard">
+
+                                                     <!-- Tabular item header -->
+                                                     <div class="tabular-item-header box">
+                                                         <h2>Standard</h2>
+                                                     </div><!-- // Tabular item header -->
+
+                                                     <!-- Tabular item body: Package summary -->
+                                                     <div class="tabular-item-body box">
+                                                         <div class="package-summary">
+                                                             <h5 class="package-summary-title"
+                                                                 data-mh-md="tp-1">
+                                                                 Powerful Evolving MRP <br />
+                                                                 for Typical Manufacturer
+                                                             </h5>
+                                                             <div class="divider" />
+                                                             <div class="package-summary-price">
+                                                                 <span class="rm">RM</span>
+                                                                 <span class="amount">1500</span>
+                                                                 <span class="frequency">a month</span>
+                                                             </div>
+                                                             <div class="package-summary-footer">
+                                                                 Unlimited User Access
+                                                             </div>
+                                                         </div>
+                                                     </div><!-- // Tabular item body: Package summary -->
+
+                                                     <!-- Tabular item body: Package details -->
+                                                     <div class="tabular-item-body box">
+                                                         <div class="package-details">
+                                                             <div class="special" data-mh-md="tp-4">
+                                                                 <div class="list-item">
+                                                                     <i class="material-icons">brightness_1</i>
+                                                                     <h6 class="list-item-title">
+                                                                         Core MRP/ERP (Enhanced)
+                                                                     </h6>
+                                                                     <p>
+                                                                         All core apps (always latest enhanced
+                                                                         <br />Two modes - discrete or process
+                                                                     </p>
+                                                                 </div>
+                                                                 <div class="special-item">
+                                                                     <p>
+                                                                         <a href="#">
+                                                                             Request Common Enhancement <br/>
+                                                                             Get Update Online Automatically
+                                                                         </a>
+                                                                     </p>
+                                                                 </div>
+                                                             </div>
+                                                             <div class="list-item" data-mh-md="tp-5">
+                                                                 <i class="material-icons">brightness_1</i>
+                                                                 <h6 class="list-item-title">Enterprise Hosting (Medium)</h6>
+                                                                 <p>may hold up to 50 concurrent users</p>
+                                                             </div>
+                                                             <div class="list-item" data-mh-md="tp-6">
+                                                                 <i class="material-icons">brightness_1</i>
+                                                                 <h6 class="list-item-title">Online Support</h6>
+                                                                 <p>knowledge base + support forum</p>
+                                                             </div>
+                                                             <div class="list-item" data-mh-md="tp-7">
+                                                                 <i class="material-icons">brightness_1</i>
+                                                                 <h6 class="list-item-title">Standard Support Pack</h6>
+                                                                 <p>
+                                                                     5 days setup &amp; 1 day training <br/>
+                                                                     Email/phone support (1 day response)
+                                                                 </p>
+                                                             </div>
+                                                         </div>
+                                                     </div><!-- // Tabular item body: Package details -->
+
+                                                     <!-- Tabular item footer: Actions -->
+                                                     <div class="tabular-item-footer box">
+                                                         <div class="package-actions">
+                                                             <div class="package-motive" data-mh-md="tp-8">
+                                                                 Double team productivity with monthly cost of a Labor
+                                                             </div>
+                                                             <div class="package-action-btn">
+                                                                 <a href="#" class="btn btn-normal">
+                                                                     3 Months Trial
+                                                                 </a>
+                                                             </div>
+                                                             <div class="package-startup">
+                                                                 Start in 72 hours!
+                                                             </div>
+                                                         </div>
+                                                     </div>
+                                                 </div><!-- // Tabular item -->
+                                             </div><!-- // Column 2 -->
+
+                                             <!-- Column 3 -->
+                                             <div class="flex-col-md-4">
+
+                                                 <!-- Tabular item -->
+                                                 <div class="tabular-item"
+                                                      id="tabular-item-package-specialist">
+
+                                                     <!-- Tabular item header -->
+                                                     <div class="tabular-item-header box">
+                                                         <h2>Specialist</h2>
+                                                     </div><!-- // Tabular item header -->
+
+                                                     <!-- Tabular item body: Package summary -->
+                                                     <div class="tabular-item-body box">
+                                                         <div class="package-summary">
+                                                             <h5 class="package-summary-title"
+                                                                 data-mh-md="tp-1">
+                                                                 Industry Specific MRP <br />
+                                                                 Expanding Customization
+                                                             </h5>
+                                                             <div class="divider" />
+                                                             <div class="package-summary-price">
+                                                                 <span class="rm">RM</span>
+                                                                 <span class="amount">3000</span>
+                                                                 <span class="frequency">a month</span>
+                                                             </div>
+                                                             <div class="package-summary-footer">
+                                                                 Unlimited User Access
+                                                             </div>
+                                                         </div>
+                                                     </div><!-- // Tabular item body: Package summary -->
+
+                                                     <!-- Tabular item body: Package details -->
+                                                     <div class="tabular-item-body box">
+                                                         <div class="package-details">
+                                                             <div class="special" data-mh-md="tp-4">
+                                                                 <div class="list-item">
+                                                                     <i class="material-icons">brightness_1</i>
+                                                                     <h6 class="list-item-title">
+                                                                         Core MRP/ERP (Industry-specific)
+                                                                     </h6>
+                                                                     <p>
+                                                                         All core apps (always latest version)
+                                                                         <br />
+                                                                         Industry-specific features &amp; compliance
+                                                                     </p>
+                                                                 </div>
+                                                                 <div class="special-item">
+                                                                     <p>
+                                                                         <a href="#">
+                                                                             Request Functions For Industry<br/>
+                                                                             Get Update Online Automatically
+                                                                         </a>
+                                                                     </p>
+                                                                 </div>
+                                                             </div>
+                                                             <div class="list-item" data-mh-md="tp-5">
+                                                                 <i class="material-icons">brightness_1</i>
+                                                                 <h6 class="list-item-title">Enterprise Hosting (Large)</h6>
+                                                                 <p>may hold up to 100 concurrent users</p>
+                                                             </div>
+                                                             <div class="list-item" data-mh-md="tp-6">
+                                                                 <i class="material-icons">brightness_1</i>
+                                                                 <h6 class="list-item-title">Online Support</h6>
+                                                                 <p>knowledge base + support forum</p>
+                                                             </div>
+                                                             <div class="list-item" data-mh-md="tp-7">
+                                                                 <i class="material-icons">brightness_1</i>
+                                                                 <h6 class="list-item-title">Intensive Support Pack</h6>
+                                                                 <p>
+                                                                     10 days setup &amp; 2 days training<br/>
+                                                                     Prioritized email/phone support
+                                                                     (1hour response time)
+                                                                 </p>
+                                                             </div>
+                                                         </div>
+                                                     </div><!-- // Tabular item body: Package details -->
+
+                                                     <!-- Tabular item footer: Actions -->
+                                                     <div class="tabular-item-footer box">
+                                                         <div class="package-actions">
+                                                             <div class="package-motive" data-mh-md="tp-8">
+                                                                 Most affordable package for advanced <br/>
+                                                                 manufacturing
+                                                             </div>
+                                                             <div class="package-action-btn">
+                                                                 <a href="#" class="btn btn-normal">
+                                                                     3 Months Trial
+                                                                 </a>
+                                                             </div>
+                                                             <div class="package-startup">
+                                                                 Start in 72 hours!
+                                                             </div>
+                                                         </div>
+                                                     </div>
+                                                 </div><!-- // Tabular item -->
+                                             </div><!-- // Column 3 -->
+                                         </div><!-- // Row -->
+                                    </div><!-- // Tabular: Package -->
+                                </div><!-- // Container -->
+                            </div>
+                        </div><!-- Subblock: Packages -->
+
+                        <!-- divider -->
+                        <div class="container-md-medium container-lg-medium"><div class="divider" /></div><!-- divider -->
+
+                        <!-- Subblock: All Plan features -->
+                        <div class="subblock" id="subblock-packages-all-plans-features">
+                            <!-- Container -->
+                            <div class="container-md-medium container-lg-medium">
+                                <!-- Subblock Header -->
+                                <header class="subblock-header subblock-title">
+                                    <h1>All of The Plans Above Include :</h1>
+                                </header><!-- // SubBlock Header -->
+
+
+                                <!-- Subblock body -->
+                                <div class="subblock-body">
+                                    <!-- Cards: All plans features -->
+                                    <div class="cards" id="cards-all-plans-features">
+                                        <!-- Row -->
+                                        <div class="flex-row">
+                                            <!-- Column 1 -->
+                                            <div class="flex-col-md-3 flex-col-sm-6">
+                                                <div class="card flex-col middle-xs">
+                                                    <div class="card-image box">
+                                                        <div class="layout-icon-circle">
+                                                            <i class="material-icons">laptop_chromebook</i>
+                                                        </div>
+                                                    </div>
+                                                    <h6 class="card-title box">Software on Browser</h6>
+                                                    <p class="card-description box">
+                                                        No installation needed.
+                                                        Access anywhere, anytime, any device
+                                                        - with an internet browser
+                                                    </p>
+                                                </div>
+                                            </div><!-- // Column 1 -->
+
+                                            <!-- Column 2 -->
+                                            <div class="flex-col-md-3 flex-col-sm-6">
+                                                <div class="card flex-col middle-xs">
+                                                    <div class="card-image box">
+                                                        <div class="layout-icon-circle">
+                                                            <i class="material-icons">people</i>
+                                                        </div>
+                                                    </div>
+                                                    <h6 class="card-title box">Unlimited User Access</h6>
+                                                    <p class="card-description box">
+                                                        Add as many users you want easily in admin module
+                                                        (without breaking the hosting)
+                                                    </p>
+                                                </div>
+                                            </div><!-- // Column 2 -->
+
+                                            <!-- Column 3 -->
+                                            <div class="flex-col-md-3 flex-col-sm-6">
+                                                <div class="card flex-col middle-xs">
+                                                    <div class="card-image box">
+                                                        <div class="layout-icon-circle">
+                                                            <i class="material-icons">access_time</i>
+                                                        </div>
+                                                    </div>
+                                                    <h6 class="card-title box">Cloud Server</h6>
+                                                    <p class="card-description box">
+                                                        No need to invest in server.
+                                                        Enjoy world class hosting with
+                                                        guaranteed uptime of 99.9%
+                                                    </p>
+                                                </div>
+                                            </div><!-- // Column 3 -->
+
+                                            <!-- Column 4 -->
+                                            <div class="flex-col-md-3 flex-col-sm-6">
+                                                <div class="card flex-col middle-xs">
+                                                    <div class="card-image box">
+                                                        <div class="layout-icon-circle">
+                                                            <i class="material-icons">lock_outline</i>
+                                                        </div>
+                                                    </div>
+                                                    <h6 class="card-title box">Security &amp; Backup</h6>
+                                                    <p class="card-description box">
+                                                        Top security facilty &amp; backup 
+                                                        at No 1 data center in Msia, AIMS for 
+                                                        you platform &amp; data
+                                                    </p>
+                                                </div>
+                                            </div><!-- // Column 4 -->
+                                        </div><!-- // Row -->
+                                    </div><!-- // Cards: All plans features -->
+                                </div><!-- Subblock body -->
+                            </div><!-- // Container -->
+                        </div><!-- // Subblock: All Plan features -->
+
+                        <!-- divider -->
+                        <div class="container-md-medium container-lg-medium"><div class="divider" /></div><!-- divider -->
+
+                        <!-- Subblock: Software update -->
+                        <div class="subblock" id="subblock-packages-software-update">
+                            <!-- Container -->
+                            <div class="container-md-medium container-lg-medium">
+                                <!-- Subblock Header -->
+                                <header class="subblock-header subblock-title">
+                                    <h1>Nonstop Software Enhancement &amp; Update</h1>
+                                </header><!-- // SubBlock Header -->
+
+                                <!-- Subblock Header small -->
+                                <div class="subblock-header subblock-title small">
+                                    <h1>Nonstop Software Enhancement &amp; Update</h1>
+                                    <p>
+                                        While a lot of features are needed, it’s expensive to build.
+                                        We made it affordable for you, by building the common ones for
+                                        a pool of manufacturers who need it. So we group you subscribers
+                                        into pools, and give each pool a dedicated team
+                                        to develop what you all need.
+                                    </p>
+                                </div><!-- // SubBlock Header small -->
+
+                                <!-- Subblock body -->
+                                <div class="subblock-body">
+                                    
+                                </div><!-- // Subblock body -->
+                            </div>
+                        </div><!-- //Subblock: Software update -->
+                    </div><!--  // Block: Packages -->
+
+
+                </div>
+            </t>
+        </template>
+    </data>
+</openerp>
