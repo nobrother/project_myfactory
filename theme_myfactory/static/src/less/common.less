@@ -47,20 +47,26 @@ body{
 }
 
 /* Link */
-.link{
-    font-size: @fs-link;
+.link, .link-basic{
+    cursor: pointer;
     color: @color-blue-brand;
-    font-weight: 700;
-
     &:hover{
         color: @color-blue-bright;
         text-decoration: none;
     }
-
+}
+.link-basic{
+    font-weight: 600;
+    text-decoration: underline;
+}
+.link{
+    font-size: @fs-link;
+    font-weight: 700;
     span, i{
         vertical-align: middle;
     }
 }
+
 
 /* Button */
 .btn{
@@ -105,6 +111,14 @@ body{
 img{
     max-width: 100%;
     max-height: 100%;
+}
+
+/* Processes  */
+.process-title, .process-description{
+    text-align: center;
+}
+.process-title{
+    color: @fc-00;
 }
 
 /* List Items */
@@ -176,7 +190,6 @@ img{
         font-weight: 400;
         color: @fc-00;
     }
-
 }
 
 /* Page Header */
@@ -294,6 +307,7 @@ img{
         padding: 30px 28px;
         background-color: @color-blue-bright;
         color: @fc-ff;
+        text-align: center;
     }
 
     .tabular-item-body{

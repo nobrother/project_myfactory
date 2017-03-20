@@ -52,6 +52,7 @@
 .create-flex-grid-basic(@viewport){
     .flex-col-@{viewport}-1,
     .flex-col-@{viewport}-2,
+    .flex-col-@{viewport}-2_4,
     .flex-col-@{viewport}-3,
     .flex-col-@{viewport}-4,
     .flex-col-@{viewport}-5,
@@ -81,6 +82,10 @@
     .flex-col-@{viewport}-2 {
         .flex-basis(percentage(2/@grid-columns));
         max-width: percentage(2/@grid-columns);
+    }
+    .flex-col-@{viewport}-2_4 {
+        .flex-basis(percentage(2.4/@grid-columns));
+        max-width: percentage(2.4/@grid-columns);
     }
     .flex-col-@{viewport}-3 {
         .flex-basis(percentage(3/@grid-columns));

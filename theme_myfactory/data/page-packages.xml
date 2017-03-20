@@ -420,10 +420,725 @@ Version update when announced</p>
 
                                 <!-- Subblock body -->
                                 <div class="subblock-body">
-                                    
+                                    <!-- Box items -->
+                                    <div class="box-items" id="box-items-software-update">
+                                        <!-- Row -->
+                                        <div class="flex-row">
+
+                                            <!-- Column 1 -->
+                                            <div class="flex-col-md-6 flex-col" id="box-item-software-update-standard">
+                                                <div class="box-item box flex-col">
+                                                    <div class="box-item-header box-item-title box">
+                                                        Standard Plan
+                                                    </div>
+                                                    <div class="box-item-body box flex-col center-xs">
+                                                        <!-- // Cards: Standard Plan -->
+                                                        <div class="cards box" id="cards-software-update-standard">
+                                                            <div class="flex-row">
+
+                                                                <!-- Column 1 -->
+                                                                <div class="flex-col-xs-6">
+                                                                    <div class="card flex-col middle-xs">
+                                                                        <div class="card-image box">
+                                                                            <div class="layout-icon-circle">
+                                                                                <i class="material-icons">apps</i>
+                                                                            </div>
+                                                                        </div>
+                                                                        <h6 class="card-title box">Discrete Manufacturers</h6>
+                                                                        <p class="card-description box">
+                                                                            Produce by parts &amp; BOM <br/> Process
+                                                                        </p>
+                                                                    </div>
+                                                                </div><!-- // Column 1 -->
+
+                                                                <!-- Column 2 -->
+                                                                <div class="flex-col-xs-6">
+                                                                    <div class="card flex-col middle-xs">
+                                                                        <div class="card-image box">
+                                                                            <div class="layout-icon-circle">
+                                                                                <i class="material-icons">apps</i>
+                                                                            </div>
+                                                                        </div>
+                                                                        <h6 class="card-title box">Processs Manufacturers</h6>
+                                                                        <p class="card-description box">
+                                                                            Produce by chemical &amp; recipe <br/> Process
+                                                                        </p>
+                                                                    </div>
+                                                                </div><!-- // Column 2 -->
+                                                            </div><!-- // Row -->
+                                                        </div><!-- // Cards: Standard Plan -->
+                                                    </div>
+                                                </div>
+                                            </div><!-- // Column 1 -->
+
+                                            <!-- Column 2 -->
+                                            <div class="flex-col-md-6 flex-col" id="box-item-software-update-specialist">
+                                                <div class="box-item box">
+                                                    <div class="box-item-header box-item-title">
+                                                        Specialist Plan
+                                                    </div>
+                                                    <div class="box-item-body">
+                                                        <!-- // Cards: Specialist Plan -->
+                                                        <div class="cards" id="cards-software-update-specialist">
+                                                            <div class="flex-row">
+
+                                                                <!-- Column 1 -->
+                                                                <div class="flex-col-xs-6">
+                                                                    <div class="card flex-col middle-xs">
+                                                                        <div class="card-image box">
+                                                                            <div class="layout-icon-circle">
+                                                                                <i class="material-icons">flight</i>
+                                                                            </div>
+                                                                        </div>
+                                                                        <h6 class="card-title box">Electronics</h6>
+                                                                    </div>
+                                                                </div><!-- // Column 1 -->
+
+                                                                <!-- Column 2 -->
+                                                                <div class="flex-col-xs-6">
+                                                                    <div class="card flex-col middle-xs">
+                                                                        <div class="card-image box">
+                                                                            <div class="layout-icon-circle">
+                                                                                <i class="material-icons">directions_bike</i>
+                                                                            </div>
+                                                                        </div>
+                                                                        <h6 class="card-title box">Precision Metalforming</h6>
+                                                                    </div>
+                                                                </div><!-- // Column 2 -->
+
+                                                                <!-- Column 3 -->
+                                                                <div class="flex-col-xs-6">
+                                                                    <div class="card flex-col middle-xs">
+                                                                        <div class="card-image box">
+                                                                            <div class="layout-icon-circle">
+                                                                                <i class="material-icons">flight</i>
+                                                                            </div>
+                                                                        </div>
+                                                                        <h6 class="card-title box">Rubber &amp; Plastics</h6>
+                                                                    </div>
+                                                                </div><!-- // Column 3 -->
+
+                                                                <!-- Column 4 -->
+                                                                <div class="flex-col-xs-6">
+                                                                    <div class="card flex-col middle-xs">
+                                                                        <div class="card-image box">
+                                                                            <div class="layout-icon-circle">
+                                                                                <i class="material-icons">directions_bike</i>
+                                                                            </div>
+                                                                        </div>
+                                                                        <h6 class="card-title box">Furniture</h6>
+                                                                    </div>
+                                                                </div><!-- // Column 4 -->
+                                                            </div><!-- // Row -->
+                                                        </div><!-- // Cards: Specialist Plan -->
+                                                    </div>
+                                                </div>
+                                            </div><!-- // Column 2 -->
+                                        </div><!-- // Row -->
+                                    </div><!-- // Box items -->
                                 </div><!-- // Subblock body -->
-                            </div>
+                            </div><!-- // Container -->
                         </div><!-- //Subblock: Software update -->
+
+                        <!-- Subblock: Software update process-->
+                        <div class="subblock" id="subblock-packages-software-update-process">
+                            <!-- Container -->
+                            <div class="container-sm-medium container-md-medium container-lg-small">
+                                <!-- Subblock Header small -->
+                                <header class="subblock-header subblock-title small">
+                                    <h1>A Cloud Solution By The Crowd, For The Crowd</h1>
+                                    <p>
+                                        In essence, we are providing an ongoing service
+                                        to you, not a product. <br/>
+                                        We gather what you all need, and the priorities.
+                                        Then work out the solution together by adopting
+                                        some of the best practices  - how to work in that
+                                        situation from you subscribers. This way everyone
+                                        get the best solution for what they need.
+                                    </p>
+                                </header><!-- // SubBlock Header small -->
+
+                                <!-- Subblock Body -->
+                                <div class="subblock-body">
+                                    <!-- Processes: Software update process -->
+                                    <div class="processes" id="processes-software-update">
+                                        <div class="flex-row">
+                                            <!-- Column 1 -->
+                                            <div class="flex-col-lg-2_4 flex-col-md-4 flex-col-sm-6">
+                                                <div class="process flex-col middle-xs">
+                                                    <div class="process-image box">
+                                                        <div class="layout-icon-circle">
+                                                            <i class="material-icons">apps</i>
+                                                        </div>
+                                                    </div>
+                                                    <h6 class="process-title box">Request</h6>
+                                                    <p class="process-description box">
+                                                        Raise request for new feature/functionality you need on our Forum.
+                                                    </p>
+                                                </div>
+                                            </div><!-- // Column 1 -->
+
+                                            <!-- Column 2 -->
+                                            <div class="flex-col-lg-2_4 flex-col-md-4 flex-col-sm-6">
+                                                <div class="process flex-col middle-xs">
+                                                    <div class="process-image box">
+                                                        <div class="layout-icon-circle">
+                                                            <i class="material-icons">apps</i>
+                                                        </div>
+                                                    </div>
+                                                    <h6 class="process-title box">Vote</h6>
+                                                    <p class="process-description box">
+                                                        You subscribers in the pool will vote for
+                                                        the feature to develop for the month
+                                                    </p>
+                                                </div>
+                                            </div><!-- // Column 2 -->
+
+                                            <!-- Column 3 -->
+                                            <div class="flex-col-lg-2_4 flex-col-md-4 flex-col-sm-6">
+                                                <div class="process flex-col middle-xs">
+                                                    <div class="process-image box">
+                                                        <div class="layout-icon-circle">
+                                                            <i class="material-icons">apps</i>
+                                                        </div>
+                                                    </div>
+                                                    <h6 class="process-title box">Access</h6>
+                                                    <p class="process-description box">
+                                                        We assess all the requests, its needs and
+                                                        the solution by votes &amp; talking to you guys
+                                                    </p>
+                                                </div>
+                                            </div><!-- // Column 3 -->
+
+                                            <!-- Column 4 -->
+                                            <div class="flex-col-lg-2_4 flex-col-md-4 flex-col-sm-6">
+                                                <div class="process flex-col middle-xs">
+                                                    <div class="process-image box">
+                                                        <div class="layout-icon-circle">
+                                                            <i class="material-icons">apps</i>
+                                                        </div>
+                                                    </div>
+                                                    <h6 class="process-title box">Announce</h6>
+                                                    <p class="process-description box">
+                                                        The features (solution) to be developed will
+                                                        be announced on the forum
+                                                    </p>
+                                                </div>
+                                            </div><!-- // Column 4 -->
+
+                                            <!-- Column 5 -->
+                                            <div class="flex-col-lg-2_4 flex-col-md-4 flex-col-sm-6">
+                                                <div class="process no-arrow-xs flex-col middle-xs">
+                                                    <div class="process-image box">
+                                                        <div class="layout-icon-circle">
+                                                            <i class="material-icons">apps</i>
+                                                        </div>
+                                                    </div>
+                                                    <h6 class="process-title box">Deploy</h6>
+                                                    <p class="process-description box">
+                                                        The new features will be roll out to all in
+                                                        the pool with notification &amp; guide
+                                                    </p>
+                                                </div>
+                                            </div><!-- // Column 5 -->
+                                        </div><!-- // Row -->
+                                    </div><!-- // Processes: Software update process -->
+                                </div><!-- // Subblock Body -->
+
+                            </div><!-- // Container -->
+                        </div><!-- // Subblock: Software update process-->
+
+                        <!-- Subblock: upgrade -->
+                        <div class="subblock" id="subblock-packages-upgrade">
+                            <!-- Container -->
+                            <div class="container-md-medium container-lg-medium">
+                                <!-- Subblock Header -->
+                                <header class="subblock-header subblock-title">
+                                    <h1>Bigger Cloud Infrastructure for Growth</h1>
+                                    <h2>Just Get Hosting Upgrade, When You Need To Scale Up</h2>
+                                </header><!-- // SubBlock Header -->
+
+                                <!-- Subblock Body -->
+                                <div class="subblock-body">
+
+                                    <!-- Tabular: Upgrade -->
+                                    <div class="tabular" id="tabular-packages-upgrade">
+                                        <!-- Row -->
+                                         <div class="flex-row">
+                                             <!-- Column 1 -->
+                                             <div class="flex-col-sm-6 flex-col-md-3">
+
+                                                 <!-- Tabular item -->
+                                                 <div class="tabular-item">
+
+                                                     <!-- Tabular item header -->
+                                                     <div class="tabular-item-header box">
+                                                         <h3>Medium (M)</h3>
+                                                     </div><!-- // Tabular item header -->
+
+                                                     <!-- Tabular item body: Upgrade features -->
+                                                     <div class="tabular-item-body box">
+                                                         <div class="upgrade-features">
+                                                             <div class="concurrent-user">
+                                                                 *Up to 50 normal <br />
+                                                                 concurrent users
+                                                             </div>
+                                                             <div class="storage">
+                                                                 1 GB Storage
+                                                             </div>
+                                                             <div class="divider" />
+                                                             <div class="from">from S to M</div>
+                                                             <div class="price">
+                                                                 <span class="plus">+</span>
+                                                                 <span class="rm">RM</span>
+                                                                 <span class="amount">300</span>
+                                                             </div>
+                                                             <div class="a-month">a month</div>
+                                                             <div class="setup">Upgrade in 24 hours</div>
+                                                         </div>
+                                                     </div><!-- // Tabular item body: Upgrade features -->
+
+                                                     <!-- Tabular footer -->
+                                                     <div class="tabular-item-footer box">
+                                                         <a href="#" class="link-basic">
+                                                             Included in STANDARD
+                                                         </a>
+                                                     </div><!-- // Tabular footer -->
+                                                 </div><!-- // Tabular item -->
+                                             </div><!-- // Column 1 -->
+
+                                             <!-- Column 2 -->
+                                             <div class="flex-col-sm-6 flex-col-md-3">
+
+                                                 <!-- Tabular item -->
+                                                 <div class="tabular-item">
+
+                                                     <!-- Tabular item header -->
+                                                     <div class="tabular-item-header box">
+                                                         <h3>Large (L)</h3>
+                                                     </div><!-- // Tabular item header -->
+
+                                                     <!-- Tabular item body: Upgrade features -->
+                                                     <div class="tabular-item-body box">
+                                                         <div class="upgrade-features">
+                                                             <div class="concurrent-user">
+                                                                 *Up to 100 normal <br />
+                                                                 concurrent users
+                                                             </div>
+                                                             <div class="storage">
+                                                                 2 GB Storage
+                                                             </div>
+                                                             <div class="divider" />
+                                                             <div class="from">from M to L</div>
+                                                             <div class="price">
+                                                                 <span class="plus">+</span>
+                                                                 <span class="rm">RM</span>
+                                                                 <span class="amount">300</span>
+                                                             </div>
+                                                             <div class="a-month">a month</div>
+                                                             <div class="setup">Upgrade in 24 hours</div>
+                                                         </div>
+                                                     </div><!-- // Tabular item body: Upgrade features -->
+
+                                                     <!-- Tabular footer -->
+                                                     <div class="tabular-item-footer box">
+                                                         <a href="#" class="link-basic">
+                                                             Included in SPECIALIST
+                                                         </a>
+                                                     </div><!-- // Tabular footer -->
+                                                 </div><!-- // Tabular item -->
+                                             </div><!-- // Column 2 -->
+
+                                             <!-- Column 3 -->
+                                             <div class="flex-col-sm-6 flex-col-md-3">
+
+                                                 <!-- Tabular item -->
+                                                 <div class="tabular-item">
+
+                                                     <!-- Tabular item header -->
+                                                     <div class="tabular-item-header box">
+                                                         <h3>Extra-Large (XL)</h3>
+                                                     </div><!-- // Tabular item header -->
+
+                                                     <!-- Tabular item body: Upgrade features -->
+                                                     <div class="tabular-item-body box">
+                                                         <div class="upgrade-features">
+                                                             <div class="concurrent-user">
+                                                                 *Up to 100 heavy  <br />
+                                                                 concurrent users
+                                                             </div>
+                                                             <div class="storage">
+                                                                 4 GB Storage
+                                                             </div>
+                                                             <div class="divider" />
+                                                             <div class="from">from L to XL</div>
+                                                             <div class="price">
+                                                                 <span class="plus">+</span>
+                                                                 <span class="rm">RM</span>
+                                                                 <span class="amount">300</span>
+                                                             </div>
+                                                             <div class="a-month">a month</div>
+                                                             <div class="setup">Upgrade in 48 hours</div>
+                                                         </div>
+                                                     </div><!-- // Tabular item body: Upgrade features -->
+                                                 </div><!-- // Tabular item -->
+                                             </div><!-- // Column 3 -->
+
+                                             <!-- Column 4 -->
+                                             <div class="flex-col-sm-6 flex-col-md-3">
+
+                                                 <!-- Tabular item -->
+                                                 <div class="tabular-item">
+
+                                                     <!-- Tabular item header -->
+                                                     <div class="tabular-item-header box">
+                                                         <h3>XX-Large (XXL)</h3>
+                                                     </div><!-- // Tabular item header -->
+
+                                                     <!-- Tabular item body: Upgrade features -->
+                                                     <div class="tabular-item-body box">
+                                                         <div class="upgrade-features">
+                                                             <div class="concurrent-user">
+                                                                 *Up to 200 heavy<br />
+                                                                 concurrent users
+                                                             </div>
+                                                             <div class="storage">
+                                                                 8 GB Storage
+                                                             </div>
+                                                             <div class="divider" />
+                                                             <div class="from">from XL to XXL</div>
+                                                             <div class="price">
+                                                                 <span class="plus">+</span>
+                                                                 <span class="rm">RM</span>
+                                                                 <span class="amount">300</span>
+                                                             </div>
+                                                             <div class="a-month">a month</div>
+                                                             <div class="setup">Upgrade in 48 hours</div>
+                                                         </div>
+                                                     </div><!-- // Tabular item body: Upgrade features -->
+                                                 </div><!-- // Tabular item -->
+                                             </div><!-- // Column 4 -->
+                                         </div><!-- // Row -->
+                                    </div><!-- // Tabular: Upgrade -->
+                                </div><!-- // Subblock Body -->
+
+                                <!-- Subblock footer -->
+                                <div class="subblock-footer">
+                                    <p>
+                                        <strong>*The number of concurrent users that can be supported is a
+                                            rough estimate, based on the average usage.</strong> <br/>
+                                        It depends on many factors, like the type of app being used,
+                                        the type of transactions you are doing etc.<br/>
+                                        Most importantly, the choice to upgrade is yours to make.
+                                        You can adjust around, if the performance is still acceptable.
+                                    </p>
+                                </div><!-- // Subblock footer -->
+                            </div><!-- // Container -->
+                        </div><!-- // Subblock -->
+
+                        <!-- divider -->
+                        <div class="container-md-medium container-lg-medium"><div class="divider" /></div><!-- divider -->
+
+                        <!-- Subblock: Support -->
+                        <div class="subblock" id="subblock-packages-support">
+                            <!-- Container -->
+                            <div class="container-md-medium container-lg-medium">
+                                <!-- Subblock Header -->
+                                <header class="subblock-header subblock-title">
+                                    <h1>Customer Care &amp; Support</h1>
+                                    <h2>Giving Your Team The Help Needed to Succeed</h2>
+                                </header><!-- // SubBlock Header -->
+
+                                <!-- Subblock Body -->
+                                <div class="subblock-body">
+
+                                    <!-- Tabular: Support -->
+                                    <div class="tabular" id="tabular-packages-support">
+                                        <!-- Row -->
+                                         <div class="flex-row">
+                                             <!-- Column 1 -->
+                                             <div class="flex-col-md-4">
+
+                                                 <!-- Tabular item -->
+                                                 <div class="tabular-item">
+
+                                                     <!-- Tabular item header -->
+                                                     <div class="tabular-item-header box">
+                                                         <h3>Standard</h3>
+                                                     </div><!-- // Tabular item header -->
+
+                                                     <!-- Tabular item body -->
+                                                     <div class="tabular-item-body box">
+                                                         <div class="package-summary">
+                                                             <div class="package-summary-title" data-mh-md="tps-1">
+                                                                 Essential care for your team to get started and go far
+                                                             </div>
+                                                             <div class="divider" />
+                                                             <div data-mh-md="tps-3">
+                                                                 <div class="included">
+                                                                     <a href="#" class="link-basic">
+                                                                         Included in SPECIALIST
+                                                                     </a>
+                                                                 </div>
+                                                             </div>
+                                                         </div>
+                                                     </div><!-- // Tabular item body -->
+
+                                                     <!-- Tabular item body -->
+                                                     <div class="tabular-item-body box">
+                                                         <div class="package-details" data-mh-md="tps-10">
+
+                                                             <!-- List item 1 -->
+                                                             <div class="list-item">
+                                                                 <i class="material-icons">brightness_1</i>
+                                                                 <h6 class="list-item-title">Initial Setup (1st month)</h6>
+                                                                 <div class="list">
+                                                                     <div class="list-item">
+                                                                         <i>-</i>
+                                                                         1 week of config &amp; data import
+                                                                     </div>
+                                                                     <div class="list-item">
+                                                                         <i>-</i>
+                                                                         2 weeks of intense phone support
+                                                                     </div>
+                                                                     <div class="list-item">
+                                                                         <i>-</i>
+                                                                         1 day of onsite training
+                                                                     </div>
+                                                                 </div>
+                                                             </div><!-- // List item 1 -->
+
+                                                             <!-- List item 2 -->
+                                                             <div class="list-item">
+                                                                 <i class="material-icons">brightness_1</i>
+                                                                 <h6 class="list-item-title">Selp-Help Resources</h6>
+                                                                 <div class="list">
+                                                                     <div class="list-item">
+                                                                         <i>-</i>
+                                                                         Help &amp; Training site
+                                                                     </div>
+                                                                     <div class="list-item">
+                                                                         <i>-</i>
+                                                                         Online knowledgebase
+                                                                     </div>
+                                                                     <div class="list-item">
+                                                                         <i>-</i>
+                                                                         Community support forum
+                                                                     </div>
+                                                                 </div>
+                                                             </div><!-- // List item 2 -->
+
+                                                             <!-- List item 3 -->
+                                                             <div class="list-item">
+                                                                 <i class="material-icons">brightness_1</i>
+                                                                 <h6 class="list-item-title">Technical Support</h6>
+                                                                 <div class="list">
+                                                                     <div class="list-item">
+                                                                         <i>-</i>
+                                                                         24/7 online/email submission
+                                                                     </div>
+                                                                     <div class="list-item">
+                                                                         <i>-</i>
+                                                                         9/5 live phone case submission
+                                                                     </div>
+                                                                     <div class="list-item">
+                                                                         <i>-</i>
+                                                                         24/7 system monitoring
+                                                                     </div>
+                                                                     <div class="list-item">
+                                                                         <i>-</i>
+                                                                         1-business day response
+                                                                     </div>
+                                                                 </div>
+                                                             </div><!-- // List item 3 -->
+                                                         </div><!-- // Package details -->
+                                                     </div><!-- // Tabular item body -->
+                                                 </div><!-- // Tabular item -->
+                                             </div><!-- // Column 1 -->
+
+                                             <!-- Column 2 -->
+                                             <div class="flex-col-md-4">
+
+                                                 <!-- Tabular item -->
+                                                 <div class="tabular-item">
+
+                                                     <!-- Tabular item header -->
+                                                     <div class="tabular-item-header box">
+                                                         <h3>Intensive</h3>
+                                                     </div><!-- // Tabular item header -->
+
+                                                     <!-- Tabular item body -->
+                                                     <div class="tabular-item-body box">
+                                                         <div class="package-summary">
+                                                             <div class="package-summary-title" data-mh-md="tps-1">
+                                                                 Higher touch and prioritized support for
+                                                                 more demanding operation and team
+                                                             </div>
+                                                             <div class="divider" />
+                                                             <div data-mh-md="tps-3">
+                                                                 <div class="from">
+                                                                     Upgrade from Standard
+                                                                 </div>
+                                                                 <div class="price">
+                                                                     <span class="plus">+</span>
+                                                                     <span class="rm">RM</span>
+                                                                     <span class="amount">600</span>
+                                                                     <span class="frequency">a month</span>
+                                                                 </div>
+                                                                 <div class="included">
+                                                                     <a href="#" class="link-basic">
+                                                                         Included in SPECIALIST
+                                                                     </a>
+                                                                 </div>
+                                                             </div>
+                                                         </div>
+                                                     </div><!-- // Tabular item body -->
+
+                                                     <!-- Tabular item body -->
+                                                     <div class="tabular-item-body box">
+                                                         <div class="package-details" data-mh-md="tps-10">
+
+                                                             <!-- List item 1 -->
+                                                             <div class="list-item">
+                                                                 <i class="material-icons">brightness_1</i>
+                                                                 <h6 class="list-item-title">All in Standard Pack</h6>
+                                                             </div><!-- // List item 1 -->
+
+                                                             <!-- List item 2 -->
+                                                             <div class="list-item">
+                                                                 <i class="material-icons">brightness_1</i>
+                                                                 <h6 class="list-item-title">Initial Setup (1st month)</h6>
+                                                                 <div class="list">
+                                                                     <div class="list-item">
+                                                                         <i>-</i>
+                                                                         2 week of config &amp; data import
+                                                                     </div>
+                                                                     <div class="list-item">
+                                                                         <i>-</i>
+                                                                         3 weeks of intense phone support
+                                                                     </div>
+                                                                     <div class="list-item">
+                                                                         <i>-</i>
+                                                                         3 day of onsite training
+                                                                     </div>
+                                                                 </div>
+                                                             </div><!-- // List item 2 -->
+
+                                                             <!-- List item 3 -->
+                                                             <div class="list-item">
+                                                                 <i class="material-icons">brightness_1</i>
+                                                                 <h6 class="list-item-title">Technical Support</h6>
+                                                                 <div class="list">
+                                                                     <div class="list-item">
+                                                                         <i>-</i>
+                                                                         Two authorized support contacts
+                                                                     </div>
+                                                                     <div class="list-item">
+                                                                         <i>-</i>
+                                                                         1-hour response (critical issues)
+                                                                     </div>
+                                                                 </div>
+                                                             </div><!-- // List item 3 -->
+
+                                                             <!-- List item 4 -->
+                                                             <div class="list-item">
+                                                                 <i class="material-icons">brightness_1</i>
+                                                                 <h6 class="list-item-title">Consultation</h6>
+                                                                 <div class="list">
+                                                                     <div class="list-item">
+                                                                         <i>-</i>
+                                                                         Quarterly support services review
+                                                                     </div>
+                                                                     <div class="list-item">
+                                                                         <i>-</i>
+                                                                         Quarterly mentoring sessions
+                                                                     </div>
+                                                                 </div>
+                                                             </div><!-- // List item 4 -->
+                                                         </div><!-- // Package details -->
+                                                     </div><!-- // Tabular item body -->
+                                                 </div><!-- // Tabular item -->
+                                             </div><!-- // Column 2 -->
+
+                                             <!-- Column 3 -->
+                                             <div class="flex-col-md-4">
+
+                                                 <!-- Tabular item -->
+                                                 <div class="tabular-item">
+
+                                                     <!-- Tabular item header -->
+                                                     <div class="tabular-item-header box">
+                                                         <h3>Counsel</h3>
+                                                     </div><!-- // Tabular item header -->
+
+                                                     <!-- Tabular item body -->
+                                                     <div class="tabular-item-body box">
+                                                         <div class="package-summary">
+                                                             <div class="package-summary-title" data-mh-md="tps-1">
+                                                                 Deeper partnership with dedicated personnel
+                                                                 taking care of your business on cloud
+                                                             </div>
+                                                             <div class="divider" />
+                                                             <div data-mh-md="tps-3">
+                                                                 <div class="from">
+                                                                     Upgrade from Intensive
+                                                                 </div>
+                                                                 <div class="price">
+                                                                     <span class="plus">+</span>
+                                                                     <span class="rm">RM</span>
+                                                                     <span class="amount">1200</span>
+                                                                     <span class="frequency">a month</span>
+                                                                 </div>
+                                                             </div>
+                                                         </div>
+                                                     </div><!-- // Tabular item body -->
+
+                                                     <!-- Tabular item body -->
+                                                     <div class="tabular-item-body box">
+                                                         <div class="package-details" data-mh-md="tps-10">
+
+                                                             <!-- List item 1 -->
+                                                             <div class="list-item">
+                                                                 <i class="material-icons">brightness_1</i>
+                                                                 <h6 class="list-item-title">All in Intensive Pack</h6>
+                                                             </div><!-- // List item 1 -->
+
+                                                             <!-- List item 2 -->
+                                                             <div class="list-item">
+                                                                 <i class="material-icons">brightness_1</i>
+                                                                 <h6 class="list-item-title">Technical Support</h6>
+                                                                 <div class="list">
+                                                                     <div class="list-item">
+                                                                         <i>-</i>
+                                                                         A dedicated support manager
+                                                                     </div>
+                                                                     <div class="list-item">
+                                                                         <i>-</i>
+                                                                         Scheduled on-site visits
+                                                                     </div>
+                                                                 </div>
+                                                             </div><!-- // List item 2 -->
+
+                                                             <!-- List item 3 -->
+                                                             <div class="list-item">
+                                                                 <i class="material-icons">brightness_1</i>
+                                                                 <h6 class="list-item-title">Consultation</h6>
+                                                                 <div class="list">
+                                                                     <div class="list-item">
+                                                                         <i>-</i>
+                                                                         Annual Business Review
+                                                                     </div>
+                                                                 </div>
+                                                             </div><!-- // List item 3 -->
+                                                         </div><!-- // Package details -->
+                                                     </div><!-- // Tabular item body -->
+                                                 </div><!-- // Tabular item -->
+                                             </div><!-- // Column 3 -->
+                                         </div><!-- Row -->
+                                    </div><!-- Tabular: Support -->
+                                </div><!-- // Subblock Body -->
+                            </div><!-- Container -->
+                        </div><!-- Subblock: Support -->
                     </div><!--  // Block: Packages -->
 
 
