@@ -2,9 +2,12 @@
 <openerp>
     <data>
 
+        <!-- Change mobile navbar toggle button-->
         <template id="nav_toggle" inherit_id="website.layout" name="Navbar Toggle">
 			<xpath expr="//button[@class='navbar-toggle']" position="replace">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-top-collapse">
+				<button class="navbar-toggle"
+                        data-toggle="collapse"
+                        data-target=".navbar-top-collapse">
                      <span class="sr-only">Toggle navigation</span>
                      <span class="fa fa-bars"></span>
                      <span>Menu</span>
@@ -12,13 +15,19 @@
 			</xpath>
 		</template>
 
+        <!-- Change Logo on primary navbar-->
         <template id="nav_toggle" inherit_id="website.layout_logo_show" name="Website Main Logo">
 			<xpath expr="//a[@class='navbar-brand logo']/img" position="attributes">
 				<attribute name="src">http://placehold.it/120x50</attribute>
 			</xpath>
 		</template>
 
-
+        <!-- Set id to primary navbar-->
+        <template id="navbar_primary" inherit_id="website.layout" name="Primary navbar">
+			<xpath expr="//header/div[@class='navbar navbar-default navbar-static-top']" position="attributes">
+				<attribute name="id">navbar-primary</attribute>
+			</xpath>
+		</template>
 
     </data>
 </openerp>

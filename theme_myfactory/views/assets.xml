@@ -41,6 +41,10 @@
 					type="text/less"
 					rel="stylesheet" />
 				<link
+					href="/theme_myfactory/static/src/less/navbar-primary.less"
+					type="text/less"
+					rel="stylesheet" />
+				<link
 					href="/theme_myfactory/static/src/less/page-home.less"
 					type="text/less"
 					rel="stylesheet" />
@@ -50,6 +54,10 @@
 					rel="stylesheet" />
 				<link
 					href="/theme_myfactory/static/src/less/page-packages.less"
+					type="text/less"
+					rel="stylesheet" />
+				<link
+					href="/theme_myfactory/static/src/less/page-features.less"
 					type="text/less"
 					rel="stylesheet" />
 
@@ -85,6 +93,12 @@
             </xpath>
         </template>
 
+		<template id="font_awesome_upadate" name="Update font awesome 4.7.0"
+			inherit_id="web.assets_common" active="True" priority="1">
+                <xpath expr='//link' position="replace">
+                    <link rel="stylesheet" href="/theme_myfactory/static/src/css/font-awesome.min.css"/>
+                </xpath>
+        </template>
 
     </data>
 </openerp>

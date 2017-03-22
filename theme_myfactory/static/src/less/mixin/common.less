@@ -162,9 +162,17 @@
 }
 
 /* Set Layout: Icon circle */
+.set-icon(@width; @font-size; @bg-color: #fff; @color: inherit){
+    .dimension-max(@width; @width);
+    background-color: @bg-color;
+
+    i{
+        font-size: @font-size;
+        color: @color;
+    }
+}
 .set-icon-circle(@width; @font-size; @bg-color: #fff; @color: inherit){
     .dimension-max(@width; @width);
-    .border-radius(50%);
     background-color: @bg-color;
 
     i{

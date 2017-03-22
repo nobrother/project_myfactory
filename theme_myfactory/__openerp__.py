@@ -15,9 +15,11 @@
         'website_less',
     ],
     'data': [
-        'data/homepage.xml',
+        'data/website-menu.xml',
+        'data/page-home.xml',
         'data/page-benefits.xml',
         'data/page-packages.xml',
+        'data/page-features.xml',
 
         'views/assets.xml',
         'views/layout.xml',

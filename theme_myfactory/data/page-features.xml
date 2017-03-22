@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+	<data>
+        <function name="write" model="ir.model.data">
+            <function name="search" model="ir.model.data">
+                <value eval="[('module', '=', 'theme_myfactory'), ('name', 'in', ['features'])]" />
+            </function>
+            <value eval="{'noupdate': False}" />
+        </function>
+
+		<template name="Homepage" priority="29" t-name="website.features" id="features">
+            <t t-call="website.layout">
+				<div class="oe_structure oe_empty page page-features" id="page-features">
+                    <!-- Page Header -->
+                    <div class="page-header page-title">
+                        <div class="container-lg-small">
+                            <h1>Powerful &amp; Friendly MRP-ERP<br/>for Malaysian Manufacturers</h1>
+                            <h2>
+                                Built On World’s Top Open Source ERP Engine<br/>
+                                Localised With Local Manufacturers’
+                                Best Practices proven
+                            </h2>
+                        </div>
+                    </div><!-- // Page Header -->
+
+                    <!-- Block: Packages -->
+                    <div class="block" id="block-features-main">
+                        <!-- Subblock: Main Features -->
+                        <div class="subblock" id="subblock-features-main">
+                            <!-- Subblock header -->
+                            <div class="subblock-header">
+                                <div class="container-md-medium container-lg-small">
+                                    <img src="http://placehold.it/1050x560" />
+                                </div>
+                            </div><!-- // Subblock header -->
+
+                            <!-- Subblock body -->
+                            <div class="subblock-body">
+                                <!-- Container -->
+                                <div class="container-md-medium container-lg-medium">
+                                    <!-- Cards: Main Features -->
+                                    <div class="cards" id="cards-features-main">
+                                        <div class="flex-row">
+                                            <!-- Column 1 -->
+                                            <div class="flex-col-xs-6 flex-col-md-3">
+                                                <div class="card flex-col middle-xs">
+                                                    <div class="card-image box">
+                                                        <div class="layout-icon-circle">
+                                                            <i class="material-icons">laptop_chromebook</i>
+                                                        </div>
+                                                    </div>
+                                                    <h6 class="card-title box">Anywhere, Any PC</h6>
+                                                    <p class="card-description box">
+                                                        Anywhere, anytime, any device -
+                                                        access the system with internet browser
+                                                    </p>
+                                                </div>
+                                            </div><!-- // Column 1 -->
+
+                                            <!-- Column 2 -->
+                                            <div class="flex-col-xs-6 flex-col-md-3">
+                                                <div class="card flex-col middle-xs">
+                                                    <div class="card-image box">
+                                                        <div class="layout-icon-circle">
+                                                            <i class="material-icons">people</i>
+                                                        </div>
+                                                    </div>
+                                                    <h6 class="card-title box">Integrated Software</h6>
+                                                    <p class="card-description box">
+                                                        Add as many users you want by yourself
+                                                        easily in the admin module
+                                                    </p>
+                                                </div>
+                                            </div><!-- // Column 2 -->
+
+                                            <!-- Column 3 -->
+                                            <div class="flex-col-xs-6 flex-col-md-3">
+                                                <div class="card flex-col middle-xs">
+                                                    <div class="card-image box">
+                                                        <div class="layout-icon-circle">
+                                                            <i class="material-icons">access_time</i>
+                                                        </div>
+                                                    </div>
+                                                    <h6 class="card-title box">Automation &amp; Tools</h6>
+                                                    <p class="card-description box">
+                                                        Guaranteed 99.9% uptime (the risk
+                                                        of system going down 0.1%)
+                                                    </p>
+                                                </div>
+                                            </div><!-- // Column 3 -->
+
+                                            <!-- Column 4 -->
+                                            <div class="flex-col-xs-6 flex-col-md-3">
+                                                <div class="card flex-col middle-xs">
+                                                    <div class="card-image box">
+                                                        <div class="layout-icon-circle">
+                                                            <i class="material-icons">lock_outline</i>
+                                                        </div>
+                                                    </div>
+                                                    <h6 class="card-title box">Friendly Design</h6>
+                                                    <p class="card-description box">
+                                                        World Class Data Security &amp; Back up
+                                                    </p>
+                                                </div>
+                                            </div><!-- // Column 4 -->
+                                        </div><!-- // Row -->
+                                    </div><!-- // Cards: Main Features -->
+                                </div><!-- //Container -->
+                            </div><!-- // Subblock body -->
+
+                            <!-- Subblock footer -->
+                            <div class="subblock-footer">
+                                <!-- Container -->
+                                <div class="container-md-large container-lg-large">
+                                    <!-- Alert -->
+                                    <div class="layout-alert" id="alert-features-odoo">
+                                        <div class="flex-row">
+                                            <div class="box alert-image">
+                                                <img src="http://placehold.it/300x90" />
+                                            </div>
+                                            <div class="box alert-content">
+                                                <div class="alert-header alert-title">
+                                                    Localized Version of The World’s Top ERP Base
+                                                </div>
+                                                <p class="alert-description">
+                                                    Anywhere, anytime, any device -
+                                                    access the system with internet browser
+                                                </p>
+                                            </div>
+                                        </div><!-- // Row -->
+                                    </div><!-- // Alert -->
+                                </div><!-- // Container -->
+                            </div><!-- Subblock footer -->
+                        </div><!-- // Subblock: Main Features -->
+
+                        <!-- divider -->
+                        <div class="container-md-large container-lg-large"><div class="divider" /></div><!-- divider -->
+                        <!-- Subblock: Nav -->
+                        <div class="subblock" id="subblock-features-nav">
+                            <!-- Container -->
+                            <div class="container-md-small container-lg-medium">
+                                <!-- Subblock header -->
+                                <div class="subblock-header subblock-title">
+                                    <h1>The Apps &amp; Features</h1>
+                                </div><!-- // Subblock header -->
+
+                                <!-- Subblock body -->
+                                <div class="subblock-body">
+                                    <!-- Nav List -->
+                                    <div class="nav-lists" id="nav-lists-features">
+                                        <!-- Row -->
+                                        <div class="flex-row">
+                                            <!-- Column 1 -->
+                                            <div class="flex-col-xs-6 flex-col-md-3">
+                                                <div class="nav-list">
+                                                    <div class="nav-list-image">
+                                                        <i class="fa fa-database" />
+                                                    </div>
+                                                    <div class="nav-list-header nav-list-title">
+                                                        Database
+                                                    </div>
+                                                    <div class="nav-list-body">
+                                                        <div class="nav-list-item">
+                                                            <a href="#" class="link-basic">Products</a>
+                                                        </div>
+                                                        <div class="nav-list-item">
+                                                            <a href="#" class="link-basic">Customer</a>
+                                                        </div>
+                                                        <div class="nav-list-item">
+                                                            <a href="#" class="link-basic">Suppliers</a>
+                                                        </div>
+                                                        <div class="nav-list-item">
+                                                            <a href="#" class="link-basic">Employees</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div><!-- // Column 1 -->
+
+                                            <!-- Column 2 -->
+                                            <div class="flex-col-xs-6 flex-col-md-3">
+                                                <div class="nav-list">
+                                                    <div class="nav-list-image">
+                                                        <i class="fa fa-truck" />
+                                                    </div>
+                                                    <div class="nav-list-header nav-list-title">
+                                                        Supply Chain
+                                                    </div>
+                                                    <div class="nav-list-body">
+                                                        <div class="nav-list-item">
+                                                            <a href="#sales" class="link-basic scroll-to">Sales</a>
+                                                        </div>
+                                                        <div class="nav-list-item">
+                                                            <a href="#purchases" class="link-basic scroll-to">Purchases</a>
+                                                        </div>
+                                                        <div class="nav-list-item">
+                                                            <a href="#" class="link-basic">Inventory</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div><!-- // Column 2 -->
+
+                                            <!-- Column 3 -->
+                                            <div class="flex-col-xs-6 flex-col-md-3">
+                                                <div class="nav-list">
+                                                    <div class="nav-list-image">
+                                                        <i class="fa fa-industry" />
+                                                    </div>
+                                                    <div class="nav-list-header nav-list-title">
+                                                        Manufacturing
+                                                    </div>
+                                                    <div class="nav-list-body">
+                                                        <div class="nav-list-item">
+                                                            <a href="#" class="link-basic">Product</a>
+                                                        </div>
+                                                        <div class="nav-list-item">
+                                                            <a href="#" class="link-basic">Plan</a>
+                                                        </div>
+                                                        <div class="nav-list-item">
+                                                            <a href="#" class="link-basic">Production</a>
+                                                        </div>
+                                                        <div class="nav-list-item">
+                                                            <a href="#" class="link-basic">Quality</a>
+                                                        </div>
+                                                        <div class="nav-list-item">
+                                                            <a href="#" class="link-basic">Costing</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div><!-- // Column 3 -->
+
+                                            <!-- Column 4 -->
+                                            <div class="flex-col-xs-6 flex-col-md-3">
+                                                <div class="nav-list">
+                                                    <div class="nav-list-image">
+                                                        <i class="fa fa-user-secret" />
+                                                    </div>
+                                                    <div class="nav-list-header nav-list-title">
+                                                        Management
+                                                    </div>
+                                                    <div class="nav-list-body">
+                                                        <div class="nav-list-item">
+                                                            <a href="#" class="link-basic">Accounting Integration</a>
+                                                        </div>
+                                                        <div class="nav-list-item">
+                                                            <a href="#" class="link-basic">Business Intelligence</a>
+                                                        </div>
+                                                        <div class="nav-list-item">
+                                                            <a href="#" class="link-basic">Administration</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div><!-- // Column 4 -->
+                                        </div><!-- // Row -->
+                                    </div><!-- // Nav List -->
+                                </div><!-- // Subblock body -->
+                            </div><!-- // Container -->
+                        </div><!-- Subblock: Nav -->
+
+                        <!-- divider -->
+                        <div class="container-md-large container-lg-large"><div class="divider" /></div><!-- divider -->
+                        <!-- Subblock: Features list -->
+                        <div class="subblock" id="subblock-features-lists">
+                            <!-- Container -->
+                            <div class="container-md-small container-lg-medium">
+                                <!-- Subblock body -->
+                                <div class="subblock-body">
+                                    <!-- Features List -->
+                                    <div class="features-lists" id="features-lists">
+
+                                        <!-- Feature: Sales -->
+                                        <a class="anchor" id="sales" data-offset="-30"/>
+                                        <div class="feature-list-item" id="feature-list-item-sales">
+                                            <!-- Feature header -->
+                                            <div class="feature-list-item-header">
+                                                <div class="flex-row">
+                                                    <div class="box feature-list-item-header-image">
+                                                        <div class="layout-icon-square">
+                                                            <div class="icon">
+                                                                <i class="material-icons">apps</i>
+                                                                <span class="icon-caption">Sales</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="box feature-list-item-header-content">
+                                                        <h1>Easy &amp; Powerful Sales App</h1>
+                                                        <h2>From Quotation to Order And Follow Up</h2>
+                                                    </div>
+                                                </div>
+                                            </div><!-- // Feature header -->
+
+                                            <div class="divider" />
+
+                                            <!-- Feature Body -->
+                                            <div class="feature-list-item-body">
+                                                <div class="flex-row">
+                                                    <!-- Column 1 -->
+                                                    <div class="flex-col-sm-6 flex-col-md-3">
+                                                        <div class="list">
+                                                            <div class="list-item-title">
+                                                                Flexible Product &amp; Pricelist
+                                                            </div>
+                                                            <div class="list-item">
+                                                                <i class="fa fa-check" />
+                                                                Product types &amp; variants (options)
+                                                            </div>
+                                                            <div class="list-item">
+                                                                <i class="fa fa-check" />
+                                                                Flexible pricelists (automatic rules for price)
+                                                            </div>
+                                                            <div class="list-item">
+                                                                <i class="fa fa-check" />
+                                                                Discounts &amp; coupon code
+                                                            </div>
+                                                        </div>
+                                                    </div><!-- // Column 1 -->
+
+                                                    <!-- Column 2 -->
+                                                    <div class="flex-col-sm-6 flex-col-md-3">
+                                                        <div class="list">
+                                                            <div class="list-item-title">
+                                                                Professional Quotation
+                                                            </div>
+                                                            <div class="list-item">
+                                                                <i class="fa fa-check" />
+                                                                Auto convert to sales orders (with a click)
+                                                            </div>
+                                                            <div class="list-item">
+                                                                <i class="fa fa-check" />
+                                                                Quotation Template
+                                                            </div>
+                                                            <div class="list-item">
+                                                                <i class="fa fa-check" />
+                                                                Upselling (propose options, products)
+                                                            </div>
+                                                        </div>
+                                                    </div><!-- // Column 2 -->
+
+                                                    <!-- Column 3 -->
+                                                    <div class="flex-col-sm-6 flex-col-md-3">
+                                                        <div class="list">
+                                                            <div class="list-item-title">
+                                                                Streamlined Sales Order
+                                                            </div>
+                                                            <div class="list-item">
+                                                                <i class="fa fa-check" />
+                                                                Flexible Sales Orders (modify DO, sell kits, ship partial orders)
+                                                            </div>
+                                                            <div class="list-item">
+                                                                <i class="fa fa-check" />
+                                                                Invoicing from SO (Invoice, manage payment terms &amp; follow up)
+                                                            </div>
+                                                            <div class="list-item">
+                                                                <i class="fa fa-check" />
+                                                                Flow to/from Related Teams (Create MO &amp; DO)
+                                                            </div>
+                                                        </div>
+                                                    </div><!-- // Column 3 -->
+
+                                                    <!-- Column 4 -->
+                                                    <div class="flex-col-sm-6 flex-col-md-3">
+                                                        <div class="list">
+                                                            <div class="list-item-title">
+                                                                Manage Sales Person
+                                                            </div>
+                                                            <div class="list-item">
+                                                                <i class="fa fa-check" />
+                                                                Flexible Sales Orders (modify DO, sell kits, ship partial orders)
+                                                            </div>
+                                                            <div class="list-item">
+                                                                <i class="fa fa-check" />
+                                                                Invoicing from SO (Invoice, manage payment terms &amp; follow up)
+                                                            </div>
+                                                            <div class="list-item">
+                                                                <i class="fa fa-check" />
+                                                                Flow to/from Related Teams (Create MO &amp; DO)
+                                                            </div>
+                                                        </div>
+                                                    </div><!-- // Column 4 -->
+                                                </div><!-- // Row -->
+                                            </div><!-- // Feature Body -->
+                                        </div><!-- // Feature: Sales -->
+
+                                        <!-- Features: Purchases -->
+                                        <a class="anchor" id="purchases" data-offset="-30"/>
+                                        <div class="feature-list-item" id="feature-list-item-purchases">
+
+                                            <!-- Feature header -->
+                                            <div class="feature-list-item-header">
+                                                <div class="flex-row">
+                                                    <div class="box feature-list-item-header-image">
+                                                        <div class="layout-icon-square">
+                                                            <div class="icon">
+                                                                <i class="material-icons">apps</i>
+                                                                <span class="icon-caption">Purchases</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="box feature-list-item-header-content">
+                                                        <h1>Smart &amp; Effective Procurement</h1>
+                                                        <h2>Improve Inventory Performance, Easily Manage Suppliers</h2>
+                                                    </div>
+                                                </div>
+                                            </div><!-- // Feature header -->
+
+                                            <div class="divider" />
+
+                                            <!-- Feature Body -->
+                                            <div class="feature-list-item-body">
+                                                <div class="flex-row">
+                                                    <!-- Column 1 -->
+                                                    <div class="flex-col-sm-6 flex-col-md-3">
+                                                        <div class="list">
+                                                            <div class="list-item-title">
+                                                                Powerful Product Info
+                                                            </div>
+                                                            <div class="list-item">
+                                                                <i class="fa fa-check" />
+                                                                Product types &amp; variants (options)
+                                                            </div>
+                                                            <div class="list-item">
+                                                                <i class="fa fa-check" />
+                                                                Flexible pricelists (automatic rules for price)
+                                                            </div>
+                                                            <div class="list-item">
+                                                                <i class="fa fa-check" />
+                                                                Discounts &amp; coupon code
+                                                            </div>
+                                                        </div>
+                                                    </div><!-- // Column 1 -->
+
+                                                    <!-- Column 2 -->
+                                                    <div class="flex-col-sm-6 flex-col-md-3">
+                                                        <div class="list">
+                                                            <div class="list-item-title">
+                                                                Professional Quotation
+                                                            </div>
+                                                            <div class="list-item">
+                                                                <i class="fa fa-check" />
+                                                                Auto convert to sales orders (with a click)
+                                                            </div>
+                                                            <div class="list-item">
+                                                                <i class="fa fa-check" />
+                                                                Quotation Template
+                                                            </div>
+                                                            <div class="list-item">
+                                                                <i class="fa fa-check" />
+                                                                Upselling (propose options, products)
+                                                            </div>
+                                                        </div>
+                                                    </div><!-- // Column 2 -->
+
+                                                    <!-- Column 3 -->
+                                                    <div class="flex-col-sm-6 flex-col-md-3">
+                                                        <div class="list">
+                                                            <div class="list-item-title">
+                                                                RFQ &amp; Purchase Order
+                                                            </div>
+                                                            <div class="list-item">
+                                                                <i class="fa fa-check" />
+                                                                Flexible Sales Orders (modify DO, sell kits, ship partial orders)
+                                                            </div>
+                                                            <div class="list-item">
+                                                                <i class="fa fa-check" />
+                                                                Invoicing from SO (Invoice, manage payment terms &amp; follow up)
+                                                            </div>
+                                                            <div class="list-item">
+                                                                <i class="fa fa-check" />
+                                                                Flow to/from Related Teams (Create MO &amp; DO)
+                                                            </div>
+                                                        </div>
+                                                    </div><!-- // Column 3 -->
+
+                                                    <!-- Column 4 -->
+                                                    <div class="flex-col-sm-6 flex-col-md-3">
+                                                        <div class="list">
+                                                            <div class="list-item-title">
+                                                                Supplier Invoicing
+                                                            </div>
+                                                            <div class="list-item">
+                                                                <i class="fa fa-check" />
+                                                                Flexible Sales Orders (modify DO, sell kits, ship partial orders)
+                                                            </div>
+                                                            <div class="list-item">
+                                                                <i class="fa fa-check" />
+                                                                Invoicing from SO (Invoice, manage payment terms &amp; follow up)
+                                                            </div>
+                                                            <div class="list-item">
+                                                                <i class="fa fa-check" />
+                                                                Flow to/from Related Teams (Create MO &amp; DO)
+                                                            </div>
+                                                        </div>
+                                                    </div><!-- // Column 4 -->
+                                                </div><!-- // Row -->
+                                            </div><!-- // Feature Body -->
+
+                                            <!-- Feature Footer -->
+                                            <div class="feature-list-item-footer">
+                                                <a href="#" class="btn btn-normal">
+                                                    Watch Purchase Demo
+                                                </a>
+                                            </div><!-- // Feature Footer -->
+                                        </div><!-- // Features: Purchases -->
+                                    </div><!-- // Features List -->
+                                </div><!-- // Subblock body -->
+                            </div><!-- /Container -->
+                        </div><!-- // Subblock: Sales -->
+                    </div><!-- // Block: Features -->
+
+                    <!-- // Block: Ending -->
+                    <div class="block" id="block-features-ending">
+
+                        <!-- SubBlock: Ending -->
+                        <div class="subblock subblock-ending" id="subblock-features-ending">
+                            <!-- Subblock body -->
+                            <div class="subblock-body">
+
+                                <!-- Container -->
+                                <div class="container-lg-small">
+                                    <!-- Postcard: Get the right plan -->
+                                    <div class="layout-postcard" id="postcard-benifits-get-plan">
+                                        <div class="flex-row">
+                                            <div class="flex-col-md-5 col-postcard-image">
+                                                <div class="postcard-image" />
+                                            </div>
+                                            <div class="flex-col-md-7 col-postcard-content">
+                                                <div class="postcard-content">
+                                                    <h1 class="postcard-header postcard-title">
+                                                        Leave all the messy and the tedious behind.
+                                                    </h1>
+                                                    <p class="postcard-body postcard-description">
+                                                        Bring Your Team To The Next Level<br/>
+                                                        Work Better On A Better Platform
+                                                    </p>
+                                                    <div class="postcard-footer">
+                                                        <a href="#" class="btn btn-normal-inverse">
+                                                            GET THE RIGHT PLAN
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div><!-- // Postcard: Get the right plan -->
+                                </div><!-- // Container -->
+                            </div><!-- // Subblock body -->
+                        </div><!-- // SubBlock: Ending -->
+                    </div><!-- // Block: Ending -->
+                </div>
+            </t>
+        </template>
+    </data>
+</openerp>

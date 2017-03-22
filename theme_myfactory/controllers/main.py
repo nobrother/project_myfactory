@@ -12,3 +12,7 @@ class Website(Website):
     def page_packages(self):
         return request.render('theme_myfactory.packages')
 
+    @http.route('/features', type='http', auth="public", website=True)
+    def page_features(self):
+        return request.render('theme_myfactory.features')
+

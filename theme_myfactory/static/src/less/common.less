@@ -67,13 +67,13 @@ body{
     }
 }
 
+/* Anchor */
+.anchor{
+    position: absolute;
+}
 
 /* Button */
 .btn{
-
-    .flex-display(flex);
-    .justify-content(center);
-    .align-items(center);
 
     .transition(background-color 500ms ease-out);
 
@@ -102,6 +102,9 @@ body{
     }
 
     @btn-normal-basic: {
+        .flex-display(flex);
+        .justify-content(center);
+        .align-items(center);
         font-size: 16px;
         font-weight: 600;
     };
@@ -132,15 +135,28 @@ img{
     }
 }
 
-/* Layout: Icon circle */
-.layout-icon-circle{
+/* Layout: Icon */
+.layout-icon-circle,
+.layout-icon-square{
     .flex-display(flex);
     .justify-content(center);
     .align-items(center);
-    i{
+    > i, .icon, .icon-caption{
+        display: block;
         .flex(0 0 auto);
+        text-align: center;
     }
+}
+.layout-icon-circle{
+    .border-radius(50%);
+}
 
+/* Layout: Cards */
+.card-title{
+    color: @fc-00;
+}
+.card-title, .card-description{
+    text-align: center;
 }
 
 /* Layout: Postcard */
@@ -190,6 +206,20 @@ img{
         font-weight: 400;
         color: @fc-00;
     }
+}
+
+/* Layout: Alert */
+.layout-alert{
+    background-color: @bg-color-block;
+}
+.alert-content{
+    .flex-grow(1);
+}
+.alert-header{
+    margin-bottom: 30px;
+}
+.alert-title{
+    color: @fc-00;
 }
 
 /* Page Header */
