@@ -5,10 +5,7 @@ h1, h2, h3, h4, h5, h6{
     font-weight: inherit;
 }
 p{
-    margin-bottom: 10px;
-    &:last-child{
-        margin-bottom: 0;
-    }
+    .margin-bottom(10px);
 }
 header, main, footer {
     display: block;
@@ -122,6 +119,56 @@ img{
 }
 .process-title{
     color: @fc-00;
+}
+.processes-123{
+
+    .container(300px, 0);
+
+     > .flex-row{
+        .set-row-gutter(30px);
+    }
+
+    @media @query-md{
+        .container(reset);
+
+        position: relative;
+        > .flex-row{
+            .set-col-gutter(87px);
+        }
+
+        &:before{
+            content: '';
+            position: absolute;
+            z-index: 0;
+            height: 2px;
+            width: 100%;
+            background-color: @bg-color-separator;
+            margin: auto;
+            top: 40%;
+        }
+    }
+
+    .process{
+        position: relative;
+        z-index: 1;
+    }
+
+    .process-head-number{
+        margin-bottom: 15px;
+    }
+
+    .process-image{
+        margin-bottom: 15px;
+
+        .layout-icon-circle{
+            .set-icon(100px; 57px; transparent; @color-blue-brand);
+        }
+    }
+
+    .process-title{
+        margin-bottom: 10px;
+        font-size: 24px;
+    }
 }
 
 /* List Items */
@@ -253,9 +300,22 @@ img{
     &:last-child{
         margin-bottom: 100px;
     }
+
+    + .divider{
+        margin-top: 80px;
+    }
+}
+.alone{
+    &.subblock-body{
+        padding-top: 100px;
+    }
 }
 .subblock-header{
     padding-top: 83px;
+
+    .divider{
+        margin: 15px auto;
+    }
 
     /* Add margin to .subblock-body
        if it is precedent by
@@ -327,10 +387,7 @@ img{
     .tabular-item-header,
     .tabular-item-body,
     .tabular-item-footer{
-        margin-bottom: 10px;
-        &:last-child{
-            margin-bottom: 0;
-        }
+        .margin-bottom(10px);
     }
 
     .tabular-item-header{
@@ -344,4 +401,65 @@ img{
         padding: 30px 28px;
         background-color: @bg-color-block;
     }
+}
+
+/* Text block */
+@text-block-basic:{
+    font-size: 32px;
+    line-height: 1.6;
+    text-align: center;
+
+    strong{
+        color: @fc-00;
+        font-weight: 400;
+    }
+};
+.text-block{
+    @text-block-basic();
+    color: @fc-00;
+}
+
+/* Quote block */
+.quote-block{
+    position: relative;
+    padding: 30px 80px;
+
+    @text-block-basic();
+
+    &:before, &:after{
+        content: '';
+        position: absolute;
+        .dimension-max(43px; 33px);
+        background-repeat: no-repeat;
+    }
+    &:before{
+        background-image: url(http://placehold.it/43x33);
+        top: 0;
+        left: 0;
+    }
+    &:after{
+        background-image: url(http://placehold.it/43x33);
+        bottom: 0;
+        right: 0;
+    }
+}
+
+/* Layout: Imgtxt */
+.layout-imgtxt{
+    > .flex-row{
+        .flex-wrap(nowrap);
+    }
+
+    .col-imgtxt-content{
+        .flex(1 1 auto);
+    }
+}
+.imgtxt-content{
+    padding-left: 30px;
+}
+.imgtxt-header{
+    .margin-bottom(10px);
+}
+.imgtxt-title{
+    color: @fc-00;
 }

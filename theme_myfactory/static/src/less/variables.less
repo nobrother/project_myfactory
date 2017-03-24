@@ -85,12 +85,12 @@
  * Responsive
  */
 @viewport-xs-min: 0px;
-@viewport-sm-min: 768px;
-@viewport-md-min: 992px;
-@viewport-lg-min: 1200px;
-@viewport-xs-max: 767px;    // @viewport-sm-min - 1px;
-@viewport-sm-max: 991px;    // @viewport-md-min - 1px;
-@viewport-md-max: 1199px;   // @viewport-lg-min - 1px;
+@viewport-sm-min: @screen-sm-min;
+@viewport-md-min: @screen-md-min;
+@viewport-lg-min: @screen-lg-min;
+@viewport-xs-max: @viewport-sm-min - 1px;
+@viewport-sm-max: @viewport-md-min - 1px;
+@viewport-md-max: @viewport-lg-min - 1px;
 
 @query-sm: ~"(min-width: @{viewport-sm-min})";
 @query-md: ~"(min-width: @{viewport-md-min})";

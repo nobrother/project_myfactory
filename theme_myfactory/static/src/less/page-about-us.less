@@ -1,0 +1,164 @@
+#subblock-about-us-intro{
+    background: url(http://placehold.it/1350x700) center no-repeat;
+    background-size: cover;
+
+    .floating-card{
+        padding: 30px 0;
+
+        .content{
+            padding: 25px 40px;
+            background-color: fade(#DFEAE5, 60%);
+        }
+
+        color: @fc-00;
+
+        .header{
+            font-size: 46px;
+            text-align: center;
+        }
+    }
+
+    @media @query-md{
+        height: 700px;
+
+        .floating-card{
+            .floating-object();
+            width: 700px;
+            top: 40px;
+        }
+    }
+}
+
+#processes-about-us-journey{
+    .process{
+        background-color: #fff;
+    }
+
+    .process-head-number{
+        font-size: 28px;
+        color: #808080;
+    }
+}
+
+#imgtxts-about-us-our-team{
+
+    > .flex-row{
+        .set-row-gutter(30px);
+    }
+
+    @media @query-md{
+        > .flex-row{
+            .set-col-gutter(67px);
+        }
+    }
+
+    .imgtxt-title{
+        font-size: 25px;
+    }
+    .imgtxt-body{
+        p{
+            font-size: @fs-body;
+        }
+    }
+}
+
+#subblock-about-us-company{
+
+    .subblock-header{
+        .divider{
+            .container(372px; 0);
+        }
+    }
+
+    .subblock-title{
+        p{
+            color: @color-blue-brand;
+        }
+    }
+}
+
+#cards-about-us-company{
+
+    > .flex-row{
+        .set-row-gutter(30px);
+    }
+
+    @media @query-sm{
+        > .flex-row{
+            .set-col-gutter(50px);
+        }
+    }
+
+    @media @query-md{
+        > .flex-row{
+            .set-col-gutter(95px);
+        }
+    }
+
+    .card-image{
+        margin-bottom: 20px;
+    }
+
+    .card-title{
+        margin-bottom: 15px;
+        font-size: 21px;
+        color: @fc-00;
+    }
+
+    .card-description{
+        font-size: 13px;
+    }
+}
+
+#subblock-about-us-offices{
+    .subblock-body{
+        text-align: center;
+    }
+}
+
+#cards-about-us-offices{
+
+    .container(800px; 0);
+
+    > .flex-row{
+        .set-row-gutter(30px);
+    }
+
+    @media @query-sm{
+        > .flex-row{
+            .set-col-gutter(50px);
+        }
+    }
+
+    @media @query-md{
+        > .flex-row{
+            .set-col-gutter(100px);
+        }
+    }
+
+    .card-title, .card-description{
+        text-align: left;
+    }
+
+    .card-title{
+        margin-bottom: 15px;
+        font-size: 21px;
+        color: @fc-00;
+    }
+
+    .list-item{
+        padding-left: 50px;
+    }
+
+    .card-description{
+        font-size: @fs-body;
+    }
+}
+
+#subblock-about-us-talk{
+    .btn{
+        .container(200px; 0);
+        height: 50px;
+        font-weight: 300;
+    }
+}

@@ -60,6 +60,11 @@
 					href="/theme_myfactory/static/src/less/page-features.less"
 					type="text/less"
 					rel="stylesheet" />
+				<link
+					href="/theme_myfactory/static/src/less/page-about-us.less"
+					type="text/less"
+					rel="stylesheet" />
+
 
                 <!-- JAVASCRIPTS -->
 				<script type="text/javascript"

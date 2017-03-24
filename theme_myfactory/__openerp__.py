@@ -13,6 +13,7 @@
         'omc_basic_config',
         'website',
         'website_less',
+        'website_crm',
     ],
     'data': [
         'data/website-menu.xml',
@@ -20,6 +21,7 @@
         'data/page-benefits.xml',
         'data/page-packages.xml',
         'data/page-features.xml',
+        'data/page-about-us.xml',
 
         'views/assets.xml',
         'views/layout.xml',

@@ -16,3 +16,6 @@ class Website(Website):
     def page_features(self):
         return request.render('theme_myfactory.features')
 
+    @http.route('/about-us', type='http', auth="public", website=True)
+    def page_about_us(self):
+        return request.render('theme_myfactory.about_us')

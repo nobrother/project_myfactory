@@ -112,10 +112,7 @@
 #features-benefit{
 
     .feature{
-        margin-bottom: 108px;
-        &:last-child{
-            margin-bottom: 0;
-        }
+        .margin-bottom(100px);
 
         > .flex-row{
             .set-row-gutter(30px);
@@ -162,10 +159,7 @@
     }
     .feature-body{
         .p-div{
-            margin-bottom: 10px;
-            &:last-child{
-                margin-bottom: 0;
-            }
+            .margin-bottom(10px);
 
             h6{
                 margin-bottom: 5px;
@@ -188,53 +182,19 @@
 }
 
 #processes-startup{
-    .container(300px, 0);
-     > .flex-row{
-        .set-row-gutter(30px);
-    }
-
-    @media @query-md{
-        .container(reset);
-
-        position: relative;
-        > .flex-row{
-            .set-col-gutter(87px);
-        }
-
-        &:before{
-            content: '';
-            position: absolute;
-            z-index: 0;
-            height: 2px;
-            width: 100%;
-            background-color: @bg-color-separator;
-            margin: auto;
-            top: 40%;
-        }
-    }
 
     .process{
-        position: relative;
-        z-index: 1;
         background-color: @bg-color-block;
     }
 
     .process-head-number{
-        margin-bottom: 15px;
         font-size: 48px;
     }
 
     .process-image{
-        margin-bottom: 15px;
-
         .layout-icon-circle{
-            .set-icon-circle(100px; 57px; #fff; @color-blue-brand);
+            background-color: #fff;
         }
-    }
-
-    .process-title{
-        margin-bottom: 10px;
-        font-size: 24px;
     }
 }
 
@@ -254,7 +214,7 @@
     .card-image{
         margin-bottom: 15px;
         .layout-icon-circle{
-            .set-icon-circle(70px; 57px; transparent; #b5b5b5);
+            .set-icon(70px; 57px; transparent; #b5b5b5);
         }
     }
 

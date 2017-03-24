@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+	<data>
+        <function name="write" model="ir.model.data">
+            <function name="search" model="ir.model.data">
+                <value eval="[('module', '=', 'website'), ('name', 'in', ['homepage'])]" />
+            </function>
+            <value eval="{'noupdate': False}" />
+        </function>
+
+		<template name="Homepage" priority="29" t-name="website.about_us" id="about_us">
+			<t t-call="website.layout">
+				<div class="oe_structure oe_empty page-homepage" id="page-about-us">
+
+                    <!-- Block -->
+                    <div class="block" id="block-about-us">
+
+                        <!-- SubBlock: Intro -->
+                        <div class="subblock subblock-image" id="subblock-about-us-intro">
+                            <div class="container-lg-medium">
+                                <div class="floating-card">
+                                    <div class="content">
+                                        <h1 class="header">
+                                            Your Team Behind The Cloud
+                                        </h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- // SubBlock: Intro -->
+
+                        <!-- Subblock: Quote -->
+                        <div class="subblock" id="subblock-about-us-quote">
+                            <!-- Container -->
+                            <div class="container-md-medium container-lg-medium">
+                                <!-- Subblock body -->
+                                <div class="subblock-body alone">
+                                    <!-- Quote Block -->
+                                    <div class="quote-block">
+                                        <strong>We think manufacturing software should be friendly.</strong><br/>
+                                        Friendly to get, friendly to use, with a friendly price tag.<br/>
+                                        Just like software for all other industries.<br/>
+                                        That’s why we are doing our best to make IT as easy as
+                                        possible. Our vision is to help every manufacturer out
+                                        there, small and big, to reach their optimal on cloud.
+                                    </div><!-- // Quote block -->
+                                </div><!-- // Subblock body-->
+                            </div><!-- // Container -->
+                        </div><!-- // Subblock: Quote -->
+
+                        <!-- Subblock: Journey -->
+                        <div class="subblock" id="subblock-about-us-quote">
+                            <!-- Container -->
+                            <div class="container-md-medium container-lg-medium">
+                                <!-- Subblock header -->
+                                <header class="subblock-header subblock-title">
+                                    <h1>Our Own Journey To Cloud</h1>
+                                </header><!-- // Subblock header -->
+
+                                <!-- Subblock body -->
+                                <div class="subblock-body">
+                                    <div class="processes processes-123" id="processes-about-us-journey">
+                                        <div class="flex-row">
+                                            <!-- Column 1 -->
+                                            <div class="flex-col-md-4">
+                                                <div class="process flex-col middle-xs">
+                                                    <div class="process-head-number box">1998</div>
+                                                    <div class="process-image box">
+                                                        <div class="layout-icon-circle">
+                                                            <i class="material-icons">dns</i>
+                                                        </div>
+                                                    </div>
+                                                    <h3 class="process-title box">Top Hosting Provider</h3>
+                                                    <p class="process-description box">
+                                                        Mr. Lew Chew Keat, the creator of CARI.net,
+                                                        established ONNET in 1998. Offering local and
+                                                        regional SMEs reliable hosting &amp; support.
+                                                    </p>
+                                                </div>
+                                            </div><!-- // Column 1 -->
+
+                                            <!-- Column 2 -->
+                                            <div class="flex-col-md-4">
+                                                <div class="process flex-col middle-xs">
+                                                    <div class="process-head-number box">2014</div>
+                                                    <div class="process-image box">
+                                                        <div class="layout-icon-circle">
+                                                            <i class="material-icons">cloud_queue</i>
+                                                        </div>
+                                                    </div>
+                                                    <h3 class="process-title box">Leading ERP Vendor</h3>
+                                                    <p class="process-description box">
+                                                        A premium business applications developer
+                                                        providing ERP Implementation,
+                                                        Consultation and Customization services
+                                                    </p>
+                                                </div>
+                                            </div><!-- // Column 2 -->
+
+                                            <!-- Column 3 -->
+                                            <div class="flex-col-md-4">
+                                                <div class="process flex-col middle-xs">
+                                                    <div class="process-head-number box">2015</div>
+                                                    <div class="process-image box">
+                                                        <div class="layout-icon-circle">
+                                                            <i class="fa fa-percent" />
+                                                        </div>
+                                                    </div>
+                                                    <h3 class="process-title box">Cloud GST Accounting</h3>
+                                                    <p class="process-description box">
+                                                        Good Software Technology Sdn Bhd provides
+                                                        Cloudbased Easy GST Accounting for Malaysian SMEs
+                                                    </p>
+                                                </div>
+                                            </div><!-- // Column 3 -->
+                                        </div>
+                                    </div>
+                                </div><!-- // Subblock body -->
+
+                                <div class="divider" />
+
+                                <!-- Subblock footer -->
+                                <div class="subblock-footer">
+                                    <!-- Statistics -->
+                                    <div class="layout-statistics" id="statistics-about-us">
+                                        <div class="flex-row">
+
+                                            <!-- Column 1 -->
+                                            <div class="flex-col-sm-6 flex-col-md-4">
+                                                <div class="statistic">
+                                                    <div class="statistic-values">
+                                                        <span class="statistic-value">500+</span>
+                                                    </div>
+                                                    <div class="statistic-title">SMEs On Our Hosting</div>
+                                                    <div class="statistic-description">
+                                                        Clients like
+                                                    </div>
+                                                </div>
+                                            </div><!-- // Column 1 -->
+
+                                            <!-- Column 2 -->
+                                            <div class="flex-col-sm-6 flex-col-md-4">
+                                                <div class="statistic">
+                                                    <div class="statistic-values">
+                                                        <span class="statistic-value">30+</span>
+                                                    </div>
+                                                    <div class="statistic-title">Customized ERP Projects</div>
+                                                    <div class="statistic-description">
+                                                        Specific ERP Customization
+                                                    </div>
+                                                </div>
+                                            </div><!-- // Column 2 -->
+
+                                            <!-- Column 3 -->
+                                            <div class="flex-col-sm-6 flex-col-md-4">
+                                                <div class="statistic">
+                                                    <div class="statistic-values">
+                                                        <span class="statistic-value">200+</span>
+                                                    </div>
+                                                    <div class="statistic-title">SaaS Clients in Malaysia</div>
+                                                    <div class="statistic-description">
+                                                        SMEs Using Accounting SaaS
+                                                    </div>
+                                                </div>
+                                            </div><!-- // Column 3 -->
+                                        </div>
+                                    </div><!-- // Statistics -->
+                                </div><!-- // Subblock footer -->
+                            </div><!-- // Container -->
+                        </div><!-- // Subblock -->
+
+                        <!-- Subblock: Text Quote -->
+                        <div class="subblock" id="subblock-about-us-text-quote">
+                            <!-- Container -->
+                            <div class="container-md-medium container-lg-medium">
+                                <!-- Subblock body -->
+                                <div class="subblock-body alone">
+                                    <!-- Text Block -->
+                                    <div class="text-block">
+                                        In the past two decades, we have seen
+                                        the problems SMEs faced.<br />
+                                        And we have provided different part &amp; 
+                                        type of solution to them.<br/>
+                                        We have come to realize that cloud
+                                        SaaS IS the ultimate solution.<br/>
+                                        For both you, the user and us, the developer.<br/>
+                                        Hence, with our experience &amp; insights,
+                                        we want to create a service where
+                                        “Every manufacturer can go online”.
+                                    </div><!-- // Text block -->
+                                </div><!-- // Subblock body -->
+                            </div><!-- // Container -->
+                        </div><!-- // Subblock: Text Quote -->
+
+                        <!-- Divider -->
+                        <div class="container-md-medium container-lg-medium">
+                            <div class="divider"/>
+                        </div><!-- // Divider -->
+
+                        <!-- Subblock: Our Team -->
+                        <div class="subblock" id="subblock-about-us-team">
+                            <!-- Container -->
+                            <div class="container-md-medium container-lg-medium">
+                                <!-- Subblock header -->
+                                <header class="subblock-header subblock-title">
+                                    <h1>Our Team</h1>
+                                </header><!-- // Subblock header -->
+
+                                <!-- Subblock body -->
+                                <div class="subblock-body">
+                                    <!-- Imgtxts -->
+                                    <div class="imgtxts" id="imgtxts-about-us-our-team">
+                                        <!-- Row -->
+                                        <div class="flex-row">
+                                            <!-- Column 1-->
+                                            <div class="flex-col-md-6">
+                                                <!-- Imgtxt -->
+                                                <div class="layout-imgtxt">
+                                                    <!-- Row -->
+                                                    <div class="flex-row middle-xs">
+                                                        <div class="box col-imgtxt-image">
+                                                            <div class="imgtxt-image">
+                                                                 <img src="http://placehold.it/225x225"/>
+                                                            </div>
+                                                        </div>
+                                                        <div class="box col-imgtxt-content">
+                                                            <div class="imgtxt-content">
+                                                                <div class="imgtxt-header imgtxt-title">
+                                                                    <h2>Experienced Founders</h2>
+                                                                </div>
+                                                                <div class="imgtxt-body">
+                                                                    <p>
+                                                                        With over 50 years of combined experience
+                                                                        in the IT industry, our founders are accomplished
+                                                                        tech veterans (from MNCs as Intel, Altera etc)
+                                                                        who are striving to revolutionize software
+                                                                        industry for Malaysian SMEs.
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div><!-- // Row -->
+                                                </div><!-- // Imgtxt -->
+                                            </div><!-- Column 1 -->
+
+                                            <!-- Column 2 -->
+                                            <div class="flex-col-md-6">
+                                                <!-- Imgtxt -->
+                                                <div class="layout-imgtxt">
+                                                    <!-- Row -->
+                                                    <div class="flex-row middle-xs">
+                                                        <div class="box col-imgtxt-image">
+                                                            <div class="imgtxt-image">
+                                                                 <img src="http://placehold.it/225x225"/>
+                                                            </div>
+                                                        </div>
+                                                        <div class="box col-imgtxt-content">
+                                                            <div class="imgtxt-content">
+                                                                <div class="imgtxt-header imgtxt-title">
+                                                                    <h2>Passionate Young Talents</h2>
+                                                                </div>
+                                                                <div class="imgtxt-body">
+                                                                    <p>
+                                                                        Our startup is made of smart and driven
+                                                                        young Malaysians who want to made a
+                                                                        difference with their work.
+                                                                        There are about 30 of us in 3 branches
+                                                                        with 12 experienced developers
+                                                                        (more than 3 yrs exp)
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div><!-- // Row -->
+                                                </div><!-- // Imgtxt -->
+                                            </div><!-- Column 2 -->
+                                        </div><!-- // Row -->
+                                    </div><!-- // Imgtxts -->
+                                </div><!-- // Subblock body -->
+                            </div><!-- // Container -->
+                        </div><!-- // Subblock: Our Team -->
+
+                        <!-- Divider -->
+                        <div class="container-md-medium container-lg-medium">
+                            <div class="divider"/>
+                        </div><!-- // Divider -->
+
+                        <!-- Subblock: Our Company -->
+                        <div class="subblock" id="subblock-about-us-company">
+                            <!-- Container -->
+                            <div class="container-md-medium container-lg-medium">
+                                <!-- Subblock header -->
+                                <header class="subblock-header subblock-title">
+                                    <h1>Our Company</h1>
+                                    <div class="divider" />
+                                    <p>Onnet Consulting Sdn. Bhd. <sup>(1125378-M)</sup></p>
+                                </header><!-- // Subblock header -->
+
+                                <!-- Subblock body -->
+                                <div class="subblock-body">
+                                    <!-- Cards: Company -->
+                                    <div class="cards" id="cards-about-us-company">
+                                        <!-- Row -->
+                                        <div class="flex-row">
+                                            <!-- Column 1 -->
+                                            <div class="flex-col-sm-6 flex-col-md-4">
+                                                <div class="card flex-col middle-xs">
+                                                    <div class="card-image box">
+                                                        <img src="http://placehold.it/230x100"/>
+                                                    </div>
+                                                    <h6 class="card-title box">MSC Status Company</h6>
+                                                    <p class="card-description box">
+                                                        Recognized by the government as a firm with
+                                                        world-class service, Onnet is part of the
+                                                        thriving tech community in MSC zone at Penang.
+                                                    </p>
+                                                </div>
+                                            </div><!-- // Column 1 -->
+
+                                            <!-- Column 2 -->
+                                            <div class="flex-col-sm-6 flex-col-md-4">
+                                                <div class="card flex-col middle-xs">
+                                                    <div class="card-image box">
+                                                        <img src="http://placehold.it/230x100"/>
+                                                    </div>
+                                                    <h6 class="card-title box">Custom Certified</h6>
+                                                    <p class="card-description box">
+                                                        We are among the first batch of software
+                                                        companies with our Accounting App certified
+                                                        GST-compliance by the Royal Malaysian Customs
+                                                        back in 2015.
+                                                    </p>
+                                                </div>
+                                            </div><!-- // Column 2 -->
+
+                                            <!-- Column 3 -->
+                                            <div class="flex-col-sm-6 flex-col-md-4">
+                                                <div class="card flex-col middle-xs">
+                                                    <div class="card-image box">
+                                                        <img src="http://placehold.it/230x100"/>
+                                                    </div>
+                                                    <h6 class="card-title box">Odoo Official Partner</h6>
+                                                    <p class="card-description box">
+                                                        Myfactory is built with one of the best
+                                                        open source ERP Platform in the world, Odoo.
+                                                        We are one of the few official partners in
+                                                        Malaysia, recognized by Odoo for our
+                                                        knowledge and ability in delivering it.
+                                                    </p>
+                                                </div>
+                                            </div><!-- // Column 3 -->
+                                        </div><!-- // Row -->
+                                    </div><!-- // Cards: Company -->
+                                </div><!-- // Subblock body -->
+                            </div><!-- // Container -->
+                        </div><!-- // Subblock: Our Company -->
+
+                        <!-- Divider -->
+                        <div class="container-md-medium container-lg-medium">
+                            <div class="divider"/>
+                        </div><!-- // Divider -->
+
+                        <!-- Subblock: Our Offices -->
+                        <div class="subblock" id="subblock-about-us-offices">
+                            <!-- Container -->
+                            <div class="container-md-medium container-lg-medium">
+                                <!-- Subblock header -->
+                                <header class="subblock-header subblock-title">
+                                    <h1>Our Offices</h1>
+                                </header><!-- // Subblock header -->
+
+                                <div class="subblock-body">
+                                    <img src="http://placehold.it/800x300" />
+                                </div>
+
+                                <!-- Subblock footer -->
+                                <div class="subblock-footer">
+                                    <!-- Cards: Offices -->
+                                    <div class="cards" id="cards-about-us-offices">
+                                        <!-- Row -->
+                                        <div class="flex-row">
+                                            <!-- Column 1 -->
+                                            <div class="flex-col-sm-4">
+                                                <div class="card flex-col">
+                                                    <div class="card-title box">
+                                                        <div class="list-item">
+                                                            <i class="material-icons">cloud</i>
+                                                            Penang
+                                                        </div>
+                                                    </div>
+                                                    <p class="card-description box">
+                                                        58-2, Persiaran Bayan Indah,<br/>
+                                                        Bayan Bay, Bayan Lepas<br/>
+                                                        11900 Penang
+                                                    </p>
+                                                </div>
+                                            </div><!-- // Column 1 -->
+
+                                            <!-- Column 2 -->
+                                            <div class="flex-col-sm-4">
+                                                <div class="card flex-col">
+                                                    <div class="card-title box">
+                                                        <div class="list-item">
+                                                            <i class="material-icons">cloud</i>
+                                                            Kuala Lumpur
+                                                        </div>
+                                                    </div>
+                                                    <p class="card-description box">
+                                                        Block A-701, Kelana Square,<br />
+                                                        No 17, Jalan SS 7/26, Kelana Jaya,<br/>
+                                                        47301, Petaling Jaya, Selangor
+                                                    </p>
+                                                </div>
+                                            </div><!-- // Column 2 -->
+
+                                            <!-- Column 3 -->
+                                            <div class="flex-col-sm-4">
+                                                <div class="card flex-col">
+                                                    <div class="card-title box">
+                                                        <div class="list-item">
+                                                            <i class="material-icons">cloud</i>
+                                                            Johor Bahru
+                                                        </div>
+                                                    </div>
+                                                    <p class="card-description box">
+                                                        No 21A, Jalan Indah 8/13,<br/>
+                                                        Taman Bukit Indah,<br/>
+                                                        81200 Johor Bahru, Johor
+                                                    </p>
+                                                </div>
+                                            </div><!-- // Column 3 -->
+                                        </div><!-- // Row -->
+                                    </div><!-- // Cards: Offices -->
+                                </div><!-- // Subblock footer -->
+                            </div><!-- // Container -->
+                        </div><!-- // Subblock: Our Offices -->
+
+                        <!-- Divider -->
+                        <div class="container-md-medium container-lg-medium">
+                            <div class="divider"/>
+                        </div><!-- // Divider -->
+
+                        <!-- Subblock: Talk -->
+                        <div class="subblock" id="subblock-about-us-talk">
+                            <!-- Container -->
+                            <div class="container-md-medium container-lg-medium">
+                                <!-- Subblock header -->
+                                <header class="subblock-header subblock-title">
+                                    <h1>Your Modern Software Technology Partner</h1>
+                                    <h2>Let’s Maximize Your Manufacturing’s Productivity &amp; Profit</h2>
+                                </header><!-- // Subblock header -->
+
+                                <!-- Subblock footer -->
+                                <div class="subblock-footer">
+                                    <a href="#" class="btn btn-normal">Talk to Us</a>
+                                </div><!-- // Subblock footer -->
+                            </div><!-- Container -->
+                        </div><!-- // Subblock: Talk -->
+                    </div><!-- // Block -->
+                </div>
+            </t>
+        </template>
+    </data>
+</openerp>

@@ -375,7 +375,7 @@
                                 <!-- Subblock body -->
                                 <div class="subblock-body">
                                     <!-- Processes: Start up -->
-                                    <div class="processes" id="processes-startup">
+                                    <div class="processes processes-123" id="processes-startup">
                                         <div class="flex-row">
                                             <!-- Column 1 -->
                                             <div class="flex-col-md-4">
