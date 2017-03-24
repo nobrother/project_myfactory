@@ -8,7 +8,7 @@
     'category': 'Theme',
     'author': 'ohmycode',
     'website': '',
-    'license': '',
+    'license': 'Free',
     'depends': [
         'omc_basic_config',
         'website',
