@@ -30,7 +30,7 @@
                                 <div class="container-lg-medium">
 
                                     <!-- Postcard: Business Manager -->
-                                    <div class="layout-postcard" id="postcard-business-manager">
+                                    <div class="layout-postcard postcard-imagebigger" id="postcard-business-manager">
                                         <div class="flex-row">
                                             <div class="flex-col-md-7 col-postcard-image">
                                                 <div class="postcard-image" />
@@ -212,18 +212,421 @@
                         </div><!-- // SubBlock: Business manager  -->
                     </div><!-- // Block: Business manager -->
 
+					
+					
+                    <!-- Block: All Teams -->
+                    <div class="block" id="block-benefits-all-teams">
+
+                        <!-- SubBlock: All Teams -->
+                        <div class="subblock subblock-benefits" id="subblock-benefits-all-teams">
+                            <!-- Subblock body -->
+                            <div class="subblock-body" id="subblock-body-benefits-all-teams-postcard">
+                                <div class="container-lg-medium">
+
+                                    <!-- Postcard: All Teams -->
+                                    <div class="layout-postcard postcard-imagebigger" id="postcard-all-teams">
+                                        <div class="flex-row">
+
+                                            <div class="flex-col-md-5 col-postcard-content">
+                                                <div class="postcard-content">
+                                                    <div class="postcard-header postcard-title">
+                                                        Work as a team, effortlessly
+                                                    </div>
+                                                    <p class="postcard-body postcard-description">
+                                                        Teamwork can be troublesome. Too much to pass over &amp; update. Now, it’s much easier with system linking up the work with other colleagues.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="flex-col-md-7 col-postcard-image">
+                                                <div class="postcard-image" />
+                                            </div>											
+                                        </div>
+                                    </div><!-- // Postcard: All Teams -->
+                                </div><!-- // Container -->
+                            </div><!-- // Subblock body -->
+
+                            <!-- Subblock body -->
+                            <div class="subblock-body" id="subblock-body-benefits-allteams-details">
+                                <!-- Container -->
+                                <div class="container-lg-small">
+
+                                    <!-- Listcards -->
+                                    <div class="listcards" id="listcards-benefits-allteams-details">
+                                        <div class="flex-row">
+                                            <!-- Column 1 -->
+                                            <div class="flex-col-sm-6">
+                                                <ul class="listcard">
+                                                    <h3 class="list-item list-item-title">
+                                                        <i class="material-icons">info_outline</i>
+                                                        The Order Flow To &amp; From You
+                                                    </h3>
+                                                    <li class="list-item">
+                                                        <i class="material-icons">brightness_1</i>
+                                                        <p>Check how much is done for any part of manufacturing and operation (sales, purchase etc)</p>
+                                                    </li>
+                                                </ul>
+                                            </div><!-- // Column 1 -->
+
+                                            <!-- Column 2 -->
+                                            <div class="flex-col-sm-6">
+                                                <ul class="listcard">
+                                                    <h3 class="list-item list-item-title">
+                                                        <i class="material-icons">info_outline</i>
+                                                        Get The Info In The Shared Pool Online 
+                                                    </h3>
+                                                    <li class="list-item">
+                                                        <i class="material-icons">brightness_1</i>
+                                                        <p>Get the full picture by studying the entire story of the problem from every department with all the details and history of the process</p>
+                                                    </li>
+
+                                                </ul>
+                                            </div><!-- // Column 2 -->
+
+
+                                        </div>
+                                    </div><!-- // Listcards -->
+                                </div><!-- // Container -->
+                            </div><!-- // Subblock body -->
+
+                        </div><!-- // SubBlock: All Teams  -->
+                    </div><!-- // Block: All Teams -->					
+					
+
+                    <!-- Block: Factory -->
+                    <div class="block" id="block-benefits-factory">
+
+                        <!-- SubBlock: Factory -->
+                        <div class="subblock subblock-benefits" id="subblock-benefits-factory">
+                            <!-- Subblock body -->
+                            <div class="subblock-body" id="subblock-body-benefits-factory-postcard">
+                                <div class="container-lg-medium">
+
+                                    <!-- Postcard: Factory -->
+                                    <div class="layout-postcard postcard-imagebigger" id="postcard-factory">
+                                        <div class="flex-row">
+
+
+                                            <div class="flex-col-md-7 col-postcard-image">
+                                                <div class="postcard-image" />
+                                            </div>
+                                            <div class="flex-col-md-5 col-postcard-content">
+                                                <div class="postcard-content">
+                                                    <div class="postcard-header postcard-title">
+                                                        Everything is under control, accurately.
+                                                    </div>
+                                                    <p class="postcard-body postcard-description">
+                                                        A lot of things &amp; changes are happenning on the floor. It can be overwhelming, wanting 100% on time or 0% waste. It is possible though, with some help.
+                                                    </p>
+                                                </div>
+                                            </div>											
+                                        </div>
+                                    </div><!-- // Postcard: Factory -->
+                                </div><!-- // Container -->
+                            </div><!-- // Subblock body -->
+
+                            <!-- Subblock body -->
+                            <div class="subblock-body" id="subblock-body-benefits-factory-details">
+                                <!-- Container -->
+                                <div class="container-lg-small">
+
+                                    <!-- Listcards -->
+                                    <div class="listcards" id="listcards-benefits-factory-details">
+                                        <div class="flex-row">
+                                            <!-- Column 1 -->
+                                            <div class="flex-col-sm-6">
+                                                <ul class="listcard">
+                                                    <h3 class="list-item list-item-title">
+                                                        <i class="material-icons">info_outline</i>
+                                                        Plan &amp; Manage Orders Easier
+                                                    </h3>
+                                                    <li class="list-item">
+                                                        <i class="material-icons">brightness_1</i>
+                                                        <p>Check how much is done for any part of manufacturing and operation (sales, purchase etc)</p>
+                                                    </li>
+                                                </ul>
+                                            </div><!-- // Column 1 -->
+
+                                            <!-- Column 2 -->
+                                            <div class="flex-col-sm-6">
+                                                <ul class="listcard">
+                                                    <h3 class="list-item list-item-title">
+                                                        <i class="material-icons">info_outline</i>
+                                                        Accurate On Time Delivery
+                                                    </h3>
+                                                    <li class="list-item">
+                                                        <i class="material-icons">brightness_1</i>
+                                                        <p>Get the full picture by studying the entire story of the problem from every department with all the details and history of the process</p>
+                                                    </li>
+
+                                                </ul>
+                                            </div><!-- // Column 2 -->
+
+                                            <!-- Column 3 -->
+                                            <div class="flex-col-sm-6">
+                                                <ul class="listcard">
+                                                    <h3 class="list-item list-item-title">
+                                                        <i class="material-icons">info_outline</i>
+                                                        Coordinate Work Centers Easily
+                                                    </h3>
+                                                    <li class="list-item">
+                                                        <i class="material-icons">brightness_1</i>
+                                                        <p>Get the full picture by studying the entire story of the problem from every department with all the details and history of the process</p>
+                                                    </li>
+
+                                                </ul>
+                                            </div><!-- // Column 3 -->
+
+                                            <!-- Column 4 -->
+                                            <div class="flex-col-sm-6">
+                                                <ul class="listcard">
+                                                    <h3 class="list-item list-item-title">
+                                                        <i class="material-icons">info_outline</i>
+                                                        Manage Workers' Shifts &amp; Leaves
+                                                    </h3>
+                                                    <li class="list-item">
+                                                        <i class="material-icons">brightness_1</i>
+                                                        <p>Get the full picture by studying the entire story of the problem from every department with all the details and history of the process</p>
+                                                    </li>
+
+                                                </ul>
+                                            </div><!-- // Column 4 -->
+											
+                                        </div>
+                                    </div><!-- // Listcards -->
+                                </div><!-- // Container -->
+                            </div><!-- // Subblock body -->
+
+							<!-- Subblock footer -->
+                            <div class="subblock-footer">
+                                <!-- Container -->
+                                <div class="container-sm-medium container-md-medium container-lg-small">
+                                    <!-- Statistics -->
+                                    <div class="layout-statistics" id="statistics-benefits-factory">
+                                        <div class="flex-row">
+
+                                            <!-- Column 1 -->
+                                            <div class="flex-col-sm-6 flex-col-md-4">
+                                                <div class="statistic">
+                                                    <div class="statistic-values">
+                                                        <i class="material-icons">arrow_downward</i>
+                                                        <span class="statistic-value">90%</span>
+                                                    </div>
+                                                    <div class="statistic-title">Time To Get Info</div>
+                                                    <div class="statistic-description">
+                                                        <p>Stop wasting you and your staff’s time everytime you want to discuss or decide</p>
+                                                    </div>
+                                                </div>
+                                            </div><!-- // Column 1 -->
+
+                                            <!-- Column 2 -->
+                                            <div class="flex-col-sm-6 flex-col-md-4">
+                                                <div class="statistic">
+                                                    <div class="statistic-values">
+                                                        <i class="material-icons">arrow_downward</i>
+                                                        <span class="statistic-value">100%</span>
+                                                    </div>
+                                                    <div class="statistic-title">Loss Opportunities</div>
+                                                    <div class="statistic-description">
+                                                        <p>Buy the bulk cheap or offer at competive price when you have all the info in hand to play</p>
+                                                    </div>
+                                                </div>
+                                            </div><!-- // Column 2 -->
+
+                                            <!-- Column 3 -->
+                                            <div class="flex-col-sm-6 flex-col-md-4">
+                                                <div class="statistic">
+                                                    <div class="statistic-values">
+                                                        <i class="material-icons">arrow_downward</i>
+                                                        <span class="statistic-value">15%</span>
+                                                    </div>
+                                                    <div class="statistic-title">Operation Cost</div>
+                                                    <div class="statistic-description">
+                                                        <p>See the costs clearly and trim it down one by one for optimal cost efficiency</p>
+                                                    </div>
+                                                </div>
+                                            </div><!-- // Column 3 -->
+                                        </div>
+                                    </div><!-- // Statistics -->
+                                </div><!-- // Container -->
+                            </div><!-- // Subblock footer -->
+
+                        </div><!-- // SubBlock: Factory  -->
+					</div><!-- // Block: Factory -->	
+					
+
+                    <!-- Block: Warehouse -->
+                    <div class="block" id="block-benefits-warehouse">
+
+                        <!-- SubBlock: Warehouse -->
+                        <div class="subblock subblock-benefits" id="subblock-benefits-warehouse">
+                            <!-- Subblock body -->
+                            <div class="subblock-body" id="subblock-body-benefits-warehouse-postcard">
+                                <div class="container-lg-medium">
+
+                                    <!-- Postcard: Warehouse -->
+                                    <div class="layout-postcard postcard-imagebigger" id="postcard-warehouse">
+                                        <div class="flex-row">
+                                            <div class="flex-col-md-7 col-postcard-image">
+                                                <div class="postcard-image" />
+                                            </div>	
+                                            <div class="flex-col-md-5 col-postcard-content">
+                                                <div class="postcard-content">
+                                                    <div class="postcard-header postcard-title">
+                                                        Finally, a proper Warehouse<span style="word-break: break-all"> Management</span> System.
+                                                    </div>
+                                                    <p class="postcard-body postcard-description">
+                                                        A efficient warehouse need to play with a lot of stocks and a lot of info. That’s when a good WMS matters.
+                                                    </p>
+                                                </div>
+                                            </div>
+										
+                                        </div>
+                                    </div><!-- // Postcard: Warehouse -->
+                                </div><!-- // Container -->
+                            </div><!-- // Subblock body -->
+
+                            <!-- Subblock body -->
+                            <div class="subblock-body" id="subblock-body-benefits-warehouse-details">
+                                <!-- Container -->
+                                <div class="container-lg-small">
+
+                                    <!-- Listcards -->
+                                    <div class="listcards" id="listcards-benefits-warehouse-details">
+                                        <div class="flex-row">
+                                            <!-- Column 1 -->
+                                            <div class="flex-col-sm-6">
+                                                <ul class="listcard">
+                                                    <h3 class="list-item list-item-title">
+                                                        <i class="material-icons">info_outline</i>
+                                                        Plan &amp; Manage Orders Easier
+                                                    </h3>
+                                                    <li class="list-item">
+                                                        <i class="material-icons">brightness_1</i>
+                                                        <p>Check how much is done for any part of manufacturing and operation (sales, purchase etc)</p>
+                                                    </li>
+                                                </ul>
+                                            </div><!-- // Column 1 -->
+
+                                            <!-- Column 2 -->
+                                            <div class="flex-col-sm-6">
+                                                <ul class="listcard">
+                                                    <h3 class="list-item list-item-title">
+                                                        <i class="material-icons">info_outline</i>
+                                                        Accurate On Time Delivery
+                                                    </h3>
+                                                    <li class="list-item">
+                                                        <i class="material-icons">brightness_1</i>
+                                                        <p>Get the full picture by studying the entire story of the problem from every department with all the details and history of the process</p>
+                                                    </li>
+
+                                                </ul>
+                                            </div><!-- // Column 2 -->
+
+                                            <!-- Column 3 -->
+                                            <div class="flex-col-sm-6">
+                                                <ul class="listcard">
+                                                    <h3 class="list-item list-item-title">
+                                                        <i class="material-icons">info_outline</i>
+                                                        Coordinate Work Centers Easily
+                                                    </h3>
+                                                    <li class="list-item">
+                                                        <i class="material-icons">brightness_1</i>
+                                                        <p>Get the full picture by studying the entire story of the problem from every department with all the details and history of the process</p>
+                                                    </li>
+
+                                                </ul>
+                                            </div><!-- // Column 3 -->
+
+                                            <!-- Column 4 -->
+                                            <div class="flex-col-sm-6">
+                                                <ul class="listcard">
+                                                    <h3 class="list-item list-item-title">
+                                                        <i class="material-icons">info_outline</i>
+                                                        Manage Workers' Shifts &amp; Leaves
+                                                    </h3>
+                                                    <li class="list-item">
+                                                        <i class="material-icons">brightness_1</i>
+                                                        <p>Get the full picture by studying the entire story of the problem from every department with all the details and history of the process</p>
+                                                    </li>
+
+                                                </ul>
+                                            </div><!-- // Column 4 -->
+											
+                                        </div>
+                                    </div><!-- // Listcards -->
+                                </div><!-- // Container -->
+                            </div><!-- // Subblock body -->
+
+							<!-- Subblock footer -->
+                            <div class="subblock-footer">
+                                <!-- Container -->
+                                <div class="container-sm-medium container-md-medium container-lg-small">
+                                    <!-- Statistics -->
+                                    <div class="layout-statistics" id="statistics-benefits-warehouse">
+                                        <div class="flex-row">
+
+                                            <!-- Column 1 -->
+                                            <div class="flex-col-sm-6 flex-col-md-4">
+                                                <div class="statistic">
+                                                    <div class="statistic-values">
+                                                        <i class="material-icons">arrow_downward</i>
+                                                        <span class="statistic-value">90%</span>
+                                                    </div>
+                                                    <div class="statistic-title">Time To Get Info</div>
+                                                    <div class="statistic-description">
+                                                        <p>Stop wasting you and your staff’s time everytime you want to discuss or decide</p>
+                                                    </div>
+                                                </div>
+                                            </div><!-- // Column 1 -->
+
+                                            <!-- Column 2 -->
+                                            <div class="flex-col-sm-6 flex-col-md-4">
+                                                <div class="statistic">
+                                                    <div class="statistic-values">
+                                                        <i class="material-icons">arrow_downward</i>
+                                                        <span class="statistic-value">100%</span>
+                                                    </div>
+                                                    <div class="statistic-title">Loss Opportunities</div>
+                                                    <div class="statistic-description">
+                                                        <p>Buy the bulk cheap or offer at competive price when you have all the info in hand to play</p>
+                                                    </div>
+                                                </div>
+                                            </div><!-- // Column 2 -->
+
+                                            <!-- Column 3 -->
+                                            <div class="flex-col-sm-6 flex-col-md-4">
+                                                <div class="statistic">
+                                                    <div class="statistic-values">
+                                                        <i class="material-icons">arrow_downward</i>
+                                                        <span class="statistic-value">15%</span>
+                                                    </div>
+                                                    <div class="statistic-title">Operation Cost</div>
+                                                    <div class="statistic-description">
+                                                        <p>See the costs clearly and trim it down one by one for optimal cost efficiency</p>
+                                                    </div>
+                                                </div>
+                                            </div><!-- // Column 3 -->
+                                        </div>
+                                    </div><!-- // Statistics -->
+                                </div><!-- // Container -->
+                            </div><!-- // Subblock footer -->
+
+                        </div><!-- // SubBlock: Warehouse -->
+					</div><!-- // Block: Warehouse -->
+
+					
                     <!-- Block: Ending -->
                     <div class="block" id="block-benefits-ending">
 
                         <!-- SubBlock: Ending -->
-                        <div class="subblock subblock-benefits subblock-ending" id="subblock-benefits-ending">
+                        <div class="subblock subblock-benefits subblock-ending" id="subblock-happy-factory">
                             <!-- Subblock body -->
                             <div class="subblock-body">
 
                                 <!-- Container -->
-                                <div class="container-lg-small">
+                                <div class="container-lg-medium">
                                     <!-- Postcard: Get the right plan -->
-                                    <div class="layout-postcard" id="postcard-benifits-get-plan">
+                                    <div class="layout-postcard postcard-textbigger" id="postcard-happy-factory">
                                         <div class="flex-row">
                                             <div class="flex-col-md-5 col-postcard-image">
                                                 <div class="postcard-image" />
@@ -231,11 +634,11 @@
                                             <div class="flex-col-md-7 col-postcard-content">
                                                 <div class="postcard-content">
                                                     <h1 class="postcard-header postcard-title">
-                                                        Leave all the messy and the tedious behind.
+                                                        A Happier &amp; More Productive Team
                                                     </h1>
                                                     <p class="postcard-body postcard-description">
-                                                        Bring Your Team To The Next Level<br/>
-                                                        Work Better On A Better Platform
+                                                        Bring The Business To The Next Level<br/>
+                                                        Work Smart On A Smart Platform	
                                                     </p>
                                                     <div class="postcard-footer">
                                                         <a href="#" class="btn btn-normal-inverse">

@@ -161,6 +161,53 @@ img{
 
 /* Layout: Postcard */
 .layout-postcard{
+
+	&.postcard-imagebigger{
+	
+		@media @query-md{
+			.col-postcard-image{
+				.flex-basis(percentage(600/1100));
+				max-width: percentage(600/1100);
+			}
+			.col-postcard-content{
+				.flex-basis(percentage(500/1100));
+				max-width: percentage(500/1100);
+			}
+		}
+		
+	}
+
+	&.postcard-textbigger{
+		
+		@media @query-md{
+			.col-postcard-image{
+				.flex-basis(percentage(500/1100));
+				max-width: percentage(500/1100);
+			}
+			.col-postcard-content{
+				.flex-basis(percentage(600/1100));
+				max-width: percentage(600/1100);
+			
+			}
+			
+			.postcard-content{
+				padding: 70px 40px 60px 80px;
+				height: 540px;
+			}		
+		}
+		
+		    .postcard-header{
+				margin-bottom: 35px;
+			}
+		
+		    .postcard-title{
+				font-size: 52px;
+				line-height: 1.25;
+			}
+		
+	}
+
+	
     .postcard-image{
         height: 100%;
         background-size: cover;
@@ -169,16 +216,19 @@ img{
     }
 
     .postcard-content{
-        padding: 50px 40px 60px 50px;
+        padding: 45px 40px 60px 50px;
     }
+	
     .postcard-header{
-        margin-bottom: 15px;
+        margin-bottom: 25px;
     }
     .postcard-title{
         font-size: @fs-subblock-em-title;
+		line-height: 1.2;
     }
     .postcard-description{
         font-size: @fs-subblock-subtitle;
+		line-height: 1.5;
     }
 }
 

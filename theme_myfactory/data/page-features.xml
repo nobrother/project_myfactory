@@ -515,9 +515,9 @@
                             <div class="subblock-body">
 
                                 <!-- Container -->
-                                <div class="container-lg-small">
+                                <div class="container-lg-medium">
                                     <!-- Postcard: Get the right plan -->
-                                    <div class="layout-postcard" id="postcard-benifits-get-plan">
+                                    <div class="layout-postcard postcard-textbigger" id="postcard-empowered-worker">
                                         <div class="flex-row">
                                             <div class="flex-col-md-5 col-postcard-image">
                                                 <div class="postcard-image" />
@@ -529,7 +529,7 @@
                                                     </h1>
                                                     <p class="postcard-body postcard-description">
                                                         Bring Your Team To The Next Level<br/>
-                                                        Work Better On A Better Platform
+                                                        Work Better On A Better Platform														
                                                     </p>
                                                     <div class="postcard-footer">
                                                         <a href="#" class="btn btn-normal-inverse">
