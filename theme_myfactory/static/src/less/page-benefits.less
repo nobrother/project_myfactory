@@ -1,19 +1,23 @@
 .subblock-benefits{
     .subblock-footer{
         margin-top: 150px;
+		background-color: @bg-color-block;
     }
 
     .subblock-ending{
         padding-top: 100px;
     }
-
+	
 }
 
-#subblock-benefits-business-manager{
-    .subblock-footer{
-        background-color: @bg-color-block;
-    }
+#page-benefits {
+	@media @query-md {
+		.postcard-imagebigger .postcard-content{
+			height: 430px;
+		}
+	}
 }
+
 
 #postcard-business-manager{
     > .flex-row{
@@ -21,7 +25,7 @@
     }
 
     .postcard-image{
-        background-image: url(http://placehold.it/600x430);
+        background-image: url(/theme_myfactory/static/img/benefits-boss.jpg);
     }
     .postcard-content{
         background-color: #546E7A;
@@ -29,7 +33,46 @@
     }
 }
 
-#listcards-benefits-business-manager-details{
+
+#postcard-all-teams{
+
+    .postcard-image{
+        background-image: url(/theme_myfactory/static/img/benefits-all.jpg);
+    }
+    .postcard-content{
+        background-color: #d1e4ec;
+        color: #4d4d4d;
+    }
+}
+
+#postcard-factory{
+
+    .postcard-image{
+        background-image: url(/theme_myfactory/static/img/benefits-factory.jpg);
+    }
+    .postcard-content{
+        background-color: #6c5637;
+        color: #fff;
+    }
+}
+
+
+#postcard-warehouse{
+
+    .postcard-image{
+        background-image: url(/theme_myfactory/static/img/benefits-warehouse.jpg);
+    }
+    .postcard-content{
+        background-color: #806239;
+        color: #fff;
+    }
+}
+
+
+
+
+
+.listcards{
 
     margin-top: 56px;
 
@@ -82,7 +125,7 @@
     }
 }
 
-#statistics-benefits-business-manager{
+.layout-statistics{
     > .flex-row{
         .set-row-gutter(50px)
     }
@@ -106,14 +149,12 @@
     }
 }
 
-#postcard-benifits-get-plan{
+.postcard-textbigger{
     > .flex-row{
         .set-row-gutter(30px);
     }
 
-    .postcard-image{
-        background-image: url(http://placehold.it/600x430);
-    }
+
     .postcard-content{
         background-color: #1E52A0;
         color: #ededed;
@@ -126,3 +167,11 @@
         }
     }
 }
+
+
+
+#postcard-happy-factory .postcard-image{
+	background-image: url(/theme_myfactory/static/img/happyfactory.jpg);
+}
+	
+	

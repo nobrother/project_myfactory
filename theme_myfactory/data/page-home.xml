@@ -59,7 +59,7 @@
                                                      <!-- Tabular item header -->
                                                      <div class="tabular-item-header box">
                                                          <div class="flex-row center-xs middle-xs">
-                                                             <img class="box" src="http://placehold.it/43x31" />
+                                                             <img class="box" src="" />
                                                              <span class="box">Supply Chain (ERP)</span>
                                                          </div>
                                                      </div><!-- // Tabular item header -->
@@ -206,7 +206,7 @@
                                             <div class="flex-row top-xs">
                                                 <div class="flex-col-md-6 last-md col-feature-image">
                                                     <div class="feature-image">
-                                                        <img src="http://placehold.it/500x380" />
+                                                        <img src="/theme_myfactory/static/img/homeboss.jpg" />
                                                     </div>
                                                 </div>
                                                 <div class="flex-col-md-6 col-feature-content">
@@ -252,7 +252,7 @@
                                             <div class="flex-row top-xs">
                                                 <div class="flex-col-md-6 col-feature-image">
                                                     <div class="feature-image">
-                                                        <img src="http://placehold.it/500x380" />
+                                                        <img src="/theme_myfactory/static/img/homefactory.jpg" />
                                                     </div>
                                                 </div>
                                                 <div class="flex-col-md-6 col-feature-content">
@@ -298,7 +298,7 @@
                                             <div class="flex-row top-xs">
                                                 <div class="flex-col-md-6 last-md col-feature-image">
                                                     <div class="feature-image">
-                                                        <img src="http://placehold.it/500x380" />
+                                                        <img src="/theme_myfactory/static/img/homewarehouse.jpg" />
                                                     </div>
                                                 </div>
                                                 <div class="flex-col-md-6 col-feature-content">
