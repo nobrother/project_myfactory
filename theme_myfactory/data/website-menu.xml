@@ -1,11 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <openerp>
     <data>
+
+        <function name="write" model="ir.model.data">
+            <function name="search" model="ir.model.data">
+                <value eval="[('module', '=', 'website'), ('name', 'in', ['menu_contactus', 'menu_homepage'])]" />
+            </function>
+            <value eval="{'noupdate': False}" />
+        </function>
+
+        <!-- Inactive home menu item -->
+        <record id="website.menu_homepage" model="website.menu">
+            <field name="active" eval="False" />
+        </record>
+
         <record id="menu_pricing" model="website.menu">
 			<field name="name">Pricing</field>
             <field name="url">/packages</field>
 			<field name="parent_id" ref="website.main_menu" />
 			<field name="sequence" type="int">20</field>
+            <field name="active" eval="True" />
         </record>
 
         <record id="menu_features" model="website.menu">
@@ -13,6 +27,7 @@
             <field name="url">/features</field>
             <field name="parent_id" ref="website.main_menu" />
             <field name="sequence" type="int">21</field>
+            <field name="active" eval="True" />
         </record>
 
         <record id="menu_benefits" model="website.menu">
@@ -20,6 +35,7 @@
             <field name="url">/benefits</field>
             <field name="parent_id" ref="website.main_menu" />
             <field name="sequence" type="int">22</field>
+            <field name="active" eval="True" />
         </record>
 
         <record id="menu_demo" model="website.menu">
@@ -27,6 +43,16 @@
             <field name="url">/demo</field>
             <field name="parent_id" ref="website.main_menu" />
             <field name="sequence" type="int">23</field>
+            <field name="active" eval="True" />
+        </record>
+
+        <!-- Change contact us url -->
+        <record id="website.menu_contactus" model="website.menu">
+            <field name="name">Contact us</field>
+            <field name="url">/contact-us</field>
+            <field name="parent_id" ref="website.main_menu"/>
+            <field name="sequence" type="int">60</field>
+            <field name="active" eval="False" />
         </record>
 
     </data>

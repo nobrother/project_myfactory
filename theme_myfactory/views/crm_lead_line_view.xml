@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <record id="view_crm_lead_line_tree" model="ir.ui.view">
+            <field name="name">crm.lead.line.tree</field>
+            <field name="model">crm.lead.line</field>
+            <field name="arch" type="xml">
+                <tree string="Lead Lines">
+                    <field name="product_id" />
+                    <field name="description" />
+                    <field name="lead_id" />
+                    <field name="product_uom_qty" />
+                    <field name="product_uom" />
+                </tree>
+            </field>
+        </record>
+
+        <record id="view_crm_lead_line_tree_in_crm_lead" model="ir.ui.view">
+            <field name="name">crm.lead.line.tree</field>
+            <field name="model">crm.lead.line</field>
+            <field name="priority" eval="10"/>
+            <field name="arch" type="xml">
+                <tree string="Lead Lines">
+                    <field name="product_id" />
+                    <field name="description" />
+                    <field name="product_uom_qty" />
+                    <field name="product_uom" />
+                </tree>
+            </field>
+        </record>
+
+        <record id="view_crm_lead_line_form_in_crm_lead" model="ir.ui.view">
+            <field name="name">crm.lead.line.form</field>
+            <field name="model">crm.lead.line</field>
+            <field name="priority" eval="10"/>
+            <field name="arch" type="xml">
+                <form string="Lead Lines">
+                    <sheet>
+                        <group>
+                            <group>
+                                <field name="product_id" />
+                                <field name="description" />
+                            </group>
+                            <group>
+                                <field name="product_uom_qty" />
+                                <field name="product_uom" />
+                            </group>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+    </data>
+</openerp>

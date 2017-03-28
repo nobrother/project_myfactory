@@ -23,11 +23,33 @@
 		</template>
 
         <!-- Set id to primary navbar-->
-        <template id="navbar_primary" inherit_id="website.layout" name="Primary navbar">
+        <template id="navbar_primary" inherit_id="website.layout" name="Primary navbar html id">
 			<xpath expr="//header/div[@class='navbar navbar-default navbar-static-top']" position="attributes">
 				<attribute name="id">navbar-primary</attribute>
 			</xpath>
 		</template>
 
+		<!-- Set id to menu items-->
+        <template id="navbar_primary_menu" inherit_id="website.submenu" name="Primary navbar menu item id">
+			<xpath expr="//li[@t-if='not submenu.child_id']" position="attributes">
+				<attribute name="t-attf-id">menu-item-#{submenu.url.replace('/','')}</attribute>
+			</xpath>
+
+			<xpath expr="//li[@t-if='not submenu.child_id']/a" position="attributes">
+				<attribute name="t-att-href">submenu.url</attribute>
+			</xpath>
+		</template>
+
+		<!-- Contact us button -->
+		<template id="navbar_primary_menu_last_item" inherit_id="website.layout" name="Contact us menu item">
+			<xpath expr="//t[@t-as='submenu']" position="after">
+				<li t-attf-id="menu-item-contact-us"
+					t-att-class="'active' if request.httprequest.path == '/contact-us' else None">
+					<a t-attf-href="/contact-us">
+						<span>Talk to us</span>
+					</a>
+				</li>
+			</xpath>
+		</template>
     </data>
 </openerp>

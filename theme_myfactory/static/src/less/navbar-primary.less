@@ -1,9 +1,38 @@
 @navbar-height: 50px;
 
 #navbar-primary{
-    @height: 54px;
-    @fs: 16px;
-
     background-color: #fff;
     border-color: @bg-color-separator;
+
+    @media @query-sm{
+        padding-top: 33px;
+        padding-bottom: 35px;
+    }
+}
+
+#top_menu{
+    @media @query-sm{
+        > li > a {
+            .transition(background-color 500ms ease-out);
+
+            @btn-normal-basic();
+            height: @navbar-height;
+            padding: 0 33px;
+
+            color: @fc-00;
+        }
+    }
+}
+#menu-item-contact-us{
+    @media @query-sm{
+        > a {
+            background-color: @color-blue-brand;
+            color: @fc-ff!important;
+            font-weight: 600;
+
+            &:hover{
+                background-color: @color-blue-bright;
+            }
+        }
+    }
 }

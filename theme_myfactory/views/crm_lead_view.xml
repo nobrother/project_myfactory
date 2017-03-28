@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <record model="ir.ui.view" id="view_crm_lead_form_inherit">
+            <field name="name">crm.lead.form</field>
+            <field name="model">crm.lead</field>
+            <field name="inherit_id" ref="crm.crm_case_form_view_leads"/>
+            <field name="type">form</field>
+            <field name="arch" type="xml">
+                <xpath expr="//page[@string='Internal Notes']" position="before">
+                    <page string="Preferred Products">
+                        <field name="line_ids" context="{
+                            'tree_view_ref': 'theme_myfactory.view_crm_lead_line_tree_in_crm_lead',
+                            'form_view_ref': 'theme_myfactory.view_crm_lead_line_form_in_crm_lead'
+                        }" />
+                    </page>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</openerp>

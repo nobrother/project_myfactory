@@ -14,6 +14,7 @@
         'website',
         'website_less',
         'website_crm',
+        'product'
     ],
     'data': [
         'data/website-menu.xml',
@@ -22,9 +23,13 @@
         'data/page-packages.xml',
         'data/page-features.xml',
         'data/page-about-us.xml',
+        'data/page-ask-for-trial.xml',
 
         'views/assets.xml',
         'views/layout.xml',
+
+        'views/crm_lead_line_view.xml',
+        'views/crm_lead_view.xml',
     ],
     'demo': [''],
     'installable': True,

@@ -3,14 +3,14 @@
 	<data>
         <function name="write" model="ir.model.data">
             <function name="search" model="ir.model.data">
-                <value eval="[('module', '=', 'website'), ('name', 'in', ['homepage'])]" />
+                <value eval="[('module', '=', 'theme_myfactory'), ('name', 'in', ['about_us'])]" />
             </function>
             <value eval="{'noupdate': False}" />
         </function>
 
-		<template name="Homepage" priority="29" t-name="website.about_us" id="about_us">
+		<template name="About Us" priority="29" t-name="website.about_us" id="about_us">
 			<t t-call="website.layout">
-				<div class="oe_structure oe_empty page-homepage" id="page-about-us">
+				<div class="oe_structure oe_empty page-about-us" id="page-about-us">
 
                     <!-- Block -->
                     <div class="block" id="block-about-us">
