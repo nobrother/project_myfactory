@@ -219,7 +219,7 @@
                                                     <div class="flex-row middle-xs">
                                                         <div class="box col-imgtxt-image">
                                                             <div class="imgtxt-image">
-                                                                 <img src="http://placehold.it/225x225"/>
+                                                                 <img src="/theme_myfactory/static/img/bosses.png"/>
                                                             </div>
                                                         </div>
                                                         <div class="box col-imgtxt-content">
@@ -250,7 +250,7 @@
                                                     <div class="flex-row middle-xs">
                                                         <div class="box col-imgtxt-image">
                                                             <div class="imgtxt-image">
-                                                                 <img src="http://placehold.it/225x225"/>
+                                                                 <img src="/theme_myfactory/static/img/staffs.png"/>
                                                             </div>
                                                         </div>
                                                         <div class="box col-imgtxt-content">
@@ -305,7 +305,7 @@
                                             <div class="flex-col-sm-6 flex-col-md-4">
                                                 <div class="card flex-col middle-xs">
                                                     <div class="card-image box">
-                                                        <img src="http://placehold.it/230x100"/>
+                                                        <img src="/theme_myfactory/static/img/msc.png"/>
                                                     </div>
                                                     <h6 class="card-title box">MSC Status Company</h6>
                                                     <p class="card-description box">
@@ -320,7 +320,7 @@
                                             <div class="flex-col-sm-6 flex-col-md-4">
                                                 <div class="card flex-col middle-xs">
                                                     <div class="card-image box">
-                                                        <img src="http://placehold.it/230x100"/>
+                                                        <img src="/theme_myfactory/static/img/custom.png"/>
                                                     </div>
                                                     <h6 class="card-title box">Custom Certified</h6>
                                                     <p class="card-description box">
@@ -336,7 +336,7 @@
                                             <div class="flex-col-sm-6 flex-col-md-4">
                                                 <div class="card flex-col middle-xs">
                                                     <div class="card-image box">
-                                                        <img src="http://placehold.it/230x100"/>
+                                                        <img src="/theme_myfactory/static/img/odoo.png"/>
                                                     </div>
                                                     <h6 class="card-title box">Odoo Official Partner</h6>
                                                     <p class="card-description box">
@@ -369,7 +369,7 @@
                                 </header><!-- // Subblock header -->
 
                                 <div class="subblock-body">
-                                    <img src="http://placehold.it/800x300" />
+                                    <img src="/theme_myfactory/static/img/map.png" />
                                 </div>
 
                                 <!-- Subblock footer -->
