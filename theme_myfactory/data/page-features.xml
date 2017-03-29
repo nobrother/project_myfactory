@@ -34,7 +34,7 @@
                             <!-- Subblock header -->
                             <div class="subblock-header">
                                 <div class="container-md-medium container-lg-small">
-                                    <img src="http://placehold.it/1050x560" />
+                                    <img src="/theme_myfactory/static/img/mini-demo.jpg" />
                                 </div>
                             </div><!-- // Subblock header -->
 
@@ -120,7 +120,7 @@
                                     <div class="layout-alert" id="alert-features-odoo">
                                         <div class="flex-row">
                                             <div class="box alert-image">
-                                                <img src="http://placehold.it/300x90" />
+                                                <img src="/theme_myfactory/static/img/odoo-purple.png" />
                                             </div>
                                             <div class="box alert-content">
                                                 <div class="alert-header alert-title">

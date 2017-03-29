@@ -364,7 +364,7 @@ Version update when announced</p>
                                                 <div class="card flex-col middle-xs">
                                                     <div class="card-image box">
                                                         <div class="layout-icon-circle">
-                                                            <i class="material-icons">access_time</i>
+                                                            <i class="material-icons">dns</i>
                                                         </div>
                                                     </div>
                                                     <h6 class="card-title box">Cloud Server</h6>
@@ -445,7 +445,7 @@ Version update when announced</p>
                                                                     <div class="card flex-col middle-xs">
                                                                         <div class="card-image box">
                                                                             <div class="layout-icon-circle">
-                                                                                <i class="material-icons">apps</i>
+                                                                                <i class="iconfont icon-product" />
                                                                             </div>
                                                                         </div>
                                                                         <h6 class="card-title box">Discrete Manufacturers</h6>
@@ -460,10 +460,10 @@ Version update when announced</p>
                                                                     <div class="card flex-col middle-xs">
                                                                         <div class="card-image box">
                                                                             <div class="layout-icon-circle">
-                                                                                <i class="material-icons">apps</i>
+                                                                                <i class="iconfont icon-product" />
                                                                             </div>
                                                                         </div>
-                                                                        <h6 class="card-title box">Processs Manufacturers</h6>
+                                                                        <h6 class="card-title box">Process Manufacturers</h6>
                                                                         <p class="card-description box">
                                                                             Produce by chemical &amp; recipe <br/> Process
                                                                         </p>
@@ -491,7 +491,7 @@ Version update when announced</p>
                                                                     <div class="card flex-col middle-xs">
                                                                         <div class="card-image box">
                                                                             <div class="layout-icon-circle">
-                                                                                <i class="material-icons">flight</i>
+                                                                                <i class="iconfont icon-chip" />
                                                                             </div>
                                                                         </div>
                                                                         <h6 class="card-title box">Electronics</h6>
@@ -503,7 +503,7 @@ Version update when announced</p>
                                                                     <div class="card flex-col middle-xs">
                                                                         <div class="card-image box">
                                                                             <div class="layout-icon-circle">
-                                                                                <i class="material-icons">directions_bike</i>
+                                                                                <i class="iconfont icon-screw" />
                                                                             </div>
                                                                         </div>
                                                                         <h6 class="card-title box">Precision Metalforming</h6>
@@ -515,7 +515,7 @@ Version update when announced</p>
                                                                     <div class="card flex-col middle-xs">
                                                                         <div class="card-image box">
                                                                             <div class="layout-icon-circle">
-                                                                                <i class="material-icons">flight</i>
+                                                                                <i class="iconfont icon-product" />
                                                                             </div>
                                                                         </div>
                                                                         <h6 class="card-title box">Rubber &amp; Plastics</h6>
@@ -527,7 +527,7 @@ Version update when announced</p>
                                                                     <div class="card flex-col middle-xs">
                                                                         <div class="card-image box">
                                                                             <div class="layout-icon-circle">
-                                                                                <i class="material-icons">directions_bike</i>
+                                                                                <i class="iconfont icon-furniture" />
                                                                             </div>
                                                                         </div>
                                                                         <h6 class="card-title box">Furniture</h6>
@@ -572,7 +572,7 @@ Version update when announced</p>
                                                 <div class="process flex-col middle-xs">
                                                     <div class="process-image box">
                                                         <div class="layout-icon-circle">
-                                                            <i class="material-icons">apps</i>
+                                                            <i class="material-icons">textsms</i>
                                                         </div>
                                                     </div>
                                                     <h6 class="process-title box">Request</h6>
@@ -587,7 +587,7 @@ Version update when announced</p>
                                                 <div class="process flex-col middle-xs">
                                                     <div class="process-image box">
                                                         <div class="layout-icon-circle">
-                                                            <i class="material-icons">apps</i>
+                                                            <i class="iconfont icon-vote"></i>
                                                         </div>
                                                     </div>
                                                     <h6 class="process-title box">Vote</h6>
@@ -603,10 +603,10 @@ Version update when announced</p>
                                                 <div class="process flex-col middle-xs">
                                                     <div class="process-image box">
                                                         <div class="layout-icon-circle">
-                                                            <i class="material-icons">apps</i>
+                                                            <i class="material-icons">find_in_page</i>
                                                         </div>
                                                     </div>
-                                                    <h6 class="process-title box">Access</h6>
+                                                    <h6 class="process-title box">Assess</h6>
                                                     <p class="process-description box">
                                                         We assess all the requests, its needs and
                                                         the solution by votes &amp; talking to you guys
@@ -619,7 +619,7 @@ Version update when announced</p>
                                                 <div class="process flex-col middle-xs">
                                                     <div class="process-image box">
                                                         <div class="layout-icon-circle">
-                                                            <i class="material-icons">apps</i>
+                                                            <i class="material-icons">dvr</i>
                                                         </div>
                                                     </div>
                                                     <h6 class="process-title box">Announce</h6>
@@ -635,7 +635,7 @@ Version update when announced</p>
                                                 <div class="process no-arrow-xs flex-col middle-xs">
                                                     <div class="process-image box">
                                                         <div class="layout-icon-circle">
-                                                            <i class="material-icons">apps</i>
+                                                            <i class="material-icons">cloud_upload</i>
                                                         </div>
                                                     </div>
                                                     <h6 class="process-title box">Deploy</h6>

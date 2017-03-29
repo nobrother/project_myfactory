@@ -96,8 +96,9 @@
                       type="text/css" rel="stylesheet" />
                 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700"
                       type="text/css" rel="stylesheet" />
-
-
+				
+                <link href="//at.alicdn.com/t/font_3cnhnb6ryr0e8kt9.css"
+                      type="text/css" rel="stylesheet" />
             </xpath>
 
             <!-- External Javascript -->

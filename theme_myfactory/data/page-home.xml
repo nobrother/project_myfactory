@@ -64,28 +64,27 @@
                                                      <!-- Tabular item header -->
                                                      <div class="tabular-item-header box">
                                                          <div class="flex-row center-xs middle-xs">
-                                                             <img class="box" src="" />
                                                              <span class="box">Supply Chain (ERP)</span>
                                                          </div>
                                                      </div><!-- // Tabular item header -->
 
                                                      <!-- Tabular item body -->
                                                      <div class="tabular-item-body box">
-                                                         <div class="flex-row around-xs icon-items">
-                                                             <div class="box icon-item">
-                                                                 <i class="fa fa-users" />
+                                                         <div class="flex-row around-xs icontexts">
+                                                             <div class="box icontext-item">
+                                                                 <i class="iconfont icon-sales" />
                                                                  <span class="caption">
                                                                      Sales &amp; Invoicing
                                                                  </span>
                                                              </div>
-                                                             <div class="box icon-item">
-                                                                 <i class="fa fa-users" />
+                                                             <div class="box icontext-item">
+                                                                 <i class="iconfont icon-warehouse-1" />
                                                                  <span class="caption">
-                                                                     Inventory / Warehouse
+                                                                     Inventory/Warehouse
                                                                  </span>
                                                              </div>
-                                                             <div class="box icon-item">
-                                                                 <i class="fa fa-users" />
+                                                             <div class="box icontext-item">
+                                                                 <i class="material-icons">credit_card</i>
                                                                  <span class="caption">
                                                                      Purchase
                                                                  </span>
@@ -101,40 +100,39 @@
                                                      <!-- Tabular item header -->
                                                      <div class="tabular-item-header box">
                                                          <div class="flex-row center-xs middle-xs">
-                                                             <img class="box" src="http://placehold.it/43x31" />
                                                              <span class="box">Factory (MRP)</span>
                                                          </div>
                                                      </div><!-- // Tabular item header -->
 
                                                      <!-- Tabular item body -->
                                                      <div class="tabular-item-body box">
-                                                         <div class="flex-row around-xs icon-items">
-                                                             <div class="box icon-item">
-                                                                 <i class="fa fa-users" />
+                                                         <div class="flex-row around-xs icontexts">
+                                                             <div class="box icontext-item">
+                                                                 <i class="iconfont icon-product1" />
                                                                  <span class="caption">
                                                                      Products
                                                                  </span>
                                                              </div>
-                                                             <div class="box icon-item">
-                                                                 <i class="fa fa-users" />
+                                                             <div class="box icontext-item">
+                                                                 <i class="iconfont icon-schedule" />
                                                                  <span class="caption">
                                                                      Planning
                                                                  </span>
                                                              </div>
-                                                             <div class="box icon-item">
-                                                                 <i class="fa fa-users" />
+                                                             <div class="box icontext-item">
+                                                                 <i class="iconfont icon-factory" />
                                                                  <span class="caption">
                                                                      Production
                                                                  </span>
                                                              </div>
-                                                             <div class="box icon-item">
-                                                                 <i class="fa fa-users" />
+                                                             <div class="box icontext-item">
+                                                                 <i class="fa fa-check-square-o" />
                                                                  <span class="caption">
                                                                      Quality
                                                                  </span>
                                                              </div>
-                                                             <div class="box icon-item">
-                                                                 <i class="fa fa-users" />
+                                                             <div class="box icontext-item">
+                                                                 <i class="iconfont icon-dollar" />
                                                                  <span class="caption">
                                                                      Costing
                                                                  </span>
@@ -150,28 +148,27 @@
                                                      <!-- Tabular item header -->
                                                      <div class="tabular-item-header box">
                                                          <div class="flex-row center-xs middle-xs">
-                                                             <img class="box" src="http://placehold.it/43x31" />
                                                              <span class="box">Management (ERP)</span>
                                                          </div>
                                                      </div><!-- // Tabular item header -->
 
                                                      <!-- Tabular item body -->
                                                      <div class="tabular-item-body box">
-                                                         <div class="flex-row around-xs icon-items">
-                                                             <div class="box icon-item">
-                                                                 <i class="fa fa-users" />
+                                                         <div class="flex-row around-xs icontexts">
+                                                             <div class="box icontext-item">
+                                                                 <i class="material-icons">content_copy</i>
                                                                  <span class="caption">
                                                                      Accounting Integration
                                                                  </span>
                                                              </div>
-                                                             <div class="box icon-item">
-                                                                 <i class="fa fa-users" />
+                                                             <div class="box icontext-item">
+                                                                 <i class="material-icons">info</i>
                                                                  <span class="caption">
                                                                      Business Intelligence
                                                                  </span>
                                                              </div>
-                                                             <div class="box icon-item">
-                                                                 <i class="fa fa-users" />
+                                                             <div class="box icontext-item">
+                                                                 <i class="material-icons">account_box</i>
                                                                  <span class="caption">
                                                                      Administration
                                                                  </span>
@@ -388,7 +385,7 @@
                                                     <div class="process-head-number box">1</div>
                                                     <div class="process-image box">
                                                         <div class="layout-icon-circle">
-                                                            <i class="material-icons">dns</i>
+                                                            <i class="material-icons">cloud_queue</i>
                                                         </div>
                                                     </div>
                                                     <h3 class="process-title box">Subscribe SaaS Plan</h3>
@@ -405,7 +402,7 @@
                                                     <div class="process-head-number box">2</div>
                                                     <div class="process-image box">
                                                         <div class="layout-icon-circle">
-                                                            <i class="material-icons">cloud_queue</i>
+                                                            <i class="material-icons">cloud_upload</i>
                                                         </div>
                                                     </div>
                                                     <h3 class="process-title box">Onboard In Weeks</h3>
@@ -422,7 +419,7 @@
                                                     <div class="process-head-number box">3</div>
                                                     <div class="process-image box">
                                                         <div class="layout-icon-circle">
-                                                            <i class="material-icons">build</i>
+                                                            <i class="iconfont icon-cloudplus"></i>
                                                         </div>
                                                     </div>
                                                     <h3 class="process-title box">Upgrade FOC Monthly</h3>
