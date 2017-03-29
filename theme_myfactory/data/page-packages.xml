@@ -9,6 +9,10 @@
         </function>
 
 		<template name="Packages" priority="29" t-name="website.benefits" id="packages">
+            <t t-if="not title">
+                <t t-set="title">Packages | myfactory</t>
+            </t>
+
             <t t-call="website.layout">
 				<div class="oe_structure oe_empty page page-packages" id="page-packages">
                     <!-- Page Header -->

@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+from openerp import SUPERUSER_ID
 from openerp.addons.web import http
 from openerp.http import request
 from openerp.addons.website.controllers.main import Website
@@ -9,7 +10,7 @@ class Website(Website):
     @http.route()
     def index(self, **kw):
         try:
-            return self.page('homepage')
+            return request.render('theme_myfactory.home')
         except Exception:
             return super(Website, self).index(**kw)
 
@@ -29,10 +30,21 @@ class Website(Website):
     def page_about_us(self):
         return request.render('theme_myfactory.about_us')
 
+    @http.route('/demo', type='http', auth="public", website=True)
+    def page_demo(self):
+        return request.render('theme_myfactory.demo')
+
+
+
     @http.route('/ask-for-trial', type='http', auth="public", website=True)
     def page_ask_for_trial(self, **kwargs):
 
         values = {}
+
+        products = request.registry['product.product'].search_read(request.cr, SUPERUSER_ID,[],['name'])
+
+        values.update(products=products)
+
         for field in ['description', 'partner_name', 'phone', 'contact_name', 'email_from', 'name']:
             if kwargs.get(field):
                 values[field] = kwargs.pop(field)

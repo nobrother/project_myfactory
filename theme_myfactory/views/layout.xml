@@ -22,33 +22,40 @@
 			</xpath>
 		</template>
 
-        <!-- Set id to primary navbar-->
-        <template id="navbar_primary" inherit_id="website.layout" name="Primary navbar html id">
+        <!-- Primary navbar-->
+        <template id="navbar_primary" inherit_id="website.layout" name="Primary navbar inherit">
+
+			<!-- Set html id to primary navbar-->
 			<xpath expr="//header/div[@class='navbar navbar-default navbar-static-top']" position="attributes">
 				<attribute name="id">navbar-primary</attribute>
 			</xpath>
-		</template>
 
-		<!-- Set id to menu items-->
-        <template id="navbar_primary_menu" inherit_id="website.submenu" name="Primary navbar menu item id">
-			<xpath expr="//li[@t-if='not submenu.child_id']" position="attributes">
-				<attribute name="t-attf-id">menu-item-#{submenu.url.replace('/','')}</attribute>
-			</xpath>
+            <!-- Remove user menu item -->
+            <xpath expr="//ul[@id='top_menu']/li[@class='divider']" position="replace" />
+            <xpath expr="//ul[@id='top_menu']/li[@class='dropdown']" position="replace" />
 
-			<xpath expr="//li[@t-if='not submenu.child_id']/a" position="attributes">
-				<attribute name="t-att-href">submenu.url</attribute>
-			</xpath>
-		</template>
-
-		<!-- Contact us button -->
-		<template id="navbar_primary_menu_last_item" inherit_id="website.layout" name="Contact us menu item">
-			<xpath expr="//t[@t-as='submenu']" position="after">
+            <!-- Contact us button -->
+            <xpath expr="//t[@t-as='submenu']" position="after">
 				<li t-attf-id="menu-item-contact-us"
 					t-att-class="'active' if request.httprequest.path == '/contact-us' else None">
 					<a t-attf-href="/contact-us">
 						<span>Talk to us</span>
 					</a>
 				</li>
+			</xpath>
+		</template>
+
+		<!-- Menu items-->
+        <template id="navbar_primary_menu" inherit_id="website.submenu" name="Primary navbar inherit">
+
+            <!-- Set html id to menu items-->
+			<xpath expr="//li[@t-if='not submenu.child_id']" position="attributes">
+				<attribute name="t-attf-id">menu-item-#{submenu.url.replace('/','')}</attribute>
+			</xpath>
+
+            <!-- Remove url logic on first menu item -->
+			<xpath expr="//li[@t-if='not submenu.child_id']/a" position="attributes">
+				<attribute name="t-att-href">submenu.url</attribute>
 			</xpath>
 		</template>
     </data>

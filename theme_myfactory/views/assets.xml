@@ -41,6 +41,10 @@
 					type="text/less"
 					rel="stylesheet" />
 				<link
+					href="/theme_myfactory/static/src/less/selectric.less"
+					type="text/less"
+					rel="stylesheet" />
+				<link
 					href="/theme_myfactory/static/src/less/navbar-primary.less"
 					type="text/less"
 					rel="stylesheet" />
@@ -64,11 +68,19 @@
 					href="/theme_myfactory/static/src/less/page-about-us.less"
 					type="text/less"
 					rel="stylesheet" />
+				<link
+					href="/theme_myfactory/static/src/less/page-demo.less"
+					type="text/less"
+					rel="stylesheet" />
+
 
 
                 <!-- JAVASCRIPTS -->
 				<script type="text/javascript"
+						src="/theme_myfactory/static/src/js/jquery.selectric.min.js" />
+				<script type="text/javascript"
 						src="/theme_myfactory/static/src/js/common.js" />
+
 
             </xpath>
         </template>

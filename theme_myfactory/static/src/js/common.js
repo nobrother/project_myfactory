@@ -52,13 +52,16 @@
 /*
  * Scroll to anchor
  */
-(function($){
-    $(function(){
+(function($, window, document, history){
 
-        $('.scroll-to').on('click', function(e){
+    // When everything is loaded
+    $(window).on('load',function(){
+        $(window).on('hashchange', function(e){
 
-            var selector = this.hash || $(this).data('scroll-target') || '',
-                $target = $(selector);
+            e.preventDefault();
+
+            var selector = e.fragment || '',
+                $target = $('#' + selector);
 
             if(!$target.length)
                 return;
@@ -70,5 +73,40 @@
 
             return false;
         });
+
+        if(document.location.hash)
+            $(window).trigger('hashchange');
     });
+
+    $(function(){
+
+        $('.js-scroll-to').on('click', function(e){
+
+            var selector = this.hash || $(this).data('scroll-target') || '',
+                $target = $(selector);
+
+            if(!$target.length)
+                return;
+
+            // Change hash
+            if(history)
+                history.replaceState({}, '', this.href);
+
+            var offset = parseFloat($target.data('offset')) || 0;
+            $('html, body').animate({
+                scrollTop: $target.offset().top + offset
+            }, 500);
+
+            return false;
+        });
+    });
+})(jQuery, window, document, history || false);
+
+/*
+ * Selectric
+ */
+(function($){
+    $(function(){
+        $('.selectric').selectric();
+    })
 })(jQuery);

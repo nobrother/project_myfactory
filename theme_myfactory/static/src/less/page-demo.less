@@ -1,0 +1,48 @@
+#cards-demo-nav{
+    .container(250px; 0);
+
+    > .flex-row{
+        .set-row-gutter(30px);
+        .set-col-gutter(60px);
+    }
+
+    @media @query-sm{
+        .container(725px; 0);
+
+        > .flex-row{
+            .set-col-gutter(100px);
+        }
+    }
+
+    .card-image{
+        margin-bottom: 15px;
+        .layout-icon-circle{
+            .set-icon(70px; 60px; transparent; @color-blue-brand);
+        }
+    }
+
+    .card-title{
+        margin-bottom: 15px;
+
+        .link-basic{
+            font-size: 18px;
+            font-weight: 300;
+        }
+    }
+}
+
+#page-demo{
+    .segment-label{
+        margin-bottom: 30px;
+
+        color: @color-blue-brand;
+        i{
+            font-size: 32px;
+        }
+        span{
+            padding-left: 15px;
+            font-size: 16px;
+            font-weight: 400;
+        }
+    }
+}

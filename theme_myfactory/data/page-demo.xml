@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <function name="write" model="ir.model.data">
+            <function name="search" model="ir.model.data">
+                <value eval="[('module', '=', 'theme_myfactory'), ('name', 'in', ['demo'])]" />
+            </function>
+            <value eval="{'noupdate': False}" />
+        </function>
+
+		<template name="Demo" priority="29" t-name="website.demo" id="demo">
+            <t t-if="not title">
+                <t t-set="title">Demo | myfactory</t>
+            </t>
+
+            <t t-call="website.layout">
+				<div class="oe_structure oe_empty page page-demo" id="page-demo">
+                    <!-- Block: Intro -->
+                    <div class="block" id="block-demo">
+                        <!-- Subblock: Intro -->
+                        <div class="subblock" id="subblock-demo-intro">
+                            <!-- Container -->
+                            <div class="container-md-medium container-lg-medium">
+                                <div class="subblock-header">
+                                    <!-- Page Header -->
+                                    <div class="page-header page-title">
+                                        <div class="container-lg-small">
+                                            <h1>Watch How Easy Business Can Be</h1>
+                                            <h2>
+                                                Reinvent Your Manufacturing &amp; Business Process<br/>
+                                                Time For A Modern Solution To The Old Problems
+                                            </h2>
+                                        </div>
+                                    </div><!-- // Page Header -->
+                                </div>
+
+                                <div class="subblock-body">
+                                    <!-- Cards: What you get -->
+                                    <div class="cards" id="cards-demo-nav">
+                                        <div class="flex-row">
+                                            <!-- Column 1 -->
+                                            <div class="flex-col-xs-6 flex-col-sm-3">
+                                                <div class="card flex-col middle-xs">
+                                                    <div class="card-image box">
+                                                        <div class="layout-icon-circle">
+                                                            <i class="fa fa-database"/>
+                                                        </div>
+                                                    </div>
+                                                    <h6 class="card-title box">
+                                                        <a href="#database" class="link-basic js-scroll-to">
+                                                            Database
+                                                        </a>
+                                                    </h6>
+                                                </div>
+                                            </div><!-- // Column 1 -->
+
+                                            <!-- Column 2 -->
+                                            <div class="flex-col-xs-6 flex-col-sm-3">
+                                                <div class="card flex-col middle-xs">
+                                                    <div class="card-image box">
+                                                        <div class="layout-icon-circle">
+                                                            <i class="fa fa-truck"/>
+                                                        </div>
+                                                    </div>
+                                                    <h6 class="card-title box">
+                                                        <a href="#supply-chain" class="link-basic js-scroll-to">
+                                                            Supply Chain
+                                                        </a>
+                                                    </h6>
+                                                </div>
+                                            </div><!-- // Column 2 -->
+
+                                            <!-- Column 3 -->
+                                            <div class="flex-col-xs-6 flex-col-sm-3">
+                                                <div class="card flex-col middle-xs">
+                                                    <div class="card-image box">
+                                                        <div class="layout-icon-circle">
+                                                            <i class="fa fa-industry"/>
+                                                        </div>
+                                                    </div>
+                                                    <h6 class="card-title box">
+                                                        <a href="#manufacturing" class="link-basic js-scroll-to">
+                                                            Manufacturing
+                                                        </a>
+                                                    </h6>
+                                                </div>
+                                            </div><!-- // Column 3 -->
+
+                                            <!-- Column 4 -->
+                                            <div class="flex-col-xs-6 flex-col-sm-3">
+                                                <div class="card flex-col middle-xs">
+                                                    <div class="card-image box">
+                                                        <div class="layout-icon-circle">
+                                                            <i class="fa fa-user-secret"/>
+                                                        </div>
+                                                    </div>
+                                                    <h6 class="card-title box">
+                                                        <a href="#management" class="link-basic js-scroll-to">
+                                                            Management
+                                                        </a>
+                                                    </h6>
+                                                </div>
+                                            </div><!-- // Column 4 -->
+                                        </div><!-- // Row -->
+                                    </div><!-- // Cards -->
+                                </div><!-- // Subblock body -->
+                            </div><!-- // Container -->
+                        </div><!-- // Subblock: Intro -->
+
+                        <!-- Divider-->
+                        <div class="container-md-medium container-lg-medium divider-container">
+                            <div class="divider" />
+                        </div><!-- // Divider-->
+
+                        <!-- Subblock: Manufacturing -->
+                        <a class="anchor" id="manufacturing" data-offset="10"/>
+                        <div class="subblock" id="subblock-demo-manufacturing">
+                            <!-- Container -->
+                            <div class="container-md-medium container-lg-medium">
+
+                                <!-- Subblock Header -->
+                                <div class="subblock-header subblock-title">
+                                    <div class="segment-label">
+                                        <div class="flex-row middle-xs center-xs">
+                                            <i class="fa fa-industry box" />
+                                            <span>MANUFACTURING</span>
+                                        </div>
+                                    </div>
+                                    <h1>From Plan To Produce</h1>
+                                    <h2>Plan &amp; Manage Easily for Optimal Production</h2>
+                                </div><!-- // Subblock Header -->
+
+                                <div class="subblock-body">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                      <iframe class="embed-responsive-item"
+                                              src="https://www.youtube.com/embed/6qkFVWJWRUI"
+                                              allowfullscreen="1" />
+                                    </div>
+                                </div>
+                            </div><!-- Container -->
+                        </div><!-- // Subblock: Manufacturing -->
+
+                        <!-- Subblock: Supply Chain -->
+                        <a class="anchor" id="supply-chain" data-offset="10"/>
+                        <div class="subblock" id="subblock-demo-supply-chain">
+                            <!-- Container -->
+                            <div class="container-md-medium container-lg-medium">
+
+                                <!-- Subblock Header -->
+                                <div class="subblock-header subblock-title">
+                                    <div class="segment-label">
+                                        <div class="flex-row middle-xs center-xs">
+                                            <i class="fa fa-truck box" />
+                                            <span>Supply Chain</span>
+                                        </div>
+                                    </div>
+                                    <h1>From Order To Cash</h1>
+                                    <h2>Fulfill Customer Demand In A Smooth Flow</h2>
+                                </div><!-- // Subblock Header -->
+
+                                <div class="subblock-body">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                      <iframe class="embed-responsive-item"
+                                              src="https://www.youtube.com/embed/6qkFVWJWRUI"
+                                              allowfullscreen="1" />
+                                    </div>
+                                </div>
+                            </div><!-- Container -->
+                        </div><!-- // Subblock: Supply Chain -->
+
+                        <!-- Subblock: Management -->
+                        <a class="anchor" id="management" data-offset="10"/>
+                        <div class="subblock" id="subblock-demo-management">
+                            <!-- Container -->
+                            <div class="container-md-medium container-lg-medium">
+
+                                <!-- Subblock Header -->
+                                <div class="subblock-header subblock-title">
+                                    <div class="segment-label">
+                                        <div class="flex-row middle-xs center-xs">
+                                            <i class="fa fa-user-secret box" />
+                                            <span>Management</span>
+                                        </div>
+                                    </div>
+                                    <h1>From Helicopter View To Ground</h1>
+                                    <h2>Fulfill Customer Demand In A Smooth Flow</h2>
+                                </div><!-- // Subblock Header -->
+
+                                <div class="subblock-body">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                      <iframe class="embed-responsive-item"
+                                              src="https://www.youtube.com/embed/6qkFVWJWRUI"
+                                              allowfullscreen="1" />
+                                    </div>
+                                </div>
+                            </div><!-- Container -->
+                        </div><!-- // Subblock: Management -->
+
+                    </div><!-- // Block: Intro -->
+                </div>
+            </t>
+        </template>
+    </data>
+</openerp>
