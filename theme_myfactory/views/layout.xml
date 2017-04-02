@@ -46,6 +46,12 @@
 		</template>
 
 		<!-- Menu items-->
+        <template id="show_sign_in_inherit" inherit_id="website.show_sign_in" name="Show Sign In inherit">
+			<xpath expr="//li[@class='divider']" position="replace" />
+			<xpath expr="//li[@groups='base.group_public']" position="replace" />
+		</template>
+
+		<!-- Menu items-->
         <template id="navbar_primary_menu" inherit_id="website.submenu" name="Primary navbar inherit">
 
             <!-- Set html id to menu items-->

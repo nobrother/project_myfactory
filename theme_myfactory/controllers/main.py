@@ -58,4 +58,5 @@ class contactus(contactus):
 
     @http.route('/contact-us', type='http', auth="public", website=True)
     def contact(self, **kwargs):
-        return super(contactus, self).contact(**kwargs)
+        #return super(contactus, self).contact(**kwargs)
+        return request.render('theme_myfactory.contact_us')

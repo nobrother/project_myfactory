@@ -68,8 +68,10 @@
 					href="/theme_myfactory/static/src/less/page-demo.less"
 					type="text/less"
 					rel="stylesheet" />
-				
-
+				<link
+					href="/theme_myfactory/static/src/less/page-contact-us.less"
+					type="text/less"
+					rel="stylesheet" />
 
                 <!-- JAVASCRIPTS -->
 				<script type="text/javascript"
@@ -100,6 +102,8 @@
                 <!-- JAVASCRIPTS -->
                 <script type="text/javascript"
                         src="https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.2/jquery.matchHeight-min.js" />
+				<script type="text/javascript"
+                        src="https://cdnjs.cloudflare.com/ajax/libs/parsley.js/2.7.0/parsley.min.js" />
 
             </xpath>
         </template>
