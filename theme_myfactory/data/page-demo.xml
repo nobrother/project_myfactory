@@ -92,7 +92,7 @@
                                                 <div class="card flex-col middle-xs">
                                                     <div class="card-image box">
                                                         <div class="layout-icon-circle">
-                                                            <i class="fa fa-user-secret"/>
+                                                            <i class="iconfont icon-mgr"/>
                                                         </div>
                                                     </div>
                                                     <h6 class="card-title box">
@@ -179,7 +179,7 @@
                                 <div class="subblock-header subblock-title">
                                     <div class="segment-label">
                                         <div class="flex-row middle-xs center-xs">
-                                            <i class="fa fa-user-secret box" />
+                                            <i class="iconfont icon-mgr"/>
                                             <span>Management</span>
                                         </div>
                                     </div>

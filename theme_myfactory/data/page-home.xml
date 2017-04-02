@@ -78,7 +78,7 @@
                                                                  </span>
                                                              </div>
                                                              <div class="box icontext-item">
-                                                                 <i class="iconfont icon-warehouse-1" />
+                                                                 <i class="iconfont icon-stock" />
                                                                  <span class="caption">
                                                                      Inventory/Warehouse
                                                                  </span>
@@ -108,7 +108,7 @@
                                                      <div class="tabular-item-body box">
                                                          <div class="flex-row around-xs icontexts">
                                                              <div class="box icontext-item">
-                                                                 <i class="iconfont icon-product1" />
+                                                                 <i class="iconfont icon-boxes" />
                                                                  <span class="caption">
                                                                      Products
                                                                  </span>
@@ -126,7 +126,7 @@
                                                                  </span>
                                                              </div>
                                                              <div class="box icontext-item">
-                                                                 <i class="fa fa-check-square-o" />
+                                                                 <i class="iconfont icon-checklist" />
                                                                  <span class="caption">
                                                                      Quality
                                                                  </span>

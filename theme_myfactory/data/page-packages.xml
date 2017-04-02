@@ -9,10 +9,6 @@
         </function>
 
 		<template name="Packages" priority="29" t-name="website.benefits" id="packages">
-            <t t-if="not title">
-                <t t-set="title">Packages | myfactory</t>
-            </t>
-
             <t t-call="website.layout">
 				<div class="oe_structure oe_empty page page-packages" id="page-packages">
                     <!-- Page Header -->
@@ -460,7 +456,7 @@ Version update when announced</p>
                                                                     <div class="card flex-col middle-xs">
                                                                         <div class="card-image box">
                                                                             <div class="layout-icon-circle">
-                                                                                <i class="iconfont icon-product" />
+                                                                                <i class="iconfont icon-chem" />
                                                                             </div>
                                                                         </div>
                                                                         <h6 class="card-title box">Process Manufacturers</h6>
@@ -491,7 +487,7 @@ Version update when announced</p>
                                                                     <div class="card flex-col middle-xs">
                                                                         <div class="card-image box">
                                                                             <div class="layout-icon-circle">
-                                                                                <i class="iconfont icon-chip" />
+                                                                                <i class="iconfont icon-chip2" />
                                                                             </div>
                                                                         </div>
                                                                         <h6 class="card-title box">Electronics</h6>
@@ -503,7 +499,7 @@ Version update when announced</p>
                                                                     <div class="card flex-col middle-xs">
                                                                         <div class="card-image box">
                                                                             <div class="layout-icon-circle">
-                                                                                <i class="iconfont icon-screw" />
+                                                                                <i class="iconfont icon-bolt" />
                                                                             </div>
                                                                         </div>
                                                                         <h6 class="card-title box">Precision Metalforming</h6>
@@ -515,7 +511,7 @@ Version update when announced</p>
                                                                     <div class="card flex-col middle-xs">
                                                                         <div class="card-image box">
                                                                             <div class="layout-icon-circle">
-                                                                                <i class="iconfont icon-product" />
+                                                                                <i class="iconfont icon-productfilter" />
                                                                             </div>
                                                                         </div>
                                                                         <h6 class="card-title box">Rubber &amp; Plastics</h6>
@@ -603,7 +599,7 @@ Version update when announced</p>
                                                 <div class="process flex-col middle-xs">
                                                     <div class="process-image box">
                                                         <div class="layout-icon-circle">
-                                                            <i class="material-icons">find_in_page</i>
+															<i class="iconfont icon-assess" />
                                                         </div>
                                                     </div>
                                                     <h6 class="process-title box">Assess</h6>
@@ -619,7 +615,7 @@ Version update when announced</p>
                                                 <div class="process flex-col middle-xs">
                                                     <div class="process-image box">
                                                         <div class="layout-icon-circle">
-                                                            <i class="material-icons">dvr</i>
+                                                            <i class="iconfont icon-notice" />
                                                         </div>
                                                     </div>
                                                     <h6 class="process-title box">Announce</h6>

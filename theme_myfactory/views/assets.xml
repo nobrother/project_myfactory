@@ -41,10 +41,6 @@
 					type="text/less"
 					rel="stylesheet" />
 				<link
-					href="/theme_myfactory/static/src/less/selectric.less"
-					type="text/less"
-					rel="stylesheet" />
-				<link
 					href="/theme_myfactory/static/src/less/navbar-primary.less"
 					type="text/less"
 					rel="stylesheet" />
@@ -72,15 +68,12 @@
 					href="/theme_myfactory/static/src/less/page-demo.less"
 					type="text/less"
 					rel="stylesheet" />
-
+				
 
 
                 <!-- JAVASCRIPTS -->
 				<script type="text/javascript"
-						src="/theme_myfactory/static/src/js/jquery.selectric.min.js" />
-				<script type="text/javascript"
 						src="/theme_myfactory/static/src/js/common.js" />
-
 
             </xpath>
         </template>
@@ -97,7 +90,7 @@
                 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700"
                       type="text/css" rel="stylesheet" />
 				
-                <link href="//at.alicdn.com/t/font_3cnhnb6ryr0e8kt9.css"
+                <link href="//at.alicdn.com/t/font_8jvbutr95vsll3di.css"
                       type="text/css" rel="stylesheet" />
             </xpath>
 
