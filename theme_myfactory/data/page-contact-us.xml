@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <function name="write" model="ir.model.data">
+            <function name="search" model="ir.model.data">
+                <value eval="[('module', '=', 'theme_myfactory'), ('name', 'in', ['contact_us'])]" />
+            </function>
+            <value eval="{'noupdate': False}" />
+        </function>
+
+		<template name="Homepage" priority="29" t-name="website.contact_us" id="contact_us">
+			<t t-call="website.layout">
+				<div class="oe_structure oe_empty page-contact-us" id="page-contact-us">
+
+                    <!-- Block -->
+                    <div class="block" id="block-contact-us">
+
+                        <!-- SubBlock: Intro -->
+                        <div class="subblock subblock-image" id="subblock-contact-us-intro">
+                            <div class="container-lg-medium">
+                                <div class="floating-card">
+                                    <div class="content">
+                                        <h1 class="header">
+                                            Let’s Discuss<br/>
+                                            The Future<br/>
+                                            Of Your Business
+                                        </h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- // SubBlock: Intro -->
+
+                        <!-- SubBlock: Form -->
+                        <div class="subblock subblock-image" id="subblock-contact-us-form">
+                            <!-- Container -->
+                            <div class="container-md-medium container-lg-small">
+
+                                <!-- Subblock body -->
+                                <div class="subblock-body">
+                                    <!-- Row -->
+                                    <div class="flex-row" id="grid-contact-form">
+                                        <!-- Column 1 -->
+                                        <div class="flex-col-md-6 col-form">
+                                            <form action="/crm/contactus"
+                                                  method="post"
+                                                  class="form"
+                                                  enctype="multipart/form-data"
+                                                  id="form-contact-us">
+                                                <h3 class="title">Send Us A Message</h3>
+
+                                                <div class="form-group">
+                                                    <textarea class="form-control"
+                                                              name="description"
+                                                              placeholder="How can we help you ?"
+                                                              required="required" />
+                                                </div>
+
+                                                <div class="form-group">
+                                                    <input type="text"
+                                                           class="form-control"
+                                                           name="contact_name"
+                                                           placeholder="Your Name"
+                                                           required="required" />
+                                                </div>
+
+                                                <div class="form-group">
+                                                    <input type="text"
+                                                           class="form-control"
+                                                           name="partner_name"
+                                                           placeholder="Your Company"
+                                                           required="required" />
+                                                </div>
+
+                                                <div class="form-group">
+                                                    <input type="email"
+                                                           class="form-control"
+                                                           name="email_from"
+                                                           placeholder="Your Email"
+                                                           required="required" />
+                                                </div>
+
+                                                <div class="form-group">
+                                                    <input type="text"
+                                                           class="form-control"
+                                                           name="phone"
+                                                           placeholder="Your Phone"
+                                                           required="required" />
+                                                </div>
+
+                                                <button type="submit" class="btn btn-normal">Send</button>
+                                            </form>
+                                        </div><!-- // Column 1 -->
+
+                                        <!-- Column 2 -->
+                                        <div class="flex-col-md-6 col-form-description">
+                                            <!-- Form Description -->
+                                            <div class="form-description">
+                                                <h3 class="title">You can also chat with us live now.</h3>
+                                                <p>
+                                                    Go to the bottom right corner to start the conversation..<br/>
+                                                    Or talk to our cloud consultant at +603-80800035.
+                                                </p>
+                                                <div class="divider" />
+
+                                                <ul class="lists">
+                                                    <li class="list">
+                                                        <div class="list-item">
+                                                            <i class="material-icons">cloud</i>
+                                                            Understand Myfactory Cloud
+                                                        </div>
+                                                        <p>
+                                                            Ask us any question you have on your mind,
+                                                            whether it’s the cloud software, how the SaaS
+                                                            model works, the pricing etc.
+                                                        </p>
+                                                    </li>
+
+                                                    <li class="list">
+                                                        <div class="list-item">
+                                                            <i class="fa fa-life-ring" />
+                                                            Share Your Problems For Solution
+                                                        </div>
+                                                        <p>
+                                                            Tell us all your headaches and visions.
+                                                            Then let us enlight you with what the cloud can
+                                                            do for you now and in the future.
+                                                        </p>
+                                                    </li>
+
+                                                    <li class="list">
+                                                        <div class="list-item">
+                                                            <i class="material-icons">ondemand_video</i>
+                                                            Request For Free Demo
+                                                        </div>
+                                                        <p>
+                                                            Let us know if you would like to see &amp; experience
+                                                            the cloud with your team to get better sense of how
+                                                            Myfactory can help.
+                                                        </p>
+                                                    </li>
+
+                                                    <li class="list">
+                                                        <div class="list-item">
+                                                            <i class="material-icons">mouse</i>
+                                                            Sign Up For Trial
+                                                        </div>
+                                                        <p>
+                                                            Sign up for 3 months paid trial to try running
+                                                            your factory efficiently on cloud. Or join us as
+                                                            affiliate/design partner to enjoy free trial.
+                                                        </p>
+                                                    </li>
+                                                </ul>
+                                            </div><!-- // Form Description -->
+                                        </div><!-- // Column 2 -->
+                                    </div><!-- // Row -->
+                                </div><!-- // Subblock body -->
+                            </div><!-- // Container -->
+                        </div><!-- // SubBlock: Form -->
+                    </div>
+                </div>
+            </t>
+        </template>
+    </data>
+</openerp>

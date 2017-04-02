@@ -1,0 +1,83 @@
+#subblock-contact-us-intro{
+    background: url(http://placehold.it/1200x700) center no-repeat;
+    background-size: cover;
+
+    .floating-card{
+        padding: 30px 0;
+
+        .content{
+            padding: 64px 50px 64px 56px;
+            background-color: fade(#9E8952,60%);
+        }
+
+        color: @fc-ff;
+
+        .header{
+            font-size: @fs-page-title;
+        }
+    }
+
+    @media @query-md{
+        height: 700px;
+
+        .floating-card{
+            .dimension-max(575px; 412px);
+            .floating-object();
+            left: auto;
+        }
+    }
+}
+
+#subblock-contact-us-form{
+    background-color: @bg-color-block;
+
+    .subblock-body{
+        padding-top: 80px;
+    }
+
+    font-size: 15px;
+
+    .title{
+        margin-bottom: 22px;
+        font-size: 21px;
+        color: @fc-00;
+    }
+
+    .form-description{
+        .divider{
+            margin: 22px auto;
+        }
+
+        .list{
+            .margin-bottom(40px);
+        }
+
+        .list-item{
+            padding-left: 50px;
+            margin-bottom: 10px;
+
+            font-size: 18px;
+            font-weight: 400;
+            color: @fc-00;
+
+            i{
+                font-size: 24px;
+                color: @color-blue-bright;
+            }
+        }
+    }
+}
+
+#grid-contact-form{
+
+    .set-row-gutter(30px);
+
+    @media @query-md{
+        .set-col-gutter(80px);
+    }
+
+    @media @query-lg{
+        .set-col-gutter(110px);
+    }
+
+}

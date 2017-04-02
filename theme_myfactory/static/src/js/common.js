@@ -110,3 +110,22 @@
         $('.selectric').selectric();
     })
 })(jQuery);
+
+/*
+ * Contact Form
+ */
+(function($){
+    $(function(){
+
+        /* Parsley.js */
+        form = $('#form-contact-us').parsley({
+            errorClass: 'has-error',
+            successClass: 'has-success',
+            classHandler: function(field){
+                return field.$element.closest('.form-group');
+            },
+            errorsWrapper: '<ul class="parsley-errors-list"></ul>',
+            errorTemplate: '<li class="help-block"></li>'
+        });
+    })
+})(jQuery);

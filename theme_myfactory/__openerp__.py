@@ -23,6 +23,7 @@
         'data/page-features.xml',
         'data/page-about-us.xml',
         'data/page-demo.xml',
+        'data/page-contact-us.xml',
         'data/page-ask-for-trial.xml',
 
         'views/assets.xml',
