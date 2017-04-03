@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <function name="write" model="ir.model.data">
+            <function name="search" model="ir.model.data">
+                <value eval="[('module', '=', 'theme_myfactory'), ('name', 'in', ['footer'])]" />
+            </function>
+            <value eval="{'noupdate': False}" />
+        </function>
+
+		<template name="Footer Copyright" priority="29" t-name="website.footer" id="footer">
+			<div id="footer">
+                <!-- Container -->
+                <div class="container-md-medium container-lg-medium">
+
+                    <!-- Grid -->
+                    <div class="flex-row between-xs">
+                        <!-- Column: Site map -->
+                        <div class="box col-sitemap">
+                            <!-- Row -->
+                            <div class="flex-row">
+                                <!-- Column 1 -->
+                                <div class="flex-col-xs-4">
+                                    <div class="list">
+                                        <div class="list-header">Software</div>
+                                        <div class="list-item">
+                                            <a href="/features">Features</a>
+                                        </div>
+                                        <div class="list-item">
+                                            <a href="/packages">Pricing</a>
+                                        </div>
+                                        <div class="list-item">
+                                            <a href="/benefits">Benefits</a>
+                                        </div>
+                                        <div class="list-item">
+                                            <a href="/demo">Video Demo</a>
+                                        </div>
+                                    </div>
+                                </div><!-- // Column 1 -->
+
+                                <!-- Column 2 -->
+                                <div class="flex-col-xs-4">
+                                    <div class="list">
+                                        <div class="list-header">Start</div>
+                                        <div class="list-item">
+                                            <a href="#">Trial</a>
+                                        </div>
+                                        <div class="list-item">
+                                            <a href="/contact-us">Talk To Us</a>
+                                        </div>
+                                    </div>
+                                </div><!-- // Column 2 -->
+
+                                <!-- Column 3 -->
+                                <div class="flex-col-xs-4">
+                                    <div class="list">
+                                        <div class="list-header">Team</div>
+                                        <div class="list-item">
+                                            <a href="/about-us">About Us</a>
+                                        </div>
+                                    </div>
+                                </div><!-- // Column 3 -->
+                            </div><!-- // Row -->
+                        </div><!-- // Column: Site map -->
+
+                        <!-- Column: Social media -->
+                        <div class="box col-social-media">
+                            <!-- Row -->
+                            <div class="flex-row between-xs middle-xs">
+                                <div class="box">
+                                    <a href="#" class="social-icon"><i class="fa fa-facebook-official"/></a>
+                                </div>
+                                <div class="box">
+                                    <a href="#" class="social-icon"><i class="fa fa-youtube"/></a>
+                                </div>
+                                <div class="box">
+                                    <a href="/contact-us" class="btn btn-normal">Talk To Us</a>
+                                </div>
+                            </div><!-- // Row -->
+                        </div><!-- // Column: Social media -->
+                    </div><!-- // Grid -->
+                </div><!-- // Container -->
+            </div>
+        </template>
+    </data>
+</openerp>

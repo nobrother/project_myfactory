@@ -36,3 +36,19 @@
         }
     }
 }
+
+#menu-item-demo{
+    @media @query-sm{
+        > a {
+            color: @color-blue-brand!important;
+            border: 1px solid @color-blue-brand;
+            padding: 0 16px;
+            margin: 0 16px;
+
+            &:hover{
+                background-color: @color-blue-brand;
+                color: #fff!important;
+            }
+        }
+    }
+}

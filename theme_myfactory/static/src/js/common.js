@@ -127,5 +127,8 @@
             errorsWrapper: '<ul class="parsley-errors-list"></ul>',
             errorTemplate: '<li class="help-block"></li>'
         });
+
+        /* Autosize textarea */
+        autosize($('textarea'));
     })
 })(jQuery);

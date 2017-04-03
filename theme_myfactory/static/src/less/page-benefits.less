@@ -149,29 +149,32 @@
     }
 }
 
-.postcard-textbigger{
-    > .flex-row{
-        .set-row-gutter(30px);
-    }
-
-
-    .postcard-content{
-        background-color: #1E52A0;
-        color: #ededed;
-    }
-    .postcard-footer{
-        margin-top: 40px;
-        .btn-normal-inverse{
-            width: 240px;
-            height: 55px;
+.page-benefits{
+    .postcard-textbigger{
+        .postcard-content{
+            background-color: #1E52A0;
+            color: #ededed;
+        }
+        .postcard-footer{
+            margin-top: 40px;
+            .btn-normal-inverse{
+                width: 240px;
+                height: 55px;
+            }
         }
     }
 }
 
 
+#giftcard-benefits-action{
+	background-image: url(http://placehold.it/1100x490);
+	height: 500px;
 
-#postcard-happy-factory .postcard-image{
-	background-image: url(/theme_myfactory/static/img/happyfactory.jpg);
+	@media @query-md{
+	    .floating-card{
+	        .dimension-max(468px; 380px);
+	    }
+	}
 }
 	
 	

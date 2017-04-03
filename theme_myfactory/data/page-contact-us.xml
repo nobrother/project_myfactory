@@ -8,9 +8,18 @@
             <value eval="{'noupdate': False}" />
         </function>
 
-		<template name="Homepage" priority="29" t-name="website.contact_us" id="contact_us">
+		<template name="Contact Us" priority="29" t-name="website.contact_us" id="contact_us">
+
+            <t t-if="not title">
+                <t t-set="title">Talk To Us | myfactory</t>
+            </t>
+
+            <t t-if="not body_class">
+                <t t-set="body_class">page page-contact-us</t>
+            </t>
+
 			<t t-call="website.layout">
-				<div class="oe_structure oe_empty page-contact-us" id="page-contact-us">
+				<div class="oe_structure oe_empty" id="page-contact-us">
 
                     <!-- Block -->
                     <div class="block" id="block-contact-us">
@@ -100,7 +109,9 @@
                                                     />
                                                 </div>
 
-                                                <button type="submit" class="btn btn-normal">Send</button>
+                                                <div class="form-group">
+                                                    <button type="submit" class="btn btn-normal">SEND</button>
+                                                </div>
                                             </form>
                                         </div><!-- // Column 1 -->
 
@@ -170,6 +181,13 @@
                                 </div><!-- // Subblock body -->
                             </div><!-- // Container -->
                         </div><!-- // SubBlock: Form -->
+
+                        <!-- Divider -->
+                        <div class="container-md-medium container-lg-medium divider-container">
+                            <div class="divider" />
+                        </div><!-- // Divider -->
+
+
                     </div>
                 </div>
             </t>
