@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <function name="write" model="ir.model.data">
+            <function name="search" model="ir.model.data">
+                <value eval="[('module', '=', 'theme_myfactory'), ('name', 'in', ['footer_copyright'])]" />
+            </function>
+            <value eval="{'noupdate': False}" />
+        </function>
+
+		<template name="Footer Copyright" priority="29" t-name="website.footer_copyright" id="footer_copyright">
+			<div id="footer-copyright">
+                <!-- Container -->
+                <div class="container-md-medium container-lg-medium">
+                    <div class="footer-copyright">
+                        &amp;copy; Myfactory 2017
+                    </div>
+                </div><!-- // Container -->
+            </div>
+        </template>
+    </data>
+</openerp>

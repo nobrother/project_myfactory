@@ -36,6 +36,17 @@ body{
     -moz-hyphens: auto;
     hyphens: auto;
 }
+#wrapwrap {
+    display: block;
+
+    > * {
+        display: block;
+    }
+}
+main + footer{
+    background-color: @bg-color-block;
+    margin-top: 100px;
+}
 
 /* Divider */
 .divider{
@@ -110,11 +121,33 @@ body{
 
 /* Form */
 .form-control{
-    .border-radius(0);
-    border: 1px solid @bg-color-block;
-    font-size: 16px;
-    color: inherit;
+    .form input&{
+        height: 50px;
+    }
+
+    .form textarea& {
+        resize: none;
+    }
 }
+.form{
+    .form-control{
+        .border-radius(0);
+        border: 1px solid @bg-color-block;
+        font-size: 16px;
+        color: inherit;
+        box-shadow: none!important;
+    }
+
+    .form-group{
+        .margin-bottom(20px);
+    }
+
+    button[type=submit]&{
+        margin-top: 40px;
+    }
+}
+
+
 /* Link */
 img{
     max-width: 100%;
@@ -287,6 +320,71 @@ img{
     }
 }
 
+/* Layout: Giftcard */
+.layout-giftcard{
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    .floating-card{
+        .content{
+            background-color: fade(#000, 60%);
+            padding: 50px 30px 40px 40px;
+            height: 100%;
+        }
+
+
+        .header{
+            margin-bottom: 40px;
+
+            color: #fff;
+            font-size: 30px;
+
+            strong{
+                font-weight: 600;
+            }
+        }
+
+        .footer{
+            > .flex-row{
+                .set-col-gutter(20px);
+            }
+
+            .col-left{
+                width: 55%;
+                max-width: 55%;
+            }
+            .col-right{
+                width: 45%;
+                max-width: 45%;
+            }
+
+            .btn{
+                width: 100%;
+                height: 50px;
+                font-size: 18px;
+            }
+
+            .btn-normal{
+                font-weight: 300;
+            }
+
+            .btn-normal-inverse{
+                color: @color-blue-brand;
+            }
+        }
+    }
+
+	@media @query-md{
+	    .floating-card{
+	        .floating-object();
+	        left: auto;
+	        right: 45px;
+	    }
+	}
+}
+
 /* Layout: Statistics */
 .layout-statistics{
     padding: 50px 0;
@@ -348,7 +446,7 @@ img{
 
 /* Block */
 .block{
-    margin-bottom: 60px;
+    .padding-bottom(60px);
 }
 
 /* Subblock */
@@ -356,7 +454,7 @@ img{
 .subblock-body,
 .subblock-footer{
     &:last-child{
-        margin-bottom: 100px;
+        padding-bottom: 100px;
     }
 
     + .divider{

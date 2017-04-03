@@ -1,3 +1,13 @@
+#page-contact-us{
+    background-color: @bg-color-block;
+}
+
+.page-contact-us{
+    main+footer{
+        margin-top: 0;
+    }
+}
+
 #subblock-contact-us-intro{
     background: url(/theme_myfactory/static/img/contactus.jpg) center no-repeat;
     background-size: cover;
@@ -82,4 +92,16 @@
         .set-col-gutter(110px);
     }
 
+}
+
+#form-contact-us{
+    button[type=submit]{
+        .dimension-max(200px; 55px);
+        font-size: 16px;
+        font-weight: 300;
+    }
+
+    textarea{
+        min-height: 280px;
+    }
 }

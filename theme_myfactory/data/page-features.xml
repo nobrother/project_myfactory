@@ -13,8 +13,12 @@
                 <t t-set="title">Features | myfactory</t>
             </t>
 
+            <t t-if="not body_class">
+                <t t-set="body_class">page page-features</t>
+            </t>
+
             <t t-call="website.layout">
-				<div class="oe_structure oe_empty page page-features" id="page-features">
+				<div class="oe_structure oe_empty" id="page-features">
                     <!-- Page Header -->
                     <div class="page-header page-title">
                         <div class="container-lg-small">
@@ -765,30 +769,34 @@
 
                                 <!-- Container -->
                                 <div class="container-lg-medium">
-                                    <!-- Postcard: Get the right plan -->
-                                    <div class="layout-postcard postcard-textbigger" id="postcard-empowered-worker">
-                                        <div class="flex-row">
-                                            <div class="flex-col-md-5 col-postcard-image">
-                                                <div class="postcard-image" />
-                                            </div>
-                                            <div class="flex-col-md-7 col-postcard-content">
-                                                <div class="postcard-content">
-                                                    <h1 class="postcard-header postcard-title">
-                                                        Leave all the messy and the tedious behind.
+                                    <!-- Giftcard: Action -->
+                                    <div class="layout-giftcard" id="giftcard-features-action">
+                                        <div class="container-lg-medium">
+                                            <div class="floating-card">
+                                                <div class="content">
+                                                    <h1 class="header">
+                                                        <strong>Not a set product.</strong><br/>
+                                                        But a service that keep on developing
+                                                        what you manufacturers need.
                                                     </h1>
-                                                    <p class="postcard-body postcard-description">
-                                                        Bring Your Team To The Next Level<br/>
-                                                        Work Better On A Better Platform														
-                                                    </p>
-                                                    <div class="postcard-footer">
-                                                        <a href="#" class="btn btn-normal-inverse">
-                                                            GET THE RIGHT PLAN
-                                                        </a>
+                                                    <div class="footer">
+                                                        <div class="flex-row">
+                                                            <div class="box col-left">
+                                                                <a href="/demo" class="btn btn-normal">
+                                                                    How It Works
+                                                                </a>
+                                                            </div>
+                                                            <div class="box col-right">
+                                                                <a href="/contact-us" class="btn btn-normal-inverse">
+                                                                    Talk to Us
+                                                                </a>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div><!-- // Postcard: Get the right plan -->
+                                    </div><!-- // Giftcard: Action -->
                                 </div><!-- // Container -->
                             </div><!-- // Subblock body -->
                         </div><!-- // SubBlock: Ending -->

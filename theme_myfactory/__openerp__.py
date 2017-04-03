@@ -17,6 +17,8 @@
     ],
     'data': [
         'data/website-menu.xml',
+        'data/website-footer.xml',
+        'data/website-footer-copyright.xml',
         'data/page-home.xml',
         'data/page-benefits.xml',
         'data/page-packages.xml',

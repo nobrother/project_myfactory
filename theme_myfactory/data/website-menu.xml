@@ -43,7 +43,7 @@
             <field name="url">/demo</field>
             <field name="parent_id" ref="website.main_menu" />
             <field name="sequence" type="int">23</field>
-            <field name="active" eval="True" />
+            <field name="active" eval="False" />
         </record>
 
         <!-- Change contact us url -->

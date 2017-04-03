@@ -47,13 +47,15 @@
     }
 }
 
-#postcard-right-plan{
-    .postcard-image{
-	    background-image: url(http://placehold.it/600x430);
-	}
+#giftcard-demo-action{
+	background-image: url(http://placehold.it/1100x490);
+	height: 500px;
 
-	.postcard-content{
-	    background-color: #D1DCDE;
-	    color: #1a1a1a;
+	@media @query-md{
+	    .floating-card{
+	        .dimension-max(468px; 353px);
+	        left: 45px;
+	        right: auto;
+	    }
 	}
 }

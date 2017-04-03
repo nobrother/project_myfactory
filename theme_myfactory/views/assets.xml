@@ -45,6 +45,10 @@
 					type="text/less"
 					rel="stylesheet" />
 				<link
+					href="/theme_myfactory/static/src/less/footer.less"
+					type="text/less"
+					rel="stylesheet" />
+				<link
 					href="/theme_myfactory/static/src/less/page-home.less"
 					type="text/less"
 					rel="stylesheet" />
@@ -75,6 +79,8 @@
 
                 <!-- JAVASCRIPTS -->
 				<script type="text/javascript"
+						src="/theme_myfactory/static/src/js/jquery.selectric.min.js" />
+				<script type="text/javascript"
 						src="/theme_myfactory/static/src/js/common.js" />
 
             </xpath>
@@ -104,6 +110,8 @@
                         src="https://cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.2/jquery.matchHeight-min.js" />
 				<script type="text/javascript"
                         src="https://cdnjs.cloudflare.com/ajax/libs/parsley.js/2.7.0/parsley.min.js" />
+				<script type="text/javascript"
+                        src="https://cdnjs.cloudflare.com/ajax/libs/autosize.js/3.0.20/autosize.min.js" />
 
             </xpath>
         </template>

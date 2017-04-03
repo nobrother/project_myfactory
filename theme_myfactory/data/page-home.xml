@@ -14,8 +14,12 @@
                 <t t-set="title">myfactory</t>
             </t>
 
+            <t t-if="not body_class">
+                <t t-set="body_class">page page-home</t>
+            </t>
+
 			<t t-call="website.layout">
-				<div class="oe_structure oe_empty page-homepage" id="page-home">
+				<div class="oe_structure oe_empty" id="page-home">
 
                     <!-- Block: Intro -->
                     <div class="block" id="block-home-intro">

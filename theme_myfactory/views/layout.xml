@@ -2,8 +2,13 @@
 <openerp>
     <data>
 
-        <!-- Change mobile navbar toggle button-->
-        <template id="nav_toggle" inherit_id="website.layout" name="Navbar Toggle">
+        <!-- Main Layout -->
+        <template id="body_class" inherit_id="website.layout" name="Body class">
+            <xpath expr="//body" position="attributes">
+                <attribute name="t-att-class">body_class</attribute>
+            </xpath>
+
+            <!-- Change mobile navbar toggle button-->
 			<xpath expr="//button[@class='navbar-toggle']" position="replace">
 				<button class="navbar-toggle"
                         data-toggle="collapse"
@@ -34,8 +39,14 @@
             <xpath expr="//ul[@id='top_menu']/li[@class='divider']" position="replace" />
             <xpath expr="//ul[@id='top_menu']/li[@class='dropdown']" position="replace" />
 
-            <!-- Contact us button -->
+            <!-- Contact us and Demo button -->
             <xpath expr="//t[@t-as='submenu']" position="after">
+                <li t-attf-id="menu-item-demo"
+					t-att-class="'active' if request.httprequest.path == '/demo' else None">
+					<a t-attf-href="/demo">
+						<span>Demo</span>
+					</a>
+				</li>
 				<li t-attf-id="menu-item-contact-us"
 					t-att-class="'active' if request.httprequest.path == '/contact-us' else None">
 					<a t-attf-href="/contact-us">
@@ -64,5 +75,19 @@
 				<attribute name="t-att-href">submenu.url</attribute>
 			</xpath>
 		</template>
+
+		<!-- Footer-->
+        <template id="replace_footer_default" priority="20" inherit_id="website.footer_default" name="Footer default inherit">
+            <xpath expr="//div[@class='container hidden-print']" position="replace">
+                <t t-call="theme_myfactory.footer" />
+            </xpath>
+        </template>
+
+        <!-- Footer copy right -->
+        <template id="footer_copyright_inherit" inherit_id="website.layout_footer_copyright" name="Footer copyright inherit">
+            <xpath expr="//div[@class='container mt16 mb8']" position="replace">
+                <t t-call="theme_myfactory.footer_copyright" />
+            </xpath>
+        </template>
     </data>
 </openerp>
