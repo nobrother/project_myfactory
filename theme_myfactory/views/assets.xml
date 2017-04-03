@@ -75,6 +75,8 @@
 
                 <!-- JAVASCRIPTS -->
 				<script type="text/javascript"
+						src="/theme_myfactory/static/src/js/jquery.selectric.min.js" />
+				<script type="text/javascript"
 						src="/theme_myfactory/static/src/js/common.js" />
 
             </xpath>
