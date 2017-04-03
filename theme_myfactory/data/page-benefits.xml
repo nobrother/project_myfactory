@@ -32,7 +32,7 @@
                             <!-- Subblock body -->
                             <div class="subblock-body" id="subblock-body-benefits-business-manager-postcard">
                                 <div class="container-lg-medium">
-
+									<a class="anchor" id="business-manager-benefits" data-offset="-30"></a>
                                     <!-- Postcard: Business Manager -->
                                     <div class="layout-postcard postcard-imagebigger" id="postcard-business-manager">
                                         <div class="flex-row">
@@ -226,7 +226,7 @@
                             <!-- Subblock body -->
                             <div class="subblock-body" id="subblock-body-benefits-all-teams-postcard">
                                 <div class="container-lg-medium">
-
+									<a class="anchor" id="all-benefits" data-offset="-30"></a>
                                     <!-- Postcard: All Teams -->
                                     <div class="layout-postcard postcard-imagebigger" id="postcard-all-teams">
                                         <div class="flex-row">
@@ -304,7 +304,7 @@
                             <!-- Subblock body -->
                             <div class="subblock-body" id="subblock-body-benefits-factory-postcard">
                                 <div class="container-lg-medium">
-
+									<a class="anchor" id="factory-team-benefits" data-offset="-30"></a>
                                     <!-- Postcard: Factory -->
                                     <div class="layout-postcard postcard-imagebigger" id="postcard-factory">
                                         <div class="flex-row">
@@ -466,7 +466,7 @@
                             <!-- Subblock body -->
                             <div class="subblock-body" id="subblock-body-benefits-warehouse-postcard">
                                 <div class="container-lg-medium">
-
+									<a class="anchor" id="warehouse-team-benefits" data-offset="-30"></a>
                                     <!-- Postcard: Warehouse -->
                                     <div class="layout-postcard postcard-imagebigger" id="postcard-warehouse">
                                         <div class="flex-row">

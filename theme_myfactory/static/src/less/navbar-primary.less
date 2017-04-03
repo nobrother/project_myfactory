@@ -5,8 +5,8 @@
     border-color: @bg-color-separator;
 
     @media @query-sm{
-        padding-top: 33px;
-        padding-bottom: 35px;
+        padding-top: 25px;
+        padding-bottom: 28px;
     }
 }
 
@@ -35,4 +35,17 @@
             }
         }
     }
+}
+
+
+.navbar-default .navbar-nav>.active {
+
+	>a, >a:focus, >a:hover {
+		//color: #555;
+		background-color: transparent;
+		text-decoration: underline;
+		font-weight: bold;
+		color: @color-blue-brand!important;
+	}
+
 }

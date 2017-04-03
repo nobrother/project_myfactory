@@ -1,13 +1,14 @@
 #subblock-contact-us-intro{
-    background: url(http://placehold.it/1200x700) center no-repeat;
+    background: url(/theme_myfactory/static/img/contactus.jpg) center no-repeat;
     background-size: cover;
 
     .floating-card{
-        padding: 30px 0;
+        padding: 0px 0;
+		margin-top: 120px;
 
         .content{
-            padding: 64px 50px 64px 56px;
-            background-color: fade(#9E8952,60%);
+            padding: 42px 40px 42px 45px;
+            background-color: fade(#111,60%);
         }
 
         color: @fc-ff;
@@ -18,12 +19,13 @@
     }
 
     @media @query-md{
-        height: 700px;
+        height: 600px;
 
         .floating-card{
-            .dimension-max(575px; 412px);
+            .dimension-max(485px; 285px);
             .floating-object();
             left: auto;
+			bottom: 45px;
         }
     }
 }

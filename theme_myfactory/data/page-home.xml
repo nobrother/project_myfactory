@@ -183,7 +183,7 @@
 
                                 <!-- Subblock footer -->
                                 <div class="subblock-footer subblock-footer-link-only">
-                                    <a href="#" class="link link-arrow-right">
+                                    <a href="/features" class="link link-arrow-right">
                                         <span>MORE ON THE FEATURES</span>
                                         <i class="material-icons">keyboard_arrow_right</i>
                                     </a>
@@ -239,7 +239,7 @@
                                                             </div>
                                                         </div>
                                                         <div class="feature-footer">
-                                                            <a href="#" class="link">
+                                                            <a href="/benefits#business-manager-benefits" class="link">
                                                                 <span>MANAGE WITH GOOD INFO</span>
                                                                 <i class="material-icons">keyboard_arrow_right</i>
                                                             </a>
@@ -285,7 +285,7 @@
                                                             </div>
                                                         </div>
                                                         <div class="feature-footer">
-                                                            <a href="#" class="link">
+                                                            <a href="/benefits#factory-team-benefits" class="link">
                                                                 <span>RUN YOUR PRODUCTION BETTER &amp; EASIER</span>
                                                                 <i class="material-icons">keyboard_arrow_right</i>
                                                             </a>
@@ -331,7 +331,7 @@
                                                             </div>
                                                         </div>
                                                         <div class="feature-footer">
-                                                            <a href="#" class="link">
+                                                            <a href="/benefits#warehouse-team-benefits" class="link">
                                                                 <span>KEEP BOTH THE STOCKS &amp; DATA WELL</span>
                                                                 <i class="material-icons">keyboard_arrow_right</i>
                                                             </a>
@@ -352,7 +352,7 @@
 
                                 <!-- Subblock footer -->
                                 <div class="subblock-footer subblock-footer-link-only">
-                                    <a href="#" class="link">
+                                    <a href="/benefits#all-benefits" class="link">
                                         <span>WORK TOGETHER BETTER</span>
                                         <i class="material-icons">keyboard_arrow_right</i>
                                     </a>
@@ -545,7 +545,7 @@
                                 </div><!-- // Subblock body -->
 
                                 <div class="subblock-footer subblock-footer-link-only">
-                                    <a href="#" class="link">
+                                    <a href="/packages" class="link">
                                         <span>CHECK OUT OUR PACKAGES</span>
                                         <i class="fa fa-angle-double-right" />
                                     </a>
