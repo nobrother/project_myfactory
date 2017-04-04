@@ -26,6 +26,7 @@
         'data/page-about-us.xml',
         'data/page-demo.xml',
         'data/page-contact-us.xml',
+        'data/page-contact-us-thank-you.xml',
         'data/page-ask-for-trial.xml',
 
         'views/assets.xml',

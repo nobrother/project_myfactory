@@ -55,6 +55,7 @@
                                                   class="form"
                                                   enctype="multipart/form-data"
                                                   id="form-contact-us">
+
                                                 <h3 class="title">Send Us A Message</h3>
 
                                                 <div class="form-group">

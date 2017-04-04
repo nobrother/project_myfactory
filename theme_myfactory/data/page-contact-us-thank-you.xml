@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <function name="write" model="ir.model.data">
+            <function name="search" model="ir.model.data">
+                <value eval="[('module', '=', 'theme_myfactory'), ('name', 'in', ['contact_us'])]" />
+            </function>
+            <value eval="{'noupdate': False}" />
+        </function>
+
+		<template name="Contact Us" priority="29" t-name="website.contact_us_thank_you" id="contact_us_thank_you">
+
+            <t t-if="not title">
+                <t t-set="title">Thank You | myfactory</t>
+            </t>
+
+            <t t-if="not body_class">
+                <t t-set="body_class">page page-contact-us-thank-you</t>
+            </t>
+
+			<t t-call="website.layout">
+				<div class="oe_structure oe_empty" id="page-contact-us-thank-you">
+
+                    <!-- Block -->
+                    <div class="block" id="block-contact-us">
+                        <div class="page-header page-title">
+                            <h1>Thank you very much!</h1>
+                        </div>
+                    </div>
+                </div>
+            </t>
+        </template>
+    </data>
+</openerp>
