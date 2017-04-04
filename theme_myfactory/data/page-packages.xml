@@ -340,7 +340,7 @@ Version update when announced</p>
                                                             <i class="material-icons">laptop_chromebook</i>
                                                         </div>
                                                     </div>
-                                                    <h6 class="card-title box">Software on Browser</h6>
+                                                    <h6 class="card-title box">Web-Based Software</h6>
                                                     <p class="card-description box">
                                                         No installation needed.
                                                         Access anywhere, anytime, any device
@@ -421,13 +421,11 @@ Version update when announced</p>
 
                                 <!-- Subblock Header small -->
                                 <div class="subblock-header subblock-title small">
-                                    <h1>Nonstop Software Enhancement &amp; Update</h1>
+                                    <h1>Dedicated Software &amp; Development for Your Pool</h1>
                                     <p>
                                         While a lot of features are needed, it’s expensive to build.
                                         We made it affordable for you, by building the common ones for
-                                        a pool of manufacturers who need it. So we group you subscribers
-                                        into pools, and give each pool a dedicated team
-                                        to develop what you all need.
+                                        a pool of manufacturers who need it.<br/>Every pool of subsribers will have a dedicated team to develop what you all need.
                                     </p>
                                 </div><!-- // SubBlock Header small -->
 
@@ -562,11 +560,10 @@ Version update when announced</p>
                                     <h1>A Cloud Solution By The Crowd, For The Crowd</h1>
                                     <p>
                                         In essence, we are providing an ongoing service
-                                        to you, not a product. <br/>
+                                        to you, instead of a product. <br/>
                                         We gather what you all need, and the priorities.
                                         Then work out the solution together by adopting
-                                        some of the best practices  - how to work in that
-                                        situation from you subscribers. This way everyone
+                                        some of the best practices from you subscribers. This way everyone
                                         get the best solution for what they need.
                                     </p>
                                 </header><!-- // SubBlock Header small -->
@@ -888,9 +885,18 @@ Version update when announced</p>
                                                              </div>
                                                              <div class="divider" />
                                                              <div data-mh-md="tps-3">
+                                                                 <div class="from">
+                                                                     Upgrade from Basic
+                                                                 </div>
+                                                                 <div class="price">
+                                                                     <span class="plus">+</span>
+                                                                     <span class="rm">RM</span>
+                                                                     <span class="amount">600</span>
+                                                                     <span class="frequency">a month</span>
+                                                                 </div>															 
                                                                  <div class="included">
                                                                      <a href="#plans" class="link-basic">
-                                                                         Included in SPECIALIST
+                                                                         Included in STANDARD
                                                                      </a>
                                                                  </div>
                                                              </div>

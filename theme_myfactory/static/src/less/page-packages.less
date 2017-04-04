@@ -9,12 +9,23 @@
         }
     }
 
+	
+	#tabular-item-package-basic .tabular-item-header{
+		background-color: #b8b8b8;
+	}
+	
+	#tabular-item-package-specialist .tabular-item-header{
+		background-color: @color-blue-brand;
+	}
+	
+	
     .tabular-item-header{
         h2{
             text-align: center;
             font-size: 24px;
             font-weight: 600;
             color: @fc-ff;
+			letter-spacing: 0.5px;
         }
     }
 
@@ -65,6 +76,7 @@
             i{
                 font-size: 4px;
                 color: @color-blue-brand;
+			    top: 8px;	
             }
         }
         .list-item-title{
@@ -386,7 +398,7 @@
         margin-bottom: 15px;
     }
     .price{
-        margin-bottom: 10px;
+        margin-bottom: 0px;
     }
     .a-month{
         margin-bottom: 30px;
@@ -397,9 +409,9 @@
 
     .price {
         .plus{
-            font-size: 90px;
+			font-size: 50px;
+			vertical-align: -6px;
             line-height: 0;
-            vertical-align: -13px;
         }
         .rm{
             font-size: 32px;
@@ -454,8 +466,8 @@
         margin-bottom: 30px;
 
         .plus{
-            font-size: 90px;
-            vertical-align: -13px;
+			font-size: 50px;
+			vertical-align: -6px;
             line-height: 0;
         }
 
@@ -488,6 +500,7 @@
             > i{
                 font-size: 4px;
                 color: @color-blue-brand;
+				    top: 8px;
             }
         }
         .list-item-title{
@@ -506,6 +519,7 @@
                 > i{
                     font-size: 13px;
                     color: @fc-4d;
+				    top: 0px;	
                 }
             }
         }

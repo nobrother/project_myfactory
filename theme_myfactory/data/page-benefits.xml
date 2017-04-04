@@ -166,56 +166,59 @@
 
                             <!-- Subblock footer -->
                             <div class="subblock-footer">
-                                <!-- Container -->
-                                <div class="container-sm-medium container-md-medium container-lg-small">
-                                    <!-- Statistics -->
-                                    <div class="layout-statistics" id="statistics-benefits-business-manager">
-                                        <div class="flex-row">
+                                
+								<!-- Statistics -->
+								<div class="layout-statistics" id="statistics-benefits-business-manager">
+									
+									<!-- Container -->
+									<div class="container-sm-medium container-md-medium container-lg-small">
+										<div class="flex-row">
 
-                                            <!-- Column 1 -->
-                                            <div class="flex-col-sm-6 flex-col-md-4">
-                                                <div class="statistic">
-                                                    <div class="statistic-values">
-                                                        <i class="material-icons">arrow_downward</i>
-                                                        <span class="statistic-value">90%</span>
-                                                    </div>
-                                                    <div class="statistic-title">Time To Get Info</div>
-                                                    <div class="statistic-description">
-                                                        <p>Stop wasting you and your staff’s time everytime you want to discuss or decide</p>
-                                                    </div>
-                                                </div>
-                                            </div><!-- // Column 1 -->
+											<!-- Column 1 -->
+											<div class="flex-col-sm-6 flex-col-md-4">
+												<div class="statistic">
+													<div class="statistic-values">
+														<i class="material-icons">arrow_downward</i>
+														<span class="statistic-value">90%</span>
+													</div>
+													<div class="statistic-title">Time To Get Info</div>
+													<div class="statistic-description">
+														<p>Stop wasting you and your staff’s time everytime you want to discuss or decide</p>
+													</div>
+												</div>
+											</div><!-- // Column 1 -->
 
-                                            <!-- Column 2 -->
-                                            <div class="flex-col-sm-6 flex-col-md-4">
-                                                <div class="statistic">
-                                                    <div class="statistic-values">
-                                                        <i class="material-icons">arrow_downward</i>
-                                                        <span class="statistic-value">100%</span>
-                                                    </div>
-                                                    <div class="statistic-title">Loss Opportunities</div>
-                                                    <div class="statistic-description">
-                                                        <p>Buy the bulk cheap or offer at competive price when you have all the info in hand to play</p>
-                                                    </div>
-                                                </div>
-                                            </div><!-- // Column 2 -->
+											<!-- Column 2 -->
+											<div class="flex-col-sm-6 flex-col-md-4">
+												<div class="statistic">
+													<div class="statistic-values">
+														<i class="material-icons">arrow_downward</i>
+														<span class="statistic-value">100%</span>
+													</div>
+													<div class="statistic-title">Loss Opportunities</div>
+													<div class="statistic-description">
+														<p>Buy the bulk cheap or offer at competive price when you have all the info in hand to play</p>
+													</div>
+												</div>
+											</div><!-- // Column 2 -->
 
-                                            <!-- Column 3 -->
-                                            <div class="flex-col-sm-6 flex-col-md-4">
-                                                <div class="statistic">
-                                                    <div class="statistic-values">
-                                                        <i class="material-icons">arrow_downward</i>
-                                                        <span class="statistic-value">15%</span>
-                                                    </div>
-                                                    <div class="statistic-title">Operation Cost</div>
-                                                    <div class="statistic-description">
-                                                        <p>See the costs clearly and trim it down one by one for optimal cost efficiency</p>
-                                                    </div>
-                                                </div>
-                                            </div><!-- // Column 3 -->
-                                        </div>
-                                    </div><!-- // Statistics -->
-                                </div><!-- // Container -->
+											<!-- Column 3 -->
+											<div class="flex-col-sm-6 flex-col-md-4">
+												<div class="statistic">
+													<div class="statistic-values">
+														<i class="material-icons">arrow_downward</i>
+														<span class="statistic-value">15%</span>
+													</div>
+													<div class="statistic-title">Operation Cost</div>
+													<div class="statistic-description">
+														<p>See the costs clearly and trim it down one by one for optimal cost efficiency</p>
+													</div>
+												</div>
+											</div><!-- // Column 3 -->
+										</div>
+									</div><!-- // Container -->
+								</div><!-- // Statistics -->
+                                
                             </div><!-- // Subblock footer -->
                         </div><!-- // SubBlock: Business manager  -->
                     </div><!-- // Block: Business manager -->

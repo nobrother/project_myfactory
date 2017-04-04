@@ -26,7 +26,7 @@
                             <h2>
                                 Built On World’s Top Open Source ERP Engine<br/>
                                 Localised With Local Manufacturers’
-                                Best Practices proven
+                                Best Practices
                             </h2>
                         </div>
                     </div><!-- // Page Header -->
@@ -57,10 +57,9 @@
                                                             <i class="iconfont icon-device" />
                                                         </div>
                                                     </div>
-                                                    <h6 class="card-title box">Anywhere, Any PC</h6>
+                                                    <h6 class="card-title box">Web Based Software</h6>
                                                     <p class="card-description box">
-                                                        Anywhere, anytime, any device -
-                                                        access the system with internet browser
+                                                        Anywhere, anytime, any device - access the system on cloud with internet browser
                                                     </p>
                                                 </div>
                                             </div><!-- // Column 1 -->
@@ -75,8 +74,7 @@
                                                     </div>
                                                     <h6 class="card-title box">Integrated Software</h6>
                                                     <p class="card-description box">
-                                                        Add as many users you want by yourself
-                                                        easily in the admin module
+                                                        The different apps for different teams are integrated - no more duplicate entry or checking. 
                                                     </p>
                                                 </div>
                                             </div><!-- // Column 2 -->
@@ -91,8 +89,7 @@
                                                     </div>
                                                     <h6 class="card-title box">Automation &amp; Tools</h6>
                                                     <p class="card-description box">
-                                                        Guaranteed 99.9% uptime (the risk
-                                                        of system going down 0.1%)
+                                                        Smart automation &amp; powerful tools to help your team save time on routine &amp; checking
                                                     </p>
                                                 </div>
                                             </div><!-- // Column 3 -->
@@ -107,7 +104,7 @@
                                                     </div>
                                                     <h6 class="card-title box">Friendly Design</h6>
                                                     <p class="card-description box">
-                                                        World Class Data Security &amp; Back up
+                                                        Beautiful modern software design &amp; interface (web 2.0) - easy to learn &amp; use
                                                     </p>
                                                 </div>
                                             </div><!-- // Column 4 -->
@@ -122,17 +119,16 @@
                                 <div class="container-md-large container-lg-large">
                                     <!-- Alert -->
                                     <div class="layout-alert" id="alert-features-odoo">
-                                        <div class="flex-row">
+                                        <div class="flex-row nowrap-xs middle-xs">
                                             <div class="box alert-image">
                                                 <img src="/theme_myfactory/static/img/odoo-purple.png" />
                                             </div>
                                             <div class="box alert-content">
                                                 <div class="alert-header alert-title">
-                                                    Localized Version of The World’s Top ERP Base
+                                                    Powered By The World’s No 1 Open Source ERP
                                                 </div>
                                                 <p class="alert-description">
-                                                    Anywhere, anytime, any device -
-                                                    access the system with internet browser
+                                                    MRP/ERP is one of the most difficult softwares that requires solid robust back-end technology. Our software’s engine is not scrambled locally from scratch, but a world-class framework founded by Belgium’s Bill Gate, Fabien Pinckaers. The system is used by more than 2 million users and giants like Toyota, Danone etc.
                                                 </p>
                                             </div>
                                         </div><!-- // Row -->

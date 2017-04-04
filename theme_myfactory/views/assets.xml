@@ -95,8 +95,12 @@
                 <!-- FONTS -->
                 <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
                       type="text/css" rel="stylesheet" />
+
+					   
                 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700"
                       type="text/css" rel="stylesheet" />
+					  
+				  
 				
                 <link href="//at.alicdn.com/t/font_8jvbutr95vsll3di.css"
                       type="text/css" rel="stylesheet" />

@@ -19,7 +19,7 @@
     }
 
     @media @query-md{
-        height: 700px;
+        height: 600px;
 
         .floating-card{
             .floating-object();
@@ -29,9 +29,13 @@
     }
 }
 
+#subblock-about-us-journey{
+	background-color: @bg-color-block;
+}
+
 #processes-about-us-journey{
     .process{
-        background-color: #fff;
+        background-color: @bg-color-block;
     }
 
     .process-head-number{
@@ -148,6 +152,8 @@
 
     .list-item{
         padding-left: 50px;
+		
+		i { color : @color-blue-bright;}
     }
 
     .card-description{

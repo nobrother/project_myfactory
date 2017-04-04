@@ -1,7 +1,6 @@
 .subblock-benefits{
     .subblock-footer{
         margin-top: 150px;
-		background-color: @bg-color-block;
     }
 
     .subblock-ending{
@@ -126,24 +125,27 @@
 }
 
 .layout-statistics{
-    > .flex-row{
+	
+	background-color: #f0f0f0; 
+	
+    > div > .flex-row{
         .set-row-gutter(50px)
     }
 
     @media @query-sm{
-        > .flex-row{
+        > div > .flex-row{
             .set-col-gutter(40px)
         }
     }
 
     @media @query-md{
-        > .flex-row{
+        > div > .flex-row{
             .set-col-gutter(80px)
         }
     }
 
     @media @query-lg{
-        > .flex-row{
+        > div > .flex-row{
             .set-col-gutter(160px)
         }
     }
@@ -167,7 +169,7 @@
 
 
 #giftcard-benefits-action{
-	background-image: url(http://placehold.it/1100x490);
+	background-image: url(/theme_myfactory/static/img/demo-bright.jpg);
 	height: 500px;
 
 	@media @query-md{

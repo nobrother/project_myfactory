@@ -11,7 +11,7 @@
 		<template name="Homepage" priority="29" t-name="website.homepage" id="home">
 
             <t t-if="not title">
-                <t t-set="title">myfactory</t>
+                <t t-set="title">Home | myfactory</t>
             </t>
 
             <t t-if="not body_class">
@@ -51,7 +51,7 @@
                                 <!-- Subblock Header -->
                                 <header class="subblock-header subblock-title">
                                     <h1>A Friendly Manufacturing Software Suite</h1>
-                                    <h2>One App For Every Team, Every Team Work As One</h2>
+                                    <h2>One App For Every Team, All Teams Work As One</h2>
                                 </header><!-- // SubBlock Header -->
 
 
@@ -74,7 +74,7 @@
 
                                                      <!-- Tabular item body -->
                                                      <div class="tabular-item-body box">
-                                                         <div class="flex-row around-xs icontexts">
+                                                         <div class="flex-row between-xs icontexts">
                                                              <div class="box icontext-item">
                                                                  <i class="iconfont icon-sales" />
                                                                  <span class="caption">
@@ -110,7 +110,7 @@
 
                                                      <!-- Tabular item body -->
                                                      <div class="tabular-item-body box">
-                                                         <div class="flex-row around-xs icontexts">
+                                                         <div class="flex-row between-xs icontexts">
                                                              <div class="box icontext-item">
                                                                  <i class="iconfont icon-boxes" />
                                                                  <span class="caption">
@@ -158,7 +158,7 @@
 
                                                      <!-- Tabular item body -->
                                                      <div class="tabular-item-body box">
-                                                         <div class="flex-row around-xs icontexts">
+                                                         <div class="flex-row between-xs icontexts">
                                                              <div class="box icontext-item">
                                                                  <i class="material-icons">content_copy</i>
                                                                  <span class="caption">
@@ -317,7 +317,7 @@
                                                         <div class="feature-header">
                                                             <h1>
                                                                 100% Stock &amp; Storage Info<br/>
-                                                                Easy Warehouse Operation
+                                                                Easy Operation &amp; Big Saving
                                                             </h1>
                                                         </div>
                                                         <div class="feature-body">
@@ -350,8 +350,8 @@
 
                                 <!-- Subblock Header -->
                                 <div class="subblock-header subblock-title">
-                                    <h1>Easier For All Departments To Work Together</h1>
-                                    <h2>The Digital Conveyor Belt For People - Smooth Team Workflow</h2>
+                                    <h1>Easy For All Departments To Work Together</h1>
+                                    <h2>Information Shared Automatically, Work Flowed Smoothly</h2>
                                 </div><!-- // Subblock Header -->
 
                                 <!-- Subblock footer -->
@@ -375,7 +375,7 @@
                                 <!-- Subblock header -->
                                 <header class="subblock-header subblock-title">
                                     <h1>Easiest Way To Go Digital With Your Factory</h1>
-                                    <h2>No More Complicated Project &amp; Heavy Investment</h2>
+                                    <h2>No More Complicated Project, Heavy Investment</h2>
                                 </header><!-- // Subblock header -->
 
                                 <!-- Subblock body -->
@@ -446,7 +446,7 @@
                                 <!-- Subblock header -->
                                 <header class="subblock-header subblock-title">
                                     <h1>One Subscription for All Your Needs</h1>
-                                    <h2>Starting from RM 1,500 A Month | Unlimited Users</h2>
+                                    <h2>Starting from RM 1,500 A Month, Unlimited Users</h2>
                                 </header><!-- // Subblock header -->
 
                                 <!-- Subblock body -->
