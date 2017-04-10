@@ -10,7 +10,7 @@
         .container(725px; 0);
 
         > .flex-row{
-            .set-col-gutter(100px);
+            .set-col-gutter(50px);
         }
     }
 
@@ -26,14 +26,14 @@
 
         .link-basic{
             font-size: 18px;
-            font-weight: 300;
+            font-weight: 400;
         }
     }
 }
 
 #page-demo{
     .segment-label{
-        margin-bottom: 30px;
+        margin-bottom: 20px;
 
         color: @color-blue-brand;
         i{
@@ -45,6 +45,19 @@
             font-weight: 400;
         }
     }
+	
+	.subblock-header {
+		padding-top: 100px;
+	}
+	
+	.subblock-title{
+		 h1 {font-size: 44px;}
+		h2 {font-size : 28px;}
+	}
+	
+	.subblock-header+.subblock-body {
+		margin-top: 40px;
+	}
 }
 
 #giftcard-demo-action{

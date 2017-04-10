@@ -1,3 +1,23 @@
+#page-packages{
+	.subblock-title h1+p, .subblock-title h2+p {
+		margin-top: 10px;
+	}
+	
+	.page-title h1 {
+		font-size: 50px;
+	}	
+	
+	.page-header {
+		margin-bottom: 85px;
+	}	
+
+}
+#subblock-packages-support, #subblock-packages-upgrade {
+		header h1 {
+			font-size: 44px;
+		}
+}
+
 #tabular-packages{
     > .flex-row{
         .set-row-gutter(40px);
@@ -30,7 +50,7 @@
     }
 
     .tabular-item-body{
-        padding: 25px 35px;
+        padding: 35px 35px;
     }
 
     .tabular-item-footer{
@@ -43,14 +63,15 @@
         color: @fc-00;
 
         .divider{
-            margin: 30px auto;
+            margin: 20px auto 15px;
+		    background-color: #fff	
         }
     }
     .package-summary-title{
         font-size: 18px;
     }
     .package-summary-price{
-        margin-bottom: 15px;
+        margin-bottom: 5px;
 
         .rm{
             font-size: 20px;
@@ -70,7 +91,7 @@
     .package-details{
         .list-item{
             .margin-bottom(30px);
-
+	
             padding-left: 30px;
 
             i{
@@ -92,11 +113,11 @@
         .special{
             margin-bottom: 30px;
             .list-item{
-                margin-bottom: 10px;
+                margin-bottom: 15px;
             }
         }
         .special-item{
-            padding: 10px 15px;
+            padding: 10px 25px 15px;
             background-color: #fff;
             a{
                 font-size: 14px;
@@ -114,17 +135,21 @@
         margin-bottom: 30px;
         padding: 0 15px;
         font-size: 20px;
+		color: @fc-00;
     }
     .package-action-btn{
-        margin-bottom: 30px;
+        margin-bottom: 15px;
 
         .btn{
-            padding: 10px 15px;
+            padding: 18px 15px;
+			font-size: 18px;
         }
     }
     .package-startup{
         padding: 0 15px;
         font-size: 16px;
+		text-decoration: underline;
+		font-weight: 400;		
     }
 }
 
@@ -144,12 +169,12 @@
     .card-image{
         margin-bottom: 15px;
         .layout-icon-circle{
-            .set-icon(70px; 57px; transparent; @color-blue-light);
+            .set-icon(70px; 57px; transparent; @color-blue-bright);
         }
     }
 
     .card-title{
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         font-size: 21px;
         color: @fc-00;
     }
@@ -360,6 +385,8 @@
     }
 
     .tabular-item-header{
+	
+		
         h3{
             font-size: 20px;
             font-weight: 600;
@@ -435,7 +462,8 @@
     }
 
     .tabular-item-header{
-        h2{
+	
+        h3{
             font-size: 21px;
             font-weight: 600;
         }
@@ -494,7 +522,7 @@
 
         .list-item{
             .margin-bottom(35px);
-
+			font-weight: 400;	
             padding-left: 30px;
 
             > i{

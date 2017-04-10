@@ -5,9 +5,10 @@
 
     .floating-card{
         padding: 30px 0;
+	
 
         .content{
-            padding: 64px 50px 64px 56px;
+            padding: 50px 50px;
             background-color: fade(#9E8952,60%);
         }
 
@@ -30,9 +31,10 @@
         height: 700px;
 
         .floating-card{
-            .dimension-max(575px; 412px);
+            .dimension-max(580px; 412px);
             .floating-object();
             left: auto;
+			bottom: 60px;		
         }
     }
 }
@@ -50,6 +52,7 @@
         > .flex-row{
             position: relative;
             .set-col-gutter(70px);
+			
             z-index: 1;
         }
     }
@@ -63,7 +66,7 @@
             width: 100%;
             background-color: @color-blue-bright;
             top: 0;
-            bottom: 80px;
+            bottom: 0px;
             margin: auto;
             z-index: 0;
         }
@@ -80,17 +83,20 @@
 
     .icontexts{
 
-        .set-row-gutter(30px; ~".icontext-item");
+        .set-row-gutter(20px; ~".icontext-item");
         .set-col-gutter(15px; ~".icontext-item");
 
         .icontext-item{
             .flex-basis(100px);
             text-align: center;
+			font-weight: 400;
+		    color: #888;	
 
             i{
                 display: block;
                 font-size: 32px;
                 margin-bottom: 5px;
+				color: #666;
             }
         }
     }
@@ -106,6 +112,10 @@
     .subblock-body > .divider{
         margin-top: 50px;
     }
+	
+	.subblock-footer {
+		padding-bottom: 30px;
+	}
 }
 
 /* Features */
@@ -132,7 +142,7 @@
     }
 
     .feature-pre-header{
-        margin-bottom: 10px;
+        margin-bottom: 15px;
 
         i{
             font-size: 24px;
@@ -144,27 +154,28 @@
             font-size: 16px;
             color: @color-blue-brand;
             vertical-align: middle;
+		    font-weight: 400;	
         }
 
         & + .divider{
-            margin-bottom: 10px;
+            margin-bottom: 15px;
         }
     }
     .feature-header{
         margin-bottom: 15px;
         h1{
             font-size: 33px;
-            color: @fc-title-light;
+            color: @fc-title;
         }
     }
     .feature-body{
 		margin-bottom: 30px;
 	
         .p-div{
-            .margin-bottom(10px);
+            .margin-bottom(15px);
 
             h6{
-                margin-bottom: 5px;
+                margin-bottom: 2px;
                 font-size: @fs-body-lg + 1;
                 font-weight: 400;
                 color: @fc-title;

@@ -49,7 +49,7 @@
                                                         No longer manage half-blind.
                                                     </div>
                                                     <p class="postcard-body postcard-description">
-                                                        Now you know what’s going on, by yourself,
+                                                        Now you know what’s going on,<br/>by yourself,
                                                         without wasting much time. With accurate info,
                                                         solve all the problems fast, and make better decisions.
                                                     </p>
@@ -326,7 +326,7 @@
                                                         Everything is under control, accurately.
                                                     </div>
                                                     <p class="postcard-body postcard-description">
-                                                        A lot of things &amp; changes are happenning on the floor. It can be overwhelming, wanting 100% on time or 0% waste. It is possible though, with some help.
+                                                        A lot of things &amp; changes are happening on the floor. It can be overwhelming, wanting 100% on time or 0% waste. It is possible though, with some help.
                                                     </p>
                                                 </div>
                                             </div>											
@@ -409,10 +409,13 @@
 
 							<!-- Subblock footer -->
                             <div class="subblock-footer">
-                                <!-- Container -->
-                                <div class="container-sm-medium container-md-medium container-lg-small">
-                                    <!-- Statistics -->
-                                    <div class="layout-statistics" id="statistics-benefits-factory">
+							
+							<!-- Statistics -->
+                            <div class="layout-statistics" id="statistics-benefits-factory">
+									
+									<!-- Container -->
+									<div class="container-sm-medium container-md-medium container-lg-small">
+                                    
                                         <div class="flex-row">
 
                                             <!-- Column 1 -->
@@ -509,7 +512,7 @@
                                                 <ul class="listcard">
                                                     <h3 class="list-item list-item-title">
                                                         <i class="material-icons">info_outline</i>
-                                                        Plan &amp; Manage Orders Easier
+                                                        Full Information on All Types of Storages
                                                     </h3>
                                                     <li class="list-item">
                                                         <i class="material-icons">brightness_1</i>
@@ -523,7 +526,7 @@
                                                 <ul class="listcard">
                                                     <h3 class="list-item list-item-title">
                                                         <i class="material-icons">info_outline</i>
-                                                        Accurate On Time Delivery
+                                                        Smaller Inventory Buffer, Big Saving
                                                     </h3>
                                                     <li class="list-item">
                                                         <i class="material-icons">brightness_1</i>
@@ -538,7 +541,7 @@
                                                 <ul class="listcard">
                                                     <h3 class="list-item list-item-title">
                                                         <i class="material-icons">info_outline</i>
-                                                        Coordinate Work Centers Easily
+                                                        Flexible &amp; Friendly Warehouse Operation
                                                     </h3>
                                                     <li class="list-item">
                                                         <i class="material-icons">brightness_1</i>
@@ -553,7 +556,7 @@
                                                 <ul class="listcard">
                                                     <h3 class="list-item list-item-title">
                                                         <i class="material-icons">info_outline</i>
-                                                        Manage Workers' Shifts &amp; Leaves
+                                                        Flexible &amp; Friendly Warehouse Operation
                                                     </h3>
                                                     <li class="list-item">
                                                         <i class="material-icons">brightness_1</i>
@@ -570,10 +573,11 @@
 
 							<!-- Subblock footer -->
                             <div class="subblock-footer">
-                                <!-- Container -->
-                                <div class="container-sm-medium container-md-medium container-lg-small">
-                                    <!-- Statistics -->
-                                    <div class="layout-statistics" id="statistics-benefits-warehouse">
+								<!-- Statistics -->
+								<div class="layout-statistics" id="statistics-benefits-warehouse">							
+									<!-- Container -->
+									<div class="container-sm-medium container-md-medium container-lg-small">
+
                                         <div class="flex-row">
 
                                             <!-- Column 1 -->

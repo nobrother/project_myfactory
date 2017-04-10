@@ -33,7 +33,7 @@
                                             <a href="/benefits">Benefits</a>
                                         </div>
                                         <div class="list-item">
-                                            <a href="/demo">Video Demo</a>
+                                            <a href="/demo">Demo</a>
                                         </div>
                                     </div>
                                 </div><!-- // Column 1 -->
@@ -54,7 +54,7 @@
                                 <!-- Column 3 -->
                                 <div class="flex-col-xs-4">
                                     <div class="list">
-                                        <div class="list-header">Team</div>
+                                        <div class="list-header">Company</div>
                                         <div class="list-item">
                                             <a href="/about-us">About Us</a>
                                         </div>

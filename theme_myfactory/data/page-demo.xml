@@ -28,7 +28,7 @@
                             <div class="container-md-medium container-lg-medium">
                                 <div class="subblock-header">
                                     <!-- Page Header -->
-                                    <div class="page-header page-title">
+                                    <div class="page-title">
                                         <div class="container-lg-small">
                                             <h1>Watch How Easy Business Can Be</h1>
                                             <h2>
@@ -156,7 +156,7 @@
                                     <div class="segment-label">
                                         <div class="flex-row middle-xs center-xs">
                                             <i class="fa fa-truck box" />
-                                            <span>Supply Chain</span>
+                                            <span>SUPPLY CHAIN</span>
                                         </div>
                                     </div>
                                     <h1>From Order To Cash</h1>
@@ -184,7 +184,7 @@
                                     <div class="segment-label">
                                         <div class="flex-row middle-xs center-xs">
                                             <i class="iconfont icon-mgr"/>
-                                            <span>Management</span>
+                                            <span>MANAGEMENT</span>
                                         </div>
                                     </div>
                                     <h1>From Helicopter View To Ground</h1>

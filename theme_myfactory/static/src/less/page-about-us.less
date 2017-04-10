@@ -1,3 +1,27 @@
+#page-about-us {
+	.subblock-header {
+		padding-top: 63px;
+	}
+	
+	.subblock-title h1 {
+		font-size: 42px;
+	}
+	
+	.subblock-body:last-child, .subblock-footer:last-child, .subblock-header:last-child {
+		padding-bottom: 100px;
+	}
+	
+	.layout-statistics {
+		padding: 0; 
+		
+		p {
+			width: 80%;
+			margin: auto;			
+		}
+	}
+	
+}
+
 #subblock-about-us-intro{
     background: url(/theme_myfactory/static/img/cloudteam.jpg) center no-repeat;
     background-size: cover;
@@ -117,6 +141,7 @@
 #subblock-about-us-offices{
     .subblock-body{
         text-align: center;
+	    padding-bottom: 30px;	
     }
 }
 
@@ -136,7 +161,7 @@
 
     @media @query-md{
         > .flex-row{
-            .set-col-gutter(100px);
+            .set-col-gutter(40px);
         }
     }
 

@@ -280,7 +280,7 @@
                                                     <div class="box feature-list-item-header-image">
                                                         <div class="layout-icon-square">
                                                             <div class="icon">
-                                                                <i class="material-icons">apps</i>
+                                                                <i class="iconfont icon-sales"></i>
                                                                 <span class="icon-caption">Sales</span>
                                                             </div>
                                                         </div>
@@ -394,7 +394,7 @@
                                                     <div class="box feature-list-item-header-image">
                                                         <div class="layout-icon-square">
                                                             <div class="icon">
-                                                                <i class="material-icons">apps</i>
+                                                                <i class="material-icons">credit_card</i>
                                                                 <span class="icon-caption">Purchases</span>
                                                             </div>
                                                         </div>
@@ -415,20 +415,24 @@
                                                     <div class="flex-col-sm-6 flex-col-md-3">
                                                         <div class="list">
                                                             <div class="list-item-title">
-                                                                Powerful Product Info
+                                                                Powerful Product Master
                                                             </div>
                                                             <div class="list-item">
                                                                 <i class="fa fa-check" />
-                                                                Product types &amp; variants (options)
+                                                                Forecasts of product availabilities - check stock, purchase, incoming &amp; demand (SO)
                                                             </div>
                                                             <div class="list-item">
                                                                 <i class="fa fa-check" />
-                                                                Flexible pricelists (automatic rules for price)
+                                                                Set purchase rules for each product’s suppliers for new PO
                                                             </div>
                                                             <div class="list-item">
                                                                 <i class="fa fa-check" />
-                                                                Discounts &amp; coupon code
+                                                               Search product by suppliers
                                                             </div>
+                                                            <div class="list-item">
+                                                                <i class="fa fa-check" />
+                                                               Define product info for sales (warranty etc) &amp; accounting
+                                                            </div>															
                                                         </div>
                                                     </div><!-- // Column 1 -->
 
@@ -436,19 +440,19 @@
                                                     <div class="flex-col-sm-6 flex-col-md-3">
                                                         <div class="list">
                                                             <div class="list-item-title">
-                                                                Professional Quotation
+                                                                Neat Supplier Database
                                                             </div>
                                                             <div class="list-item">
                                                                 <i class="fa fa-check" />
-                                                                Auto convert to sales orders (with a click)
+                                                                Comprehensive master list with detai (address, contact &amp; financial)
                                                             </div>
                                                             <div class="list-item">
                                                                 <i class="fa fa-check" />
-                                                                Quotation Template
+                                                                Summary of biz transactions for each supplier
                                                             </div>
                                                             <div class="list-item">
                                                                 <i class="fa fa-check" />
-                                                                Upselling (propose options, products)
+                                                                Pricelist (rules/conditions for prices to automatically apply on purchase by suppliers)
                                                             </div>
                                                         </div>
                                                     </div><!-- // Column 2 -->
@@ -461,15 +465,19 @@
                                                             </div>
                                                             <div class="list-item">
                                                                 <i class="fa fa-check" />
-                                                                Flexible Sales Orders (modify DO, sell kits, ship partial orders)
+                                                                Fast RFQ with Calls for bids to manage multiple RFQs, compare &amp; order
                                                             </div>
                                                             <div class="list-item">
                                                                 <i class="fa fa-check" />
-                                                                Invoicing from SO (Invoice, manage payment terms &amp; follow up)
+                                                                Flexible PO (A click from RFQ; approvals; merge; multi-warehouse)
                                                             </div>
                                                             <div class="list-item">
                                                                 <i class="fa fa-check" />
-                                                                Flow to/from Related Teams (Create MO &amp; DO)
+                                                                Automate ordering with rules
+                                                            </div>
+															<div class="list-item">
+                                                                <i class="fa fa-check" />
+                                                                Monitor orders by status &amp; keep track of incoming by batch
                                                             </div>
                                                         </div>
                                                     </div><!-- // Column 3 -->
@@ -482,15 +490,11 @@
                                                             </div>
                                                             <div class="list-item">
                                                                 <i class="fa fa-check" />
-                                                                Flexible Sales Orders (modify DO, sell kits, ship partial orders)
+                                                                Create invoice/payment from PO with a click; upload actual invoice later
                                                             </div>
                                                             <div class="list-item">
                                                                 <i class="fa fa-check" />
-                                                                Invoicing from SO (Invoice, manage payment terms &amp; follow up)
-                                                            </div>
-                                                            <div class="list-item">
-                                                                <i class="fa fa-check" />
-                                                                Flow to/from Related Teams (Create MO &amp; DO)
+                                                                Monitor &amp; control orders with dates in future
                                                             </div>
                                                         </div>
                                                     </div><!-- // Column 4 -->
@@ -499,7 +503,7 @@
 
                                             <!-- Feature Footer -->
                                             <div class="feature-list-item-footer">
-                                                <a href="#" class="btn btn-normal">
+                                                <a href="/demo#supply-chain" class="btn btn-normal">
                                                     Watch Purchase Demo
                                                 </a>
                                             </div><!-- // Feature Footer -->
@@ -516,14 +520,14 @@
                                                     <div class="box feature-list-item-header-image">
                                                         <div class="layout-icon-square">
                                                             <div class="icon">
-                                                                <i class="iconfont icon-warehouse-1" />
+                                                                <i class="iconfont icon-stock" />
                                                                 <span class="icon-caption">Inventory</span>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="box feature-list-item-header-content">
-                                                        <h1>Smart &amp; Effective Procurement</h1>
-                                                        <h2>Improve Inventory Performance, Easily Manage Suppliers</h2>
+                                                        <h1>Modern Warehouse Management</h1>
+                                                        <h2>Experience Complete Traceability - Process Faster, Less Stock Buffer</h2>
                                                     </div>
                                                 </div>
                                             </div><!-- // Feature header -->
@@ -537,7 +541,7 @@
                                                     <div class="flex-col-sm-6 flex-col-md-3">
                                                         <div class="list">
                                                             <div class="list-item-title">
-                                                                Powerful Product Info
+                                                                Robust Warehouse Setup
                                                             </div>
                                                             <div class="list-item">
                                                                 <i class="fa fa-check" />
@@ -558,7 +562,7 @@
                                                     <div class="flex-col-sm-6 flex-col-md-3">
                                                         <div class="list">
                                                             <div class="list-item-title">
-                                                                Professional Quotation
+                                                                DO &amp; Stock Movements
                                                             </div>
                                                             <div class="list-item">
                                                                 <i class="fa fa-check" />
@@ -579,7 +583,7 @@
                                                     <div class="flex-col-sm-6 flex-col-md-3">
                                                         <div class="list">
                                                             <div class="list-item-title">
-                                                                RFQ &amp; Purchase Order
+                                                                End-To-End Traceability
                                                             </div>
                                                             <div class="list-item">
                                                                 <i class="fa fa-check" />
@@ -600,7 +604,7 @@
                                                     <div class="flex-col-sm-6 flex-col-md-3">
                                                         <div class="list">
                                                             <div class="list-item-title">
-                                                                Supplier Invoicing
+                                                                Smart Automation
                                                             </div>
                                                             <div class="list-item">
                                                                 <i class="fa fa-check" />
@@ -621,8 +625,8 @@
 
                                             <!-- Feature Footer -->
                                             <div class="feature-list-item-footer">
-                                                <a href="#" class="btn btn-normal">
-                                                    Watch Purchase Demo
+                                                <a href="/demo#supply-chain" class="btn btn-normal">
+                                                    Watch Warehouse Demo
                                                 </a>
                                             </div><!-- // Feature Footer -->
                                         </div><!-- // Features: Inventory -->
@@ -637,13 +641,13 @@
                                                         <div class="layout-icon-square">
                                                             <div class="icon">
                                                                 <i class="iconfont icon-factory"></i>
-                                                                <span class="icon-caption">Manufacturing</span>
+                                                                <span class="icon-caption">MRP</span>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="box feature-list-item-header-content">
-                                                        <h1>Smart &amp; Effective Procurement</h1>
-                                                        <h2>Improve Inventory Performance, Easily Manage Suppliers</h2>
+                                                        <h1>End-to-End Manufacturing Planning &amp; Tracking</h1>
+                                                        <h2>Right Products in Right Quantity at The Right Time, with Right Costing</h2>
                                                     </div>
                                                 </div>
                                             </div><!-- // Feature header -->
@@ -657,7 +661,7 @@
                                                     <div class="flex-col-sm-6 flex-col-md-3">
                                                         <div class="list">
                                                             <div class="list-item-title">
-                                                                Powerful Product Info
+                                                                Product
                                                             </div>
                                                             <div class="list-item">
                                                                 <i class="fa fa-check" />
@@ -678,7 +682,7 @@
                                                     <div class="flex-col-sm-6 flex-col-md-3">
                                                         <div class="list">
                                                             <div class="list-item-title">
-                                                                Professional Quotation
+                                                                Planning
                                                             </div>
                                                             <div class="list-item">
                                                                 <i class="fa fa-check" />
@@ -699,7 +703,7 @@
                                                     <div class="flex-col-sm-6 flex-col-md-3">
                                                         <div class="list">
                                                             <div class="list-item-title">
-                                                                RFQ &amp; Purchase Order
+                                                                Production
                                                             </div>
                                                             <div class="list-item">
                                                                 <i class="fa fa-check" />
@@ -720,7 +724,7 @@
                                                     <div class="flex-col-sm-6 flex-col-md-3">
                                                         <div class="list">
                                                             <div class="list-item-title">
-                                                                Supplier Invoicing
+                                                                Quality
                                                             </div>
                                                             <div class="list-item">
                                                                 <i class="fa fa-check" />
@@ -742,7 +746,7 @@
                                             <!-- Feature Footer -->
                                             <div class="feature-list-item-footer">
                                                 <a href="#" class="btn btn-normal">
-                                                    Watch Purchase Demo
+                                                    Watch MRP Demo
                                                 </a>
                                             </div><!-- // Feature Footer -->
                                         </div><!-- // Features: Manufacturing -->

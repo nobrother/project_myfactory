@@ -139,9 +139,9 @@
                                                         <span class="statistic-value">500+</span>
                                                     </div>
                                                     <div class="statistic-title">SMEs On Our Hosting</div>
-                                                    <div class="statistic-description">
-                                                        Clients like
-                                                    </div>
+                                                    <p class="statistic-description">
+                                                        Reliable infra &amp; support for small &amp; big players - Honda, Loreal etc
+                                                    </p>
                                                 </div>
                                             </div><!-- // Column 1 -->
 
@@ -152,9 +152,9 @@
                                                         <span class="statistic-value">30+</span>
                                                     </div>
                                                     <div class="statistic-title">Customized ERP Projects</div>
-                                                    <div class="statistic-description">
-                                                        Specific ERP Customization
-                                                    </div>
+                                                    <p class="statistic-description">
+                                                        Custom made ERP solution for companies from manufacturing, trading to e-commerce
+                                                    </p>
                                                 </div>
                                             </div><!-- // Column 2 -->
 
@@ -165,9 +165,9 @@
                                                         <span class="statistic-value">200+</span>
                                                     </div>
                                                     <div class="statistic-title">SaaS Clients in Malaysia</div>
-                                                    <div class="statistic-description">
-                                                        SMEs Using Accounting SaaS
-                                                    </div>
+                                                    <p class="statistic-description">
+                                                        Providing SMEs with Affordable Cloud Accounting SaaS
+                                                    </p>
                                                 </div>
                                             </div><!-- // Column 3 -->
                                         </div>
@@ -185,7 +185,7 @@
                                     <!-- Text Block -->
                                     <div class="text-block">
                                         In the past two decades, we have seen
-                                        the problems SMEs faced.<br />
+                                        the challenges SMEs faced.<br />
                                         And we have provided different part &amp; 
                                         type of solution to them.<br/>
                                         We have come to realize that cloud
@@ -414,8 +414,8 @@
                                                     </div>
                                                     <p class="card-description box">
                                                         Block A-701, Kelana Square,<br />
-                                                        No 17, Jalan SS 7/26, Kelana Jaya,<br/>
-                                                        47301, Petaling Jaya, Selangor
+                                                        17, Jalan SS 7/26, Kelana Jaya,<br/>
+                                                        47301 Petaling Jaya, Selangor
                                                     </p>
                                                 </div>
                                             </div><!-- // Column 2 -->

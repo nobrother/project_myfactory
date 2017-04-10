@@ -1,7 +1,21 @@
+#page-features{
+	.page-header {
+		margin-bottom: 55px;
+	}
+
+}
+
+
+
 #subblock-features-main{
     .subblock-header{
         padding-top: 0;
     }
+	
+	.subblock-footer {
+		margin-top: 65px;
+	}	
+	
 }
 #cards-features-main{
     > .flex-row{
@@ -29,19 +43,29 @@
 }
 
 #alert-features-odoo{
-    padding: 75px 75px 85px;
+    padding: 55px 75px 65px;
 
     .alert-content{
         padding-left: 90px;
 		.flex(1 1 auto);
     }
+	.alert-header {
+		margin-bottom: 15px;
+	}	
     .alert-title{
-        font-size: 23px;
-        font-weight: 400;
+        font-size: 28px;
     }
     .alert-desciption{
         font-size: 19px;
     }
+}
+
+
+#subblock-features-nav {
+	.subblock-title h1{
+		font-size: 44px;
+	}
+
 }
 
 #nav-lists-features{
@@ -70,6 +94,7 @@
     }
     .nav-list-header{
         margin-bottom: 15px;
+	    padding-top: 20px;	
     }
     .nav-list-title{
         font-size: 18px;
@@ -82,10 +107,14 @@
             font-weight: 300;
         }
         .nav-list-item{
-            .margin-bottom(10px);
+            .margin-bottom(15px);
         }
     }
 
+}
+
+.fa-database:before{
+	font-size: 0.9em;
 }
 
 #subblock-features-lists{
@@ -94,7 +123,7 @@
 
 .features-lists{
     .divider{
-        margin: 37px auto 47px;
+        margin: 35px auto 35px;
     }
 }
 .feature-list-item{
@@ -117,7 +146,7 @@
     .flex-grow(1);
     padding-left: 45px;
     h1{
-        margin-bottom: 20px;
+        margin-bottom: 7px;
         font-size: 42px;
         color: @fc-00;
     }
@@ -152,10 +181,13 @@
         .margin-bottom(5px);
         padding-left: 20px;
         font-size: 13px;
+	    font-weight: 400;
+		color: #666;	
 
         i{
             font-size: 10px;
             color: @color-blue-brand;
+			top: 3px;
         }
     }
 }
@@ -164,6 +196,7 @@
     .btn{
         width: 280px;
         font-weight: 300;
+		padding: 15px;	
     }
 }
 

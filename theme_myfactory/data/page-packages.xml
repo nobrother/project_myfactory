@@ -11,7 +11,7 @@
 		<template name="Packages" priority="29" t-name="website.benefits" id="packages">
 
             <t t-if="not title">
-                <t t-set="title">myfactory</t>
+                <t t-set="title">Pricing | myfactory</t>
             </t>
 
             <t t-if="not body_class">
@@ -100,7 +100,7 @@ Version update when announced</p>
                                                          <div class="package-actions">
                                                              <div class="package-motive" data-mh-md="tp-8">
                                                                  Just pay for the hosting, <br/>
-                                                                 get the ERP for FREE!
+                                                                 get the MRP-ERP for FREE!
                                                              </div>
                                                              <div class="package-action-btn">
                                                                  <a href="#" class="btn btn-normal">
@@ -157,7 +157,7 @@ Version update when announced</p>
                                                                          Core MRP/ERP (Enhanced)
                                                                      </h6>
                                                                      <p>
-                                                                         All core apps (always latest enhanced
+                                                                         All core apps (always latest)
                                                                          <br />Two modes - discrete or process
                                                                      </p>
                                                                  </div>
@@ -254,7 +254,7 @@ Version update when announced</p>
                                                                      <p>
                                                                          All core apps (always latest version)
                                                                          <br />
-                                                                         Industry-specific features &amp; compliance
+                                                                         Industry-specific features, compliance
                                                                      </p>
                                                                  </div>
                                                                  <div class="special-item">
@@ -292,8 +292,8 @@ Version update when announced</p>
                                                      <div class="tabular-item-footer box">
                                                          <div class="package-actions">
                                                              <div class="package-motive" data-mh-md="tp-8">
-                                                                 Most affordable package for advanced <br/>
-                                                                 manufacturing
+                                                                 Most affordable advanced <br/>
+                                                                 manufacturing software pack
                                                              </div>
                                                              <div class="package-action-btn">
                                                                  <a href="#" class="btn btn-normal">
