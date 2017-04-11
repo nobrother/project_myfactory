@@ -12,7 +12,7 @@
 			<!-- Add favicon -->
 			<xpath expr="//head/meta[@name='viewport']" position="before">
 				<t t-if="not favicon">
-					<t t-set="favicon" >//odoocdn.com/web/image/website/1/favicon/</t>
+					<t t-set="favicon" >/theme_myfactory/static/img/favicon.ico</t>
 				</t>
 				<link t-att-href="favicon" rel="shortcut icon" type="image/x-icon"/>
 			</xpath>

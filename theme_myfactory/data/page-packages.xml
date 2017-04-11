@@ -49,12 +49,12 @@
                                                       id="tabular-item-package-basic">
 
                                                      <!-- Tabular item header -->
-                                                     <div class="tabular-item-header box">
+                                                     <div class="tabular-item-header flex-box">
                                                          <h2>Basic (DIY)</h2>
                                                      </div><!-- // Tabular item header -->
 
                                                      <!-- Tabular item body: Package summary -->
-                                                     <div class="tabular-item-body box">
+                                                     <div class="tabular-item-body flex-box">
                                                          <div class="package-summary">
                                                              <h5 class="package-summary-title"
                                                                  data-mh-md="tp-1">
@@ -73,7 +73,7 @@
                                                      </div><!-- // Tabular item body: Package summary -->
 
                                                      <!-- Tabular item body: Package details -->
-                                                     <div class="tabular-item-body box">
+                                                     <div class="tabular-item-body flex-box">
                                                          <div class="package-details">
                                                              <div class="list-item" data-mh-md="tp-4">
                                                                  <i class="material-icons">brightness_1</i>
@@ -96,7 +96,7 @@ Version update when announced</p>
                                                      </div><!-- // Tabular item body: Package details -->
 
                                                      <!-- Tabular item footer: Actions -->
-                                                     <div class="tabular-item-footer box">
+                                                     <div class="tabular-item-footer flex-box">
                                                          <div class="package-actions">
                                                              <div class="package-motive" data-mh-md="tp-8">
                                                                  Just pay for the hosting, <br/>
@@ -123,12 +123,12 @@ Version update when announced</p>
                                                       id="tabular-item-package-standard">
 
                                                      <!-- Tabular item header -->
-                                                     <div class="tabular-item-header box">
+                                                     <div class="tabular-item-header flex-box">
                                                          <h2>Standard</h2>
                                                      </div><!-- // Tabular item header -->
 
                                                      <!-- Tabular item body: Package summary -->
-                                                     <div class="tabular-item-body box">
+                                                     <div class="tabular-item-body flex-box">
                                                          <div class="package-summary">
                                                              <h5 class="package-summary-title"
                                                                  data-mh-md="tp-1">
@@ -148,7 +148,7 @@ Version update when announced</p>
                                                      </div><!-- // Tabular item body: Package summary -->
 
                                                      <!-- Tabular item body: Package details -->
-                                                     <div class="tabular-item-body box">
+                                                     <div class="tabular-item-body flex-box">
                                                          <div class="package-details">
                                                              <div class="special" data-mh-md="tp-4">
                                                                  <div class="list-item">
@@ -192,7 +192,7 @@ Version update when announced</p>
                                                      </div><!-- // Tabular item body: Package details -->
 
                                                      <!-- Tabular item footer: Actions -->
-                                                     <div class="tabular-item-footer box">
+                                                     <div class="tabular-item-footer flex-box">
                                                          <div class="package-actions">
                                                              <div class="package-motive" data-mh-md="tp-8">
                                                                  Double team productivity with monthly cost of a Labor
@@ -218,12 +218,12 @@ Version update when announced</p>
                                                       id="tabular-item-package-specialist">
 
                                                      <!-- Tabular item header -->
-                                                     <div class="tabular-item-header box">
+                                                     <div class="tabular-item-header flex-box">
                                                          <h2>Specialist</h2>
                                                      </div><!-- // Tabular item header -->
 
                                                      <!-- Tabular item body: Package summary -->
-                                                     <div class="tabular-item-body box">
+                                                     <div class="tabular-item-body flex-box">
                                                          <div class="package-summary">
                                                              <h5 class="package-summary-title"
                                                                  data-mh-md="tp-1">
@@ -243,7 +243,7 @@ Version update when announced</p>
                                                      </div><!-- // Tabular item body: Package summary -->
 
                                                      <!-- Tabular item body: Package details -->
-                                                     <div class="tabular-item-body box">
+                                                     <div class="tabular-item-body flex-box">
                                                          <div class="package-details">
                                                              <div class="special" data-mh-md="tp-4">
                                                                  <div class="list-item">
@@ -289,7 +289,7 @@ Version update when announced</p>
                                                      </div><!-- // Tabular item body: Package details -->
 
                                                      <!-- Tabular item footer: Actions -->
-                                                     <div class="tabular-item-footer box">
+                                                     <div class="tabular-item-footer flex-box">
                                                          <div class="package-actions">
                                                              <div class="package-motive" data-mh-md="tp-8">
                                                                  Most affordable advanced <br/>
@@ -335,13 +335,13 @@ Version update when announced</p>
                                             <!-- Column 1 -->
                                             <div class="flex-col-md-3 flex-col-sm-6">
                                                 <div class="card flex-col middle-xs">
-                                                    <div class="card-image box">
+                                                    <div class="card-image flex-box">
                                                         <div class="layout-icon-circle">
                                                             <i class="material-icons">laptop_chromebook</i>
                                                         </div>
                                                     </div>
-                                                    <h6 class="card-title box">Web-Based Software</h6>
-                                                    <p class="card-description box">
+                                                    <h6 class="card-title flex-box">Web-Based Software</h6>
+                                                    <p class="card-description flex-box">
                                                         No installation needed.
                                                         Access anywhere, anytime, any device
                                                         - with an internet browser
@@ -352,13 +352,13 @@ Version update when announced</p>
                                             <!-- Column 2 -->
                                             <div class="flex-col-md-3 flex-col-sm-6">
                                                 <div class="card flex-col middle-xs">
-                                                    <div class="card-image box">
+                                                    <div class="card-image flex-box">
                                                         <div class="layout-icon-circle">
                                                             <i class="material-icons">people</i>
                                                         </div>
                                                     </div>
-                                                    <h6 class="card-title box">Unlimited User Access</h6>
-                                                    <p class="card-description box">
+                                                    <h6 class="card-title flex-box">Unlimited User Access</h6>
+                                                    <p class="card-description flex-box">
                                                         Add as many users you want easily in admin module
                                                         (without breaking the hosting)
                                                     </p>
@@ -368,13 +368,13 @@ Version update when announced</p>
                                             <!-- Column 3 -->
                                             <div class="flex-col-md-3 flex-col-sm-6">
                                                 <div class="card flex-col middle-xs">
-                                                    <div class="card-image box">
+                                                    <div class="card-image flex-box">
                                                         <div class="layout-icon-circle">
                                                             <i class="material-icons">dns</i>
                                                         </div>
                                                     </div>
-                                                    <h6 class="card-title box">Cloud Server</h6>
-                                                    <p class="card-description box">
+                                                    <h6 class="card-title flex-box">Cloud Server</h6>
+                                                    <p class="card-description flex-box">
                                                         No need to invest in server.
                                                         Enjoy world class hosting with
                                                         guaranteed uptime of 99.9%
@@ -385,13 +385,13 @@ Version update when announced</p>
                                             <!-- Column 4 -->
                                             <div class="flex-col-md-3 flex-col-sm-6">
                                                 <div class="card flex-col middle-xs">
-                                                    <div class="card-image box">
+                                                    <div class="card-image flex-box">
                                                         <div class="layout-icon-circle">
                                                             <i class="material-icons">lock_outline</i>
                                                         </div>
                                                     </div>
-                                                    <h6 class="card-title box">Security &amp; Backup</h6>
-                                                    <p class="card-description box">
+                                                    <h6 class="card-title flex-box">Security &amp; Backup</h6>
+                                                    <p class="card-description flex-box">
                                                         Top security facilty &amp; backup 
                                                         at No 1 data center in Msia, AIMS for 
                                                         you platform &amp; data
@@ -438,25 +438,25 @@ Version update when announced</p>
 
                                             <!-- Column 1 -->
                                             <div class="flex-col-md-6 flex-col" id="box-item-software-update-standard">
-                                                <div class="box-item box flex-col">
-                                                    <div class="box-item-header box-item-title box">
+                                                <div class="box-item flex-box flex-col">
+                                                    <div class="box-item-header box-item-title flex-box">
                                                         Standard Plan
                                                     </div>
-                                                    <div class="box-item-body box flex-col center-xs">
+                                                    <div class="box-item-body flex-box flex-col center-xs">
                                                         <!-- // Cards: Standard Plan -->
-                                                        <div class="cards box" id="cards-software-update-standard">
+                                                        <div class="cards flex-box" id="cards-software-update-standard">
                                                             <div class="flex-row">
 
                                                                 <!-- Column 1 -->
                                                                 <div class="flex-col-xs-6">
                                                                     <div class="card flex-col middle-xs">
-                                                                        <div class="card-image box">
+                                                                        <div class="card-image flex-box">
                                                                             <div class="layout-icon-circle">
                                                                                 <i class="iconfont icon-product" />
                                                                             </div>
                                                                         </div>
-                                                                        <h6 class="card-title box">Discrete Manufacturers</h6>
-                                                                        <p class="card-description box">
+                                                                        <h6 class="card-title flex-box">Discrete Manufacturers</h6>
+                                                                        <p class="card-description flex-box">
                                                                             Produce by parts &amp; BOM <br/> Process
                                                                         </p>
                                                                     </div>
@@ -465,13 +465,13 @@ Version update when announced</p>
                                                                 <!-- Column 2 -->
                                                                 <div class="flex-col-xs-6">
                                                                     <div class="card flex-col middle-xs">
-                                                                        <div class="card-image box">
+                                                                        <div class="card-image flex-box">
                                                                             <div class="layout-icon-circle">
                                                                                 <i class="iconfont icon-chem" />
                                                                             </div>
                                                                         </div>
-                                                                        <h6 class="card-title box">Process Manufacturers</h6>
-                                                                        <p class="card-description box">
+                                                                        <h6 class="card-title flex-box">Process Manufacturers</h6>
+                                                                        <p class="card-description flex-box">
                                                                             Produce by chemical &amp; recipe <br/> Process
                                                                         </p>
                                                                     </div>
@@ -484,8 +484,8 @@ Version update when announced</p>
 
                                             <!-- Column 2 -->
                                             <div class="flex-col-md-6 flex-col" id="box-item-software-update-specialist">
-                                                <div class="box-item box">
-                                                    <div class="box-item-header box-item-title">
+                                                <div class="box-item flex-box">
+                                                    <div class="box-item-header flex-box-item-title">
                                                         Specialist Plan
                                                     </div>
                                                     <div class="box-item-body">
@@ -496,48 +496,48 @@ Version update when announced</p>
                                                                 <!-- Column 1 -->
                                                                 <div class="flex-col-xs-6">
                                                                     <div class="card flex-col middle-xs">
-                                                                        <div class="card-image box">
+                                                                        <div class="card-image flex-box">
                                                                             <div class="layout-icon-circle">
                                                                                 <i class="iconfont icon-chip2" />
                                                                             </div>
                                                                         </div>
-                                                                        <h6 class="card-title box">Electronics</h6>
+                                                                        <h6 class="card-title flex-box">Electronics</h6>
                                                                     </div>
                                                                 </div><!-- // Column 1 -->
 
                                                                 <!-- Column 2 -->
                                                                 <div class="flex-col-xs-6">
                                                                     <div class="card flex-col middle-xs">
-                                                                        <div class="card-image box">
+                                                                        <div class="card-image flex-box">
                                                                             <div class="layout-icon-circle">
                                                                                 <i class="iconfont icon-bolt" />
                                                                             </div>
                                                                         </div>
-                                                                        <h6 class="card-title box">Precision Metalforming</h6>
+                                                                        <h6 class="card-title flex-box">Precision Metalforming</h6>
                                                                     </div>
                                                                 </div><!-- // Column 2 -->
 
                                                                 <!-- Column 3 -->
                                                                 <div class="flex-col-xs-6">
                                                                     <div class="card flex-col middle-xs">
-                                                                        <div class="card-image box">
+                                                                        <div class="card-image flex-box">
                                                                             <div class="layout-icon-circle">
                                                                                 <i class="iconfont icon-productfilter" />
                                                                             </div>
                                                                         </div>
-                                                                        <h6 class="card-title box">Rubber &amp; Plastics</h6>
+                                                                        <h6 class="card-title flex-box">Rubber &amp; Plastics</h6>
                                                                     </div>
                                                                 </div><!-- // Column 3 -->
 
                                                                 <!-- Column 4 -->
                                                                 <div class="flex-col-xs-6">
                                                                     <div class="card flex-col middle-xs">
-                                                                        <div class="card-image box">
+                                                                        <div class="card-image flex-box">
                                                                             <div class="layout-icon-circle">
                                                                                 <i class="iconfont icon-furniture" />
                                                                             </div>
                                                                         </div>
-                                                                        <h6 class="card-title box">Furniture</h6>
+                                                                        <h6 class="card-title flex-box">Furniture</h6>
                                                                     </div>
                                                                 </div><!-- // Column 4 -->
                                                             </div><!-- // Row -->
@@ -576,13 +576,13 @@ Version update when announced</p>
                                             <!-- Column 1 -->
                                             <div class="flex-col-lg-2_4 flex-col-md-4 flex-col-sm-6">
                                                 <div class="process flex-col middle-xs">
-                                                    <div class="process-image box">
+                                                    <div class="process-image flex-box">
                                                         <div class="layout-icon-circle">
                                                             <i class="material-icons">textsms</i>
                                                         </div>
                                                     </div>
-                                                    <h6 class="process-title box">Request</h6>
-                                                    <p class="process-description box">
+                                                    <h6 class="process-title flex-box">Request</h6>
+                                                    <p class="process-description flex-box">
                                                         Raise request for new feature/functionality you need on our Forum.
                                                     </p>
                                                 </div>
@@ -591,13 +591,13 @@ Version update when announced</p>
                                             <!-- Column 2 -->
                                             <div class="flex-col-lg-2_4 flex-col-md-4 flex-col-sm-6">
                                                 <div class="process flex-col middle-xs">
-                                                    <div class="process-image box">
+                                                    <div class="process-image flex-box">
                                                         <div class="layout-icon-circle">
                                                             <i class="iconfont icon-vote"></i>
                                                         </div>
                                                     </div>
-                                                    <h6 class="process-title box">Vote</h6>
-                                                    <p class="process-description box">
+                                                    <h6 class="process-title flex-box">Vote</h6>
+                                                    <p class="process-description flex-box">
                                                         You subscribers in the pool will vote for
                                                         the feature to develop for the month
                                                     </p>
@@ -607,13 +607,13 @@ Version update when announced</p>
                                             <!-- Column 3 -->
                                             <div class="flex-col-lg-2_4 flex-col-md-4 flex-col-sm-6">
                                                 <div class="process flex-col middle-xs">
-                                                    <div class="process-image box">
+                                                    <div class="process-image flex-box">
                                                         <div class="layout-icon-circle">
 															<i class="iconfont icon-assess" />
                                                         </div>
                                                     </div>
-                                                    <h6 class="process-title box">Assess</h6>
-                                                    <p class="process-description box">
+                                                    <h6 class="process-title flex-box">Assess</h6>
+                                                    <p class="process-description flex-box">
                                                         We assess all the requests, its needs and
                                                         the solution by votes &amp; talking to you guys
                                                     </p>
@@ -623,13 +623,13 @@ Version update when announced</p>
                                             <!-- Column 4 -->
                                             <div class="flex-col-lg-2_4 flex-col-md-4 flex-col-sm-6">
                                                 <div class="process flex-col middle-xs">
-                                                    <div class="process-image box">
+                                                    <div class="process-image flex-box">
                                                         <div class="layout-icon-circle">
                                                             <i class="iconfont icon-notice" />
                                                         </div>
                                                     </div>
-                                                    <h6 class="process-title box">Announce</h6>
-                                                    <p class="process-description box">
+                                                    <h6 class="process-title flex-box">Announce</h6>
+                                                    <p class="process-description flex-box">
                                                         The features (solution) to be developed will
                                                         be announced on the forum
                                                     </p>
@@ -639,13 +639,13 @@ Version update when announced</p>
                                             <!-- Column 5 -->
                                             <div class="flex-col-lg-2_4 flex-col-md-4 flex-col-sm-6">
                                                 <div class="process no-arrow-xs flex-col middle-xs">
-                                                    <div class="process-image box">
+                                                    <div class="process-image flex-box">
                                                         <div class="layout-icon-circle">
                                                             <i class="material-icons">cloud_upload</i>
                                                         </div>
                                                     </div>
-                                                    <h6 class="process-title box">Deploy</h6>
-                                                    <p class="process-description box">
+                                                    <h6 class="process-title flex-box">Deploy</h6>
+                                                    <p class="process-description flex-box">
                                                         The new features will be roll out to all in
                                                         the pool with notification &amp; guide
                                                     </p>
@@ -682,12 +682,12 @@ Version update when announced</p>
                                                  <div class="tabular-item">
 
                                                      <!-- Tabular item header -->
-                                                     <div class="tabular-item-header box">
+                                                     <div class="tabular-item-header flex-box">
                                                          <h3>Medium (M)</h3>
                                                      </div><!-- // Tabular item header -->
 
                                                      <!-- Tabular item body: Upgrade features -->
-                                                     <div class="tabular-item-body box">
+                                                     <div class="tabular-item-body flex-box">
                                                          <div class="upgrade-features">
                                                              <div class="concurrent-user">
                                                                  *Up to 50 normal <br />
@@ -709,7 +709,7 @@ Version update when announced</p>
                                                      </div><!-- // Tabular item body: Upgrade features -->
 
                                                      <!-- Tabular footer -->
-                                                     <div class="tabular-item-footer box">
+                                                     <div class="tabular-item-footer flex-box">
                                                          <a href="#plans" class="link-basic">
                                                              Included in STANDARD
                                                          </a>
@@ -724,12 +724,12 @@ Version update when announced</p>
                                                  <div class="tabular-item">
 
                                                      <!-- Tabular item header -->
-                                                     <div class="tabular-item-header box">
+                                                     <div class="tabular-item-header flex-box">
                                                          <h3>Large (L)</h3>
                                                      </div><!-- // Tabular item header -->
 
                                                      <!-- Tabular item body: Upgrade features -->
-                                                     <div class="tabular-item-body box">
+                                                     <div class="tabular-item-body flex-box">
                                                          <div class="upgrade-features">
                                                              <div class="concurrent-user">
                                                                  *Up to 100 normal <br />
@@ -751,7 +751,7 @@ Version update when announced</p>
                                                      </div><!-- // Tabular item body: Upgrade features -->
 
                                                      <!-- Tabular footer -->
-                                                     <div class="tabular-item-footer box">
+                                                     <div class="tabular-item-footer flex-box">
                                                          <a href="#plans" class="link-basic">
                                                              Included in SPECIALIST
                                                          </a>
@@ -766,12 +766,12 @@ Version update when announced</p>
                                                  <div class="tabular-item">
 
                                                      <!-- Tabular item header -->
-                                                     <div class="tabular-item-header box">
+                                                     <div class="tabular-item-header flex-box">
                                                          <h3>Extra-Large (XL)</h3>
                                                      </div><!-- // Tabular item header -->
 
                                                      <!-- Tabular item body: Upgrade features -->
-                                                     <div class="tabular-item-body box">
+                                                     <div class="tabular-item-body flex-box">
                                                          <div class="upgrade-features">
                                                              <div class="concurrent-user">
                                                                  *Up to 100 heavy  <br />
@@ -801,12 +801,12 @@ Version update when announced</p>
                                                  <div class="tabular-item">
 
                                                      <!-- Tabular item header -->
-                                                     <div class="tabular-item-header box">
+                                                     <div class="tabular-item-header flex-box">
                                                          <h3>XX-Large (XXL)</h3>
                                                      </div><!-- // Tabular item header -->
 
                                                      <!-- Tabular item body: Upgrade features -->
-                                                     <div class="tabular-item-body box">
+                                                     <div class="tabular-item-body flex-box">
                                                          <div class="upgrade-features">
                                                              <div class="concurrent-user">
                                                                  *Up to 200 heavy<br />
@@ -873,12 +873,12 @@ Version update when announced</p>
                                                  <div class="tabular-item">
 
                                                      <!-- Tabular item header -->
-                                                     <div class="tabular-item-header box">
+                                                     <div class="tabular-item-header flex-box">
                                                          <h3>Standard</h3>
                                                      </div><!-- // Tabular item header -->
 
                                                      <!-- Tabular item body -->
-                                                     <div class="tabular-item-body box">
+                                                     <div class="tabular-item-body flex-box">
                                                          <div class="package-summary">
                                                              <div class="package-summary-title" data-mh-md="tps-1">
                                                                  Essential care for your team to get started and go far
@@ -904,7 +904,7 @@ Version update when announced</p>
                                                      </div><!-- // Tabular item body -->
 
                                                      <!-- Tabular item body -->
-                                                     <div class="tabular-item-body box">
+                                                     <div class="tabular-item-body flex-box">
                                                          <div class="package-details" data-mh-md="tps-10">
 
                                                              <!-- List item 1 -->
@@ -982,12 +982,12 @@ Version update when announced</p>
                                                  <div class="tabular-item">
 
                                                      <!-- Tabular item header -->
-                                                     <div class="tabular-item-header box">
+                                                     <div class="tabular-item-header flex-box">
                                                          <h3>Intensive</h3>
                                                      </div><!-- // Tabular item header -->
 
                                                      <!-- Tabular item body -->
-                                                     <div class="tabular-item-body box">
+                                                     <div class="tabular-item-body flex-box">
                                                          <div class="package-summary">
                                                              <div class="package-summary-title" data-mh-md="tps-1">
                                                                  Higher touch and prioritized support for
@@ -1014,7 +1014,7 @@ Version update when announced</p>
                                                      </div><!-- // Tabular item body -->
 
                                                      <!-- Tabular item body -->
-                                                     <div class="tabular-item-body box">
+                                                     <div class="tabular-item-body flex-box">
                                                          <div class="package-details" data-mh-md="tps-10">
 
                                                              <!-- List item 1 -->
@@ -1086,12 +1086,12 @@ Version update when announced</p>
                                                  <div class="tabular-item">
 
                                                      <!-- Tabular item header -->
-                                                     <div class="tabular-item-header box">
+                                                     <div class="tabular-item-header flex-box">
                                                          <h3>Counsel</h3>
                                                      </div><!-- // Tabular item header -->
 
                                                      <!-- Tabular item body -->
-                                                     <div class="tabular-item-body box">
+                                                     <div class="tabular-item-body flex-box">
                                                          <div class="package-summary">
                                                              <div class="package-summary-title" data-mh-md="tps-1">
                                                                  Deeper partnership with dedicated personnel
@@ -1113,7 +1113,7 @@ Version update when announced</p>
                                                      </div><!-- // Tabular item body -->
 
                                                      <!-- Tabular item body -->
-                                                     <div class="tabular-item-body box">
+                                                     <div class="tabular-item-body flex-box">
                                                          <div class="package-details" data-mh-md="tps-10">
 
                                                              <!-- List item 1 -->

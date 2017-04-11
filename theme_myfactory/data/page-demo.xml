@@ -46,12 +46,12 @@
                                             <!-- Column 1 -->
                                             <div class="flex-col-xs-6 flex-col-sm-3">
                                                 <div class="card flex-col middle-xs">
-                                                    <div class="card-image box">
+                                                    <div class="card-image flex-box">
                                                         <div class="layout-icon-circle">
                                                             <i class="fa fa-database"/>
                                                         </div>
                                                     </div>
-                                                    <h6 class="card-title box">
+                                                    <h6 class="card-title flex-box">
                                                         <a href="#database" class="link-basic js-scroll-to">
                                                             Database
                                                         </a>
@@ -62,12 +62,12 @@
                                             <!-- Column 2 -->
                                             <div class="flex-col-xs-6 flex-col-sm-3">
                                                 <div class="card flex-col middle-xs">
-                                                    <div class="card-image box">
+                                                    <div class="card-image flex-box">
                                                         <div class="layout-icon-circle">
                                                             <i class="fa fa-truck"/>
                                                         </div>
                                                     </div>
-                                                    <h6 class="card-title box">
+                                                    <h6 class="card-title flex-box">
                                                         <a href="#supply-chain" class="link-basic js-scroll-to">
                                                             Supply Chain
                                                         </a>
@@ -78,12 +78,12 @@
                                             <!-- Column 3 -->
                                             <div class="flex-col-xs-6 flex-col-sm-3">
                                                 <div class="card flex-col middle-xs">
-                                                    <div class="card-image box">
+                                                    <div class="card-image flex-box">
                                                         <div class="layout-icon-circle">
                                                             <i class="fa fa-industry"/>
                                                         </div>
                                                     </div>
-                                                    <h6 class="card-title box">
+                                                    <h6 class="card-title flex-box">
                                                         <a href="#manufacturing" class="link-basic js-scroll-to">
                                                             Manufacturing
                                                         </a>
@@ -94,12 +94,12 @@
                                             <!-- Column 4 -->
                                             <div class="flex-col-xs-6 flex-col-sm-3">
                                                 <div class="card flex-col middle-xs">
-                                                    <div class="card-image box">
+                                                    <div class="card-image flex-box">
                                                         <div class="layout-icon-circle">
                                                             <i class="iconfont icon-mgr"/>
                                                         </div>
                                                     </div>
-                                                    <h6 class="card-title box">
+                                                    <h6 class="card-title flex-box">
                                                         <a href="#management" class="link-basic js-scroll-to">
                                                             Management
                                                         </a>
@@ -127,7 +127,7 @@
                                 <div class="subblock-header subblock-title">
                                     <div class="segment-label">
                                         <div class="flex-row middle-xs center-xs">
-                                            <i class="fa fa-industry box" />
+                                            <i class="fa fa-industry flex-box" />
                                             <span>MANUFACTURING</span>
                                         </div>
                                     </div>
@@ -155,7 +155,7 @@
                                 <div class="subblock-header subblock-title">
                                     <div class="segment-label">
                                         <div class="flex-row middle-xs center-xs">
-                                            <i class="fa fa-truck box" />
+                                            <i class="fa fa-truck flex-box" />
                                             <span>SUPPLY CHAIN</span>
                                         </div>
                                     </div>
@@ -225,12 +225,12 @@
                                                     </h1>
                                                     <div class="footer">
                                                         <div class="flex-row">
-                                                            <div class="box col-left">
+                                                            <div class="flex-box col-left">
                                                                 <a href="/contact-us" class="btn btn-normal">
                                                                     Talk To Us
                                                                 </a>
                                                             </div>
-                                                            <div class="box col-right">
+                                                            <div class="flex-box col-right">
                                                                 <a href="/packages" class="btn btn-normal-inverse">
                                                                     See Pricing
                                                                 </a>

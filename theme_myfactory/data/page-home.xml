@@ -66,28 +66,28 @@
                                              <div class="flex-col-md-4 flex-col-sm-6">
                                                  <div class="tabular-item flex-col" id="tabular-item-supply-chain">
                                                      <!-- Tabular item header -->
-                                                     <div class="tabular-item-header box">
+                                                     <div class="tabular-item-header flex-box">
                                                          <div class="flex-row center-xs middle-xs">
-                                                             <span class="box">Supply Chain (ERP)</span>
+                                                             <span class="flex-box">Supply Chain (ERP)</span>
                                                          </div>
                                                      </div><!-- // Tabular item header -->
 
                                                      <!-- Tabular item body -->
-                                                     <div class="tabular-item-body box">
+                                                     <div class="tabular-item-body flex-box">
                                                          <div class="flex-row between-xs icontexts">
-                                                             <div class="box icontext-item">
+                                                             <div class="flex-box icontext-item">
                                                                  <i class="iconfont icon-sales" />
                                                                  <span class="caption">
                                                                      Sales &amp; Invoicing
                                                                  </span>
                                                              </div>
-                                                             <div class="box icontext-item">
+                                                             <div class="flex-box icontext-item">
                                                                  <i class="iconfont icon-stock" />
                                                                  <span class="caption">
                                                                      Inventory<br/>/Warehouse
                                                                  </span>
                                                              </div>
-                                                             <div class="box icontext-item">
+                                                             <div class="flex-box icontext-item">
                                                                  <i class="material-icons">credit_card</i>
                                                                  <span class="caption">
                                                                      Purchase
@@ -102,40 +102,40 @@
                                              <div class="flex-col-md-4 flex-col-sm-6">
                                                  <div class="tabular-item flex-col" id="tabular-item-factory">
                                                      <!-- Tabular item header -->
-                                                     <div class="tabular-item-header box">
+                                                     <div class="tabular-item-header flex-box">
                                                          <div class="flex-row center-xs middle-xs">
-                                                             <span class="box">Factory (MRP)</span>
+                                                             <span class="flex-box">Factory (MRP)</span>
                                                          </div>
                                                      </div><!-- // Tabular item header -->
 
                                                      <!-- Tabular item body -->
-                                                     <div class="tabular-item-body box">
+                                                     <div class="tabular-item-body flex-box">
                                                          <div class="flex-row between-xs icontexts">
-                                                             <div class="box icontext-item">
+                                                             <div class="flex-box icontext-item">
                                                                  <i class="iconfont icon-boxes" />
                                                                  <span class="caption">
                                                                      Products
                                                                  </span>
                                                              </div>
-                                                             <div class="box icontext-item">
+                                                             <div class="flex-box icontext-item">
                                                                  <i class="iconfont icon-schedule" />
                                                                  <span class="caption">
                                                                      Planning
                                                                  </span>
                                                              </div>
-                                                             <div class="box icontext-item">
+                                                             <div class="flex-box icontext-item">
                                                                  <i class="iconfont icon-factory" />
                                                                  <span class="caption">
                                                                      Production
                                                                  </span>
                                                              </div>
-                                                             <div class="box icontext-item">
+                                                             <div class="flex-box icontext-item">
                                                                  <i class="iconfont icon-checklist" />
                                                                  <span class="caption">
                                                                      Quality
                                                                  </span>
                                                              </div>
-                                                             <div class="box icontext-item">
+                                                             <div class="flex-box icontext-item">
                                                                  <i class="iconfont icon-dollar" />
                                                                  <span class="caption">
                                                                      Costing
@@ -150,28 +150,28 @@
                                              <div class="flex-col-md-4 flex-col-sm-6">
                                                  <div class="tabular-item flex-col" id="tabular-item-management">
                                                      <!-- Tabular item header -->
-                                                     <div class="tabular-item-header box">
+                                                     <div class="tabular-item-header flex-box">
                                                          <div class="flex-row center-xs middle-xs">
-                                                             <span class="box">Management (ERP)</span>
+                                                             <span class="flex-box">Management (ERP)</span>
                                                          </div>
                                                      </div><!-- // Tabular item header -->
 
                                                      <!-- Tabular item body -->
-                                                     <div class="tabular-item-body box">
+                                                     <div class="tabular-item-body flex-box">
                                                          <div class="flex-row between-xs icontexts">
-                                                             <div class="box icontext-item">
+                                                             <div class="flex-box icontext-item">
                                                                  <i class="material-icons">content_copy</i>
                                                                  <span class="caption">
                                                                      Accounting Integration
                                                                  </span>
                                                              </div>
-                                                             <div class="box icontext-item">
+                                                             <div class="flex-box icontext-item">
                                                                  <i class="material-icons">info</i>
                                                                  <span class="caption">
                                                                      Business Intelligence
                                                                  </span>
                                                              </div>
-                                                             <div class="box icontext-item">
+                                                             <div class="flex-box icontext-item">
                                                                  <i class="material-icons">account_box</i>
                                                                  <span class="caption">
                                                                      Admin
@@ -386,14 +386,14 @@
                                             <!-- Column 1 -->
                                             <div class="flex-col-md-4">
                                                 <div class="process flex-col middle-xs">
-                                                    <div class="process-head-number box">1</div>
-                                                    <div class="process-image box">
+                                                    <div class="process-head-number flex-box">1</div>
+                                                    <div class="process-image flex-box">
                                                         <div class="layout-icon-circle">
                                                             <i class="material-icons">cloud_queue</i>
                                                         </div>
                                                     </div>
-                                                    <h3 class="process-title box">Subscribe SaaS Plan</h3>
-                                                    <p class="process-description box">
+                                                    <h3 class="process-title flex-box">Subscribe SaaS Plan</h3>
+                                                    <p class="process-description flex-box">
                                                         No more huge amount to pay upfront,
                                                         just rent the whole service affordably.
                                                     </p>
@@ -403,14 +403,14 @@
                                             <!-- Column 2 -->
                                             <div class="flex-col-md-4">
                                                 <div class="process flex-col middle-xs">
-                                                    <div class="process-head-number box">2</div>
-                                                    <div class="process-image box">
+                                                    <div class="process-head-number flex-box">2</div>
+                                                    <div class="process-image flex-box">
                                                         <div class="layout-icon-circle">
                                                             <i class="material-icons">cloud_upload</i>
                                                         </div>
                                                     </div>
-                                                    <h3 class="process-title box">Onboard In Weeks</h3>
-                                                    <p class="process-description box">
+                                                    <h3 class="process-title flex-box">Onboard In Weeks</h3>
+                                                    <p class="process-description flex-box">
                                                         Move in your data and configure the right setup
                                                         for you in just 2 weeks.
                                                     </p>
@@ -420,14 +420,14 @@
                                             <!-- Column 3 -->
                                             <div class="flex-col-md-4">
                                                 <div class="process flex-col middle-xs">
-                                                    <div class="process-head-number box">3</div>
-                                                    <div class="process-image box">
+                                                    <div class="process-head-number flex-box">3</div>
+                                                    <div class="process-image flex-box">
                                                         <div class="layout-icon-circle">
                                                             <i class="iconfont icon-cloudplus"></i>
                                                         </div>
                                                     </div>
-                                                    <h3 class="process-title box">Upgrade FOC Monthly</h3>
-                                                    <p class="process-description box">
+                                                    <h3 class="process-title flex-box">Upgrade FOC Monthly</h3>
+                                                    <p class="process-description flex-box">
                                                         Request new features and get the
                                                         latest upgrade FOC automatically monthly.
                                                     </p>
@@ -457,13 +457,13 @@
                                             <!-- Column 1 -->
                                             <div class="flex-col-lg-2 flex-col-md-4 flex-col-sm-6 flex-col-xs-6">
                                                 <div class="card flex-col middle-xs">
-                                                    <div class="card-image box">
+                                                    <div class="card-image flex-box">
                                                         <div class="layout-icon-circle">
                                                             <i class="material-icons">dns</i>
                                                         </div>
                                                     </div>
-                                                    <h6 class="card-title box">Cloud Hosting</h6>
-                                                    <p class="card-description box">
+                                                    <h6 class="card-title flex-box">Cloud Hosting</h6>
+                                                    <p class="card-description flex-box">
                                                         No steep server purchase
                                                     </p>
                                                 </div>
@@ -472,13 +472,13 @@
                                             <!-- Column 2 -->
                                             <div class="flex-col-lg-2 flex-col-md-4 flex-col-sm-6 flex-col-xs-6">
                                                 <div class="card flex-col middle-xs">
-                                                    <div class="card-image box">
+                                                    <div class="card-image flex-box">
                                                         <div class="layout-icon-circle">
                                                             <i class="material-icons">cloud_queue</i>
                                                         </div>
                                                     </div>
-                                                    <h6 class="card-title box">Software</h6>
-                                                    <p class="card-description box">
+                                                    <h6 class="card-title flex-box">Software</h6>
+                                                    <p class="card-description flex-box">
                                                         No expensive software buy
                                                     </p>
                                                 </div>
@@ -487,13 +487,13 @@
                                             <!-- Column 3 -->
                                             <div class="flex-col-lg-2 flex-col-md-4 flex-col-sm-6 flex-col-xs-6">
                                                 <div class="card flex-col middle-xs">
-                                                    <div class="card-image box">
+                                                    <div class="card-image flex-box">
                                                         <div class="layout-icon-circle">
                                                             <i class="material-icons">build</i>
                                                         </div>
                                                     </div>
-                                                    <h6 class="card-title box">Setup</h6>
-                                                    <p class="card-description box">
+                                                    <h6 class="card-title flex-box">Setup</h6>
+                                                    <p class="card-description flex-box">
                                                         No long project, start in few weeks!
                                                     </p>
                                                 </div>
@@ -502,13 +502,13 @@
                                             <!-- Column 4 -->
                                             <div class="flex-col-lg-2 flex-col-md-4 flex-col-sm-6 flex-col-xs-6">
                                                 <div class="card flex-col middle-xs">
-                                                    <div class="card-image box">
+                                                    <div class="card-image flex-box">
                                                         <div class="layout-icon-circle">
                                                             <i class="material-icons">settings_ethernet</i>
                                                         </div>
                                                     </div>
-                                                    <h6 class="card-title box">"Customization"</h6>
-                                                    <p class="card-description box">
+                                                    <h6 class="card-title flex-box">"Customization"</h6>
+                                                    <p class="card-description flex-box">
                                                         No extra cost on new features
                                                     </p>
                                                 </div>
@@ -517,13 +517,13 @@
                                             <!-- Column 5 -->
                                             <div class="flex-col-lg-2 flex-col-md-4 flex-col-sm-6 flex-col-xs-6">
                                                 <div class="card flex-col middle-xs">
-                                                    <div class="card-image box">
+                                                    <div class="card-image flex-box">
                                                         <div class="layout-icon-circle">
                                                             <i class="material-icons">face</i>
                                                         </div>
                                                     </div>
-                                                    <h6 class="card-title box">Support</h6>
-                                                    <p class="card-description box">
+                                                    <h6 class="card-title flex-box">Support</h6>
+                                                    <p class="card-description flex-box">
                                                         No more slow troubleshooting
                                                     </p>
                                                 </div>
@@ -532,13 +532,13 @@
                                             <!-- Column 6 -->
                                             <div class="flex-col-lg-2 flex-col-md-4 flex-col-sm-6 flex-col-xs-6">
                                                 <div class="card flex-col middle-xs">
-                                                    <div class="card-image box">
+                                                    <div class="card-image flex-box">
                                                         <div class="layout-icon-circle">
                                                             <i class="fa fa-cogs" />
                                                         </div>
                                                     </div>
-                                                    <h6 class="card-title box">Maintenance</h6>
-                                                    <p class="card-description box">
+                                                    <h6 class="card-title flex-box">Maintenance</h6>
+                                                    <p class="card-description flex-box">
                                                         No exorbitant maintenance fee
                                                     </p>
                                                 </div>

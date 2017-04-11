@@ -52,13 +52,13 @@
                                             <!-- Column 1 -->
                                             <div class="flex-col-xs-6 flex-col-md-3">
                                                 <div class="card flex-col middle-xs">
-                                                    <div class="card-image box">
+                                                    <div class="card-image flex-box">
                                                         <div class="layout-icon-circle">
                                                             <i class="iconfont icon-device" />
                                                         </div>
                                                     </div>
-                                                    <h6 class="card-title box">Web Based Software</h6>
-                                                    <p class="card-description box">
+                                                    <h6 class="card-title flex-box">Web Based Software</h6>
+                                                    <p class="card-description flex-box">
                                                         Anywhere, anytime, any device - access the system on cloud with internet browser
                                                     </p>
                                                 </div>
@@ -67,13 +67,13 @@
                                             <!-- Column 2 -->
                                             <div class="flex-col-xs-6 flex-col-md-3">
                                                 <div class="card flex-col middle-xs">
-                                                    <div class="card-image box">
+                                                    <div class="card-image flex-box">
                                                         <div class="layout-icon-circle">
                                                             <i class="iconfont icon-integration" />
                                                         </div>
                                                     </div>
-                                                    <h6 class="card-title box">Integrated Software</h6>
-                                                    <p class="card-description box">
+                                                    <h6 class="card-title flex-box">Integrated Software</h6>
+                                                    <p class="card-description flex-box">
                                                         The different apps for different teams are integrated - no more duplicate entry or checking. 
                                                     </p>
                                                 </div>
@@ -82,13 +82,13 @@
                                             <!-- Column 3 -->
                                             <div class="flex-col-xs-6 flex-col-md-3">
                                                 <div class="card flex-col middle-xs">
-                                                    <div class="card-image box">
+                                                    <div class="card-image flex-box">
                                                         <div class="layout-icon-circle">
                                                             <i class="iconfont icon-auto" />
                                                         </div>
                                                     </div>
-                                                    <h6 class="card-title box">Automation &amp; Tools</h6>
-                                                    <p class="card-description box">
+                                                    <h6 class="card-title flex-box">Automation &amp; Tools</h6>
+                                                    <p class="card-description flex-box">
                                                         Smart automation &amp; powerful tools to help your team save time on routine &amp; checking
                                                     </p>
                                                 </div>
@@ -97,13 +97,13 @@
                                             <!-- Column 4 -->
                                             <div class="flex-col-xs-6 flex-col-md-3">
                                                 <div class="card flex-col middle-xs">
-                                                    <div class="card-image box">
+                                                    <div class="card-image flex-box">
                                                         <div class="layout-icon-circle">
                                                             <i class="iconfont icon-browser" />
                                                         </div>
                                                     </div>
-                                                    <h6 class="card-title box">Friendly Design</h6>
-                                                    <p class="card-description box">
+                                                    <h6 class="card-title flex-box">Friendly Design</h6>
+                                                    <p class="card-description flex-box">
                                                         Beautiful modern software design &amp; interface (web 2.0) - easy to learn &amp; use
                                                     </p>
                                                 </div>
@@ -120,10 +120,10 @@
                                     <!-- Alert -->
                                     <div class="layout-alert" id="alert-features-odoo">
                                         <div class="flex-row nowrap-xs middle-xs">
-                                            <div class="box alert-image">
+                                            <div class="flex-box alert-image">
                                                 <img src="/theme_myfactory/static/img/odoo-purple.png" />
                                             </div>
-                                            <div class="box alert-content">
+                                            <div class="flex-box alert-content">
                                                 <div class="alert-header alert-title">
                                                     Powered By The World’s No 1 Open Source ERP
                                                 </div>
@@ -277,7 +277,7 @@
                                             <!-- Feature header -->
                                             <div class="feature-list-item-header">
                                                 <div class="flex-row">
-                                                    <div class="box feature-list-item-header-image">
+                                                    <div class="flex-box feature-list-item-header-image">
                                                         <div class="layout-icon-square">
                                                             <div class="icon">
                                                                 <i class="iconfont icon-sales"></i>
@@ -285,7 +285,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="box feature-list-item-header-content">
+                                                    <div class="flex-box feature-list-item-header-content">
                                                         <h1>Easy &amp; Powerful Sales App</h1>
                                                         <h2>From Quotation to Order And Follow Up</h2>
                                                     </div>
@@ -391,7 +391,7 @@
                                             <!-- Feature header -->
                                             <div class="feature-list-item-header">
                                                 <div class="flex-row">
-                                                    <div class="box feature-list-item-header-image">
+                                                    <div class="flex-box feature-list-item-header-image">
                                                         <div class="layout-icon-square">
                                                             <div class="icon">
                                                                 <i class="material-icons">credit_card</i>
@@ -399,7 +399,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="box feature-list-item-header-content">
+                                                    <div class="flex-box feature-list-item-header-content">
                                                         <h1>Smart &amp; Effective Procurement</h1>
                                                         <h2>Improve Inventory Performance, Easily Manage Suppliers</h2>
                                                     </div>
@@ -517,7 +517,7 @@
                                             <!-- Feature header -->
                                             <div class="feature-list-item-header">
                                                 <div class="flex-row">
-                                                    <div class="box feature-list-item-header-image">
+                                                    <div class="flex-box feature-list-item-header-image">
                                                         <div class="layout-icon-square">
                                                             <div class="icon">
                                                                 <i class="iconfont icon-stock" />
@@ -525,7 +525,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="box feature-list-item-header-content">
+                                                    <div class="flex-box feature-list-item-header-content">
                                                         <h1>Modern Warehouse Management</h1>
                                                         <h2>Experience Complete Traceability - Process Faster, Less Stock Buffer</h2>
                                                     </div>
@@ -637,7 +637,7 @@
                                             <!-- Feature header -->
                                             <div class="feature-list-item-header">
                                                 <div class="flex-row">
-                                                    <div class="box feature-list-item-header-image">
+                                                    <div class="flex-box feature-list-item-header-image">
                                                         <div class="layout-icon-square">
                                                             <div class="icon">
                                                                 <i class="iconfont icon-factory"></i>
@@ -645,7 +645,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="box feature-list-item-header-content">
+                                                    <div class="flex-box feature-list-item-header-content">
                                                         <h1>End-to-End Manufacturing Planning &amp; Tracking</h1>
                                                         <h2>Right Products in Right Quantity at The Right Time, with Right Costing</h2>
                                                     </div>
@@ -781,12 +781,12 @@
                                                     </h1>
                                                     <div class="footer">
                                                         <div class="flex-row">
-                                                            <div class="box col-left">
+                                                            <div class="flex-box col-left">
                                                                 <a href="/demo" class="btn btn-normal">
                                                                     How It Works
                                                                 </a>
                                                             </div>
-                                                            <div class="box col-right">
+                                                            <div class="flex-box col-right">
                                                                 <a href="/contact-us" class="btn btn-normal-inverse">
                                                                     Talk to Us
                                                                 </a>

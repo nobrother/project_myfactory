@@ -16,7 +16,7 @@
                     <!-- Grid -->
                     <div class="flex-row between-xs">
                         <!-- Column: Site map -->
-                        <div class="box col-sitemap">
+                        <div class="flex-box col-sitemap">
                             <!-- Row -->
                             <div class="flex-row">
                                 <!-- Column 1 -->
@@ -64,16 +64,16 @@
                         </div><!-- // Column: Site map -->
 
                         <!-- Column: Social media -->
-                        <div class="box col-social-media">
+                        <div class="flex-box col-social-media">
                             <!-- Row -->
                             <div class="flex-row between-xs middle-xs">
-                                <div class="box">
+                                <div class="flex-box">
                                     <a href="#" class="social-icon"><i class="fa fa-facebook-official"/></a>
                                 </div>
-                                <div class="box">
+                                <div class="flex-box">
                                     <a href="#" class="social-icon"><i class="fa fa-youtube"/></a>
                                 </div>
-                                <div class="box">
+                                <div class="flex-box">
                                     <a href="/contact-us" class="btn btn-normal">Talk To Us</a>
                                 </div>
                             </div><!-- // Row -->

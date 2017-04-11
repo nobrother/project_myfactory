@@ -652,12 +652,12 @@
                                                     </h1>
                                                     <div class="footer">
                                                         <div class="flex-row">
-                                                            <div class="box col-left">
+                                                            <div class="flex-box col-left">
                                                                 <a href="/demo" class="btn btn-normal">
                                                                     Watch Demo
                                                                 </a>
                                                             </div>
-                                                            <div class="box col-right">
+                                                            <div class="flex-box col-right">
                                                                 <a href="/contact-us" class="btn btn-normal-inverse">
                                                                     Talk to Us
                                                                 </a>

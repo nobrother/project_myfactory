@@ -71,14 +71,14 @@
                                             <!-- Column 1 -->
                                             <div class="flex-col-md-4">
                                                 <div class="process flex-col middle-xs">
-                                                    <div class="process-head-number box">1998</div>
-                                                    <div class="process-image box">
+                                                    <div class="process-head-number flex-box">1998</div>
+                                                    <div class="process-image flex-box">
                                                         <div class="layout-icon-circle">
                                                             <i class="material-icons">dns</i>
                                                         </div>
                                                     </div>
-                                                    <h3 class="process-title box">Top Hosting Provider</h3>
-                                                    <p class="process-description box">
+                                                    <h3 class="process-title flex-box">Top Hosting Provider</h3>
+                                                    <p class="process-description flex-box">
                                                         Mr. Lew Chew Keat, the creator of CARI.net,
                                                         established ONNET in 1998. Offering local and
                                                         regional SMEs reliable hosting &amp; support.
@@ -89,14 +89,14 @@
                                             <!-- Column 2 -->
                                             <div class="flex-col-md-4">
                                                 <div class="process flex-col middle-xs">
-                                                    <div class="process-head-number box">2014</div>
-                                                    <div class="process-image box">
+                                                    <div class="process-head-number flex-box">2014</div>
+                                                    <div class="process-image flex-box">
                                                         <div class="layout-icon-circle">
                                                             <i class="material-icons">cloud_queue</i>
                                                         </div>
                                                     </div>
-                                                    <h3 class="process-title box">Leading ERP Vendor</h3>
-                                                    <p class="process-description box">
+                                                    <h3 class="process-title flex-box">Leading ERP Vendor</h3>
+                                                    <p class="process-description flex-box">
                                                         A premium business applications developer
                                                         providing ERP Implementation,
                                                         Consultation and Customization services
@@ -107,14 +107,14 @@
                                             <!-- Column 3 -->
                                             <div class="flex-col-md-4">
                                                 <div class="process flex-col middle-xs">
-                                                    <div class="process-head-number box">2015</div>
-                                                    <div class="process-image box">
+                                                    <div class="process-head-number flex-box">2015</div>
+                                                    <div class="process-image flex-box">
                                                         <div class="layout-icon-circle">
                                                             <i class="fa fa-percent" />
                                                         </div>
                                                     </div>
-                                                    <h3 class="process-title box">Cloud GST Accounting</h3>
-                                                    <p class="process-description box">
+                                                    <h3 class="process-title flex-box">Cloud GST Accounting</h3>
+                                                    <p class="process-description flex-box">
                                                         Good Software Technology Sdn Bhd provides
                                                         Cloudbased Easy GST Accounting for Malaysian SMEs
                                                     </p>
@@ -225,12 +225,12 @@
                                                 <div class="layout-imgtxt">
                                                     <!-- Row -->
                                                     <div class="flex-row middle-xs">
-                                                        <div class="box col-imgtxt-image">
+                                                        <div class="flex-box col-imgtxt-image">
                                                             <div class="imgtxt-image">
                                                                  <img src="/theme_myfactory/static/img/bosses.png"/>
                                                             </div>
                                                         </div>
-                                                        <div class="box col-imgtxt-content">
+                                                        <div class="flex-box col-imgtxt-content">
                                                             <div class="imgtxt-content">
                                                                 <div class="imgtxt-header imgtxt-title">
                                                                     <h2>Experienced Founders</h2>
@@ -256,12 +256,12 @@
                                                 <div class="layout-imgtxt">
                                                     <!-- Row -->
                                                     <div class="flex-row middle-xs">
-                                                        <div class="box col-imgtxt-image">
+                                                        <div class="flex-box col-imgtxt-image">
                                                             <div class="imgtxt-image">
                                                                  <img src="/theme_myfactory/static/img/staffs.png"/>
                                                             </div>
                                                         </div>
-                                                        <div class="box col-imgtxt-content">
+                                                        <div class="flex-box col-imgtxt-content">
                                                             <div class="imgtxt-content">
                                                                 <div class="imgtxt-header imgtxt-title">
                                                                     <h2>Passionate Young Talents</h2>
@@ -312,11 +312,11 @@
                                             <!-- Column 1 -->
                                             <div class="flex-col-sm-6 flex-col-md-4">
                                                 <div class="card flex-col middle-xs">
-                                                    <div class="card-image box">
+                                                    <div class="card-image flex-box">
                                                         <img src="/theme_myfactory/static/img/msc.png"/>
                                                     </div>
-                                                    <h6 class="card-title box">MSC Status Company</h6>
-                                                    <p class="card-description box">
+                                                    <h6 class="card-title flex-box">MSC Status Company</h6>
+                                                    <p class="card-description flex-box">
                                                         Recognized by the government as a firm with
                                                         world-class service, Onnet is part of the
                                                         thriving tech community in MSC zone at Penang.
@@ -327,11 +327,11 @@
                                             <!-- Column 2 -->
                                             <div class="flex-col-sm-6 flex-col-md-4">
                                                 <div class="card flex-col middle-xs">
-                                                    <div class="card-image box">
+                                                    <div class="card-image flex-box">
                                                         <img src="/theme_myfactory/static/img/custom.png"/>
                                                     </div>
-                                                    <h6 class="card-title box">Custom Certified</h6>
-                                                    <p class="card-description box">
+                                                    <h6 class="card-title flex-box">Custom Certified</h6>
+                                                    <p class="card-description flex-box">
                                                         We are among the first batch of software
                                                         companies with our Accounting App certified
                                                         GST-compliance by the Royal Malaysian Customs
@@ -343,11 +343,11 @@
                                             <!-- Column 3 -->
                                             <div class="flex-col-sm-6 flex-col-md-4">
                                                 <div class="card flex-col middle-xs">
-                                                    <div class="card-image box">
+                                                    <div class="card-image flex-box">
                                                         <img src="/theme_myfactory/static/img/odoo.png"/>
                                                     </div>
-                                                    <h6 class="card-title box">Odoo Official Partner</h6>
-                                                    <p class="card-description box">
+                                                    <h6 class="card-title flex-box">Odoo Official Partner</h6>
+                                                    <p class="card-description flex-box">
                                                         Myfactory is built with one of the best
                                                         open source ERP Platform in the world, Odoo.
                                                         We are one of the few official partners in
@@ -389,13 +389,13 @@
                                             <!-- Column 1 -->
                                             <div class="flex-col-sm-4">
                                                 <div class="card flex-col">
-                                                    <div class="card-title box">
+                                                    <div class="card-title flex-box">
                                                         <div class="list-item">
                                                             <i class="material-icons">cloud</i>
                                                             Penang
                                                         </div>
                                                     </div>
-                                                    <p class="card-description box">
+                                                    <p class="card-description flex-box">
                                                         58-2, Persiaran Bayan Indah,<br/>
                                                         Bayan Bay, Bayan Lepas<br/>
                                                         11900 Penang
@@ -406,13 +406,13 @@
                                             <!-- Column 2 -->
                                             <div class="flex-col-sm-4">
                                                 <div class="card flex-col">
-                                                    <div class="card-title box">
+                                                    <div class="card-title flex-box">
                                                         <div class="list-item">
                                                             <i class="material-icons">cloud</i>
                                                             Kuala Lumpur
                                                         </div>
                                                     </div>
-                                                    <p class="card-description box">
+                                                    <p class="card-description flex-box">
                                                         Block A-701, Kelana Square,<br />
                                                         17, Jalan SS 7/26, Kelana Jaya,<br/>
                                                         47301 Petaling Jaya, Selangor
@@ -423,13 +423,13 @@
                                             <!-- Column 3 -->
                                             <div class="flex-col-sm-4">
                                                 <div class="card flex-col">
-                                                    <div class="card-title box">
+                                                    <div class="card-title flex-box">
                                                         <div class="list-item">
                                                             <i class="material-icons">cloud</i>
                                                             Johor Bahru
                                                         </div>
                                                     </div>
-                                                    <p class="card-description box">
+                                                    <p class="card-description flex-box">
                                                         No 21A, Jalan Indah 8/13,<br/>
                                                         Taman Bukit Indah,<br/>
                                                         81200 Johor Bahru, Johor
