@@ -13,7 +13,7 @@
         'website',
         'website_less',
         'website_crm',
-        'product'
+        'product',
     ],
     'data': [
         'data/website-menu.xml',
@@ -35,7 +35,6 @@
         'views/crm_lead_line_view.xml',
         'views/crm_lead_view.xml',
     ],
-    'demo': [''],
     'installable': True,
     'auto_install': False,
 }

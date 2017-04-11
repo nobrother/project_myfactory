@@ -4,9 +4,18 @@
 
         <!-- Main Layout -->
         <template id="body_class" inherit_id="website.layout" name="Body class">
+			<!-- Add body class -->
             <xpath expr="//body" position="attributes">
                 <attribute name="t-att-class">body_class</attribute>
             </xpath>
+
+			<!-- Add favicon -->
+			<xpath expr="//head/meta[@name='viewport']" position="before">
+				<t t-if="not favicon">
+					<t t-set="favicon" >//odoocdn.com/web/image/website/1/favicon/</t>
+				</t>
+				<link t-att-href="favicon" rel="shortcut icon" type="image/x-icon"/>
+			</xpath>
 
             <!-- Change mobile navbar toggle button-->
 			<xpath expr="//button[@class='navbar-toggle']" position="replace">

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <template id="website_forum_header_inherit" inherit_id="website_forum.header" name="website_forum header">
+            <xpath expr="//div[@t-if='not validation_email_sent and not is_public_user and user.karma == 0']"
+                   position="attributes">
+                <attribute name="t-if">not is_public_user and not user.partner_id.email_validated</attribute>
+            </xpath>
+        </template>
+    </data>
+</openerp>
